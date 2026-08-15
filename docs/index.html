@@ -35,10 +35,13 @@
   <section class="stat-tiles" id="stat-tiles" aria-label="集計期間内のサマリー"></section>
 
   <section class="chart-card">
-    <h2>メンバー別 活動量ランキング</h2>
-    <p class="chart-caption">選択期間内の合計値（コミット + プルリクエスト + Issue + レビュー）で降順ソート</p>
+    <h2>メンバー別 総合活動スコア ランキング</h2>
+    <p class="chart-caption">
+      コミット・PR・Issue・レビューに加え、新規リポジトリ作成・フォーク上を含む活動リポジトリ数・獲得スター/フォークを重み付けして合算した独自スコア（降順ソート）。
+      重みは <a href="https://github.com/mapconcierge/CommitForge4furuhashilab/blob/main/config/members.yaml" target="_blank" rel="noopener">config/members.yaml の scoring</a> で調整可能。GitHub公式の指標ではない点に注意。
+    </p>
     <div class="legend" id="bar-legend"></div>
-    <svg class="chart" id="bar-chart" role="img" aria-label="メンバー別活動量の積み上げ横棒グラフ"></svg>
+    <svg class="chart" id="bar-chart" role="img" aria-label="メンバー別総合活動スコアの積み上げ横棒グラフ"></svg>
   </section>
 
   <section class="chart-card">
@@ -59,7 +62,11 @@
             <th>プルリクエスト</th>
             <th>Issue</th>
             <th>レビュー</th>
-            <th>合計</th>
+            <th>新規リポジトリ</th>
+            <th>活動リポジトリ</th>
+            <th>獲得スター</th>
+            <th>獲得フォーク</th>
+            <th>総合スコア</th>
           </tr>
         </thead>
         <tbody id="data-table-body"></tbody>
@@ -74,6 +81,9 @@
     </p>
     <p>
       数値は各メンバーの GitHub 上での公開活動を機械的に集計した参考値であり、研究・開発への貢献度そのものを表すものではありません（非公開リポジトリでの作業、コードレビュー以外の貢献、Issue起票以外の議論などは反映されません）。成績等の判断材料として単独で用いる場合はご注意ください。
+    </p>
+    <p>
+      「総合活動スコア」は本リポジトリ独自の重み付けヒューリスティックであり、GitHub が公式に定義・公開している評価指標ではありません。コミット・PR・Issue・レビューに加えて、GitHubの公式contribution集計が基本的に対象外とする「フォーク上での自主的な開発」を補う指標として新規リポジトリ作成数・push実績のあるリポジトリ数（フォーク含む）、および獲得スター・フォーク数（対数スケール）を加点しています。重みの根拠と各項目の限界は <a href="https://github.com/mapconcierge/CommitForge4furuhashilab/blob/main/config/members.yaml" target="_blank" rel="noopener">config/members.yaml</a> に明記しています。
     </p>
     <p>
       ソースコード: <a href="https://github.com/mapconcierge/CommitForge4furuhashilab" target="_blank" rel="noopener">mapconcierge/CommitForge4furuhashilab</a>（ライセンスはリポジトリ内 LICENSE を参照）。

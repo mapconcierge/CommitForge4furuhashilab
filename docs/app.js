@@ -3,11 +3,18 @@
 
   const SVG_NS = "http://www.w3.org/2000/svg";
 
+  // score算出に使う8項目。weightKeyはconfig/members.yamlのsettings.scoringに対応。
+  // rawはメンバーの集計済みデータから素の件数(またはlog1p前の合計)を取り出す関数。
+  // logScale=trueの項目はlog1p(raw)にweightを掛ける(スター・フォークの偏りを抑えるため)。
   const CATEGORIES = [
-    { key: "commits", label: "コミット", varName: "--series-commit" },
-    { key: "pullRequests", label: "プルリクエスト", varName: "--series-pr" },
-    { key: "issues", label: "Issue", varName: "--series-issue" },
-    { key: "reviews", label: "レビュー", varName: "--series-review" },
+    { key: "commits", label: "コミット", varName: "--series-commit", weightKey: "commit", unit: "件", raw: (m) => m.totals.commits },
+    { key: "pullRequests", label: "プルリクエスト", varName: "--series-pr", weightKey: "pull_request", unit: "件", raw: (m) => m.totals.pullRequests },
+    { key: "issues", label: "Issue", varName: "--series-issue", weightKey: "issue", unit: "件", raw: (m) => m.totals.issues },
+    { key: "reviews", label: "レビュー", varName: "--series-review", weightKey: "review", unit: "件", raw: (m) => m.totals.reviews },
+    { key: "reposCreated", label: "新規リポジトリ", varName: "--series-repo-created", weightKey: "repo_created", unit: "件", raw: (m) => m.reposCreated },
+    { key: "reposActive", label: "活動リポジトリ", varName: "--series-repo-active", weightKey: "repo_active", unit: "件", raw: (m) => m.reposActive },
+    { key: "stars", label: "獲得スター", varName: "--series-star", weightKey: "star", unit: "件", raw: (m) => m.starsSum, logScale: true },
+    { key: "forks", label: "獲得フォーク", varName: "--series-fork", weightKey: "fork", unit: "件", raw: (m) => m.forksSum, logScale: true },
   ];
 
   const state = {
@@ -155,6 +162,10 @@
   // ---------- data aggregation ----------
 
   function aggregateForRange(data, fromKey, toKey) {
+    const weights = data.settings.scoring;
+    const fromDateStr = firstDayOfMonthStr(fromKey);
+    const toDateStr = lastDayOfMonthStr(toKey);
+
     const perMember = data.members.map((m) => {
       const totals = { commits: 0, issues: 0, pullRequests: 0, reviews: 0 };
       for (const bucket of m.monthly) {
@@ -164,26 +175,54 @@
         totals.pullRequests += bucket.pullRequests;
         totals.reviews += bucket.reviews;
       }
-      const total = totals.commits + totals.issues + totals.pullRequests + totals.reviews;
-      return { login: m.login, name: m.name, totals, total };
+
+      const repos = m.repos ?? [];
+      const createdInPeriod = repos.filter(
+        (r) => !r.isFork && r.createdAt >= fromDateStr && r.createdAt <= toDateStr
+      );
+      const reposCreated = createdInPeriod.length;
+      const reposActive = repos.filter(
+        (r) => r.pushedAt >= fromDateStr && r.pushedAt <= toDateStr
+      ).length;
+      const starsSum = createdInPeriod.reduce((s, r) => s + r.stars, 0);
+      const forksSum = createdInPeriod.reduce((s, r) => s + r.forks, 0);
+
+      const member = { login: m.login, name: m.name, totals, reposCreated, reposActive, starsSum, forksSum };
+
+      const points = {};
+      let score = 0;
+      for (const c of CATEGORIES) {
+        const rawValue = c.raw(member);
+        const scaledValue = c.logScale ? Math.log1p(rawValue) : rawValue;
+        const pts = scaledValue * (weights[c.weightKey] ?? 0);
+        points[c.key] = pts;
+        score += pts;
+      }
+
+      member.points = points;
+      member.score = score;
+      return member;
     });
 
-    perMember.sort((a, b) => b.total - a.total);
+    perMember.sort((a, b) => b.score - a.score);
 
-    const overall = { commits: 0, issues: 0, pullRequests: 0, reviews: 0 };
+    const overall = { commits: 0, issues: 0, pullRequests: 0, reviews: 0, reposCreated: 0, reposActive: 0, starsSum: 0, forksSum: 0, score: 0 };
     for (const m of perMember) {
       overall.commits += m.totals.commits;
       overall.issues += m.totals.issues;
       overall.pullRequests += m.totals.pullRequests;
       overall.reviews += m.totals.reviews;
+      overall.reposCreated += m.reposCreated;
+      overall.reposActive += m.reposActive;
+      overall.starsSum += m.starsSum;
+      overall.forksSum += m.forksSum;
+      overall.score += m.score;
     }
 
-    const fromDate = firstDayOfMonthStr(fromKey);
-    const toDate = lastDayOfMonthStr(toKey);
     const dailyMap = new Map();
     for (const m of data.members) {
       for (const d of m.daily) {
-        if (d.date < fromDate || d.date > toDate) continue;
+        if (d.date < fromDateStr || d.date > toDateStr) continue;
         dailyMap.set(d.date, (dailyMap.get(d.date) ?? 0) + d.count);
       }
     }
@@ -191,20 +230,23 @@
       .sort(([a], [b]) => (a < b ? -1 : 1))
       .map(([date, count]) => ({ date, count }));
 
-    return { perMember, overall, daily, fromDate, toDate };
+    return { perMember, overall, daily, fromDate: fromDateStr, toDate: toDateStr };
   }
 
   // ---------- rendering: stat tiles ----------
 
   function renderStatTiles(overall, memberCount) {
-    const total = overall.commits + overall.issues + overall.pullRequests + overall.reviews;
     const tiles = [
       { label: "対象人数", value: memberCount, cls: "" },
       { label: "コミット", value: overall.commits, cls: "commit" },
       { label: "プルリクエスト", value: overall.pullRequests, cls: "pr" },
       { label: "Issue", value: overall.issues, cls: "issue" },
       { label: "レビュー", value: overall.reviews, cls: "review" },
-      { label: "合計アクティビティ", value: total, cls: "" },
+      { label: "新規リポジトリ", value: overall.reposCreated, cls: "repo-created" },
+      { label: "活動リポジトリ(fork含む)", value: overall.reposActive, cls: "repo-active" },
+      { label: "獲得スター", value: overall.starsSum, cls: "star" },
+      { label: "獲得フォーク", value: overall.forksSum, cls: "fork" },
+      { label: "総合スコア合計", value: Math.round(overall.score), cls: "score" },
     ];
     const container = document.getElementById("stat-tiles");
     container.textContent = "";
@@ -258,8 +300,8 @@
 
     svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
 
-    const maxTotal = Math.max(1, ...perMember.map((m) => m.total));
-    const { niceMax, ticks } = niceTicks(maxTotal, 4);
+    const maxScore = Math.max(1, ...perMember.map((m) => m.score));
+    const { niceMax, ticks } = niceTicks(maxScore, 4);
     const xScale = (v) => (v / niceMax) * plotWidth;
 
     const axisY = topPad + perMember.length * rowHeight;
@@ -290,7 +332,7 @@
       nameLabel.textContent = m.name ? m.name : m.login;
       svg.appendChild(nameLabel);
 
-      const totalWidth = xScale(m.total);
+      const totalWidth = xScale(m.score);
 
       if (totalWidth > 0) {
         const clipId = `bar-clip-${i}`;
@@ -303,7 +345,7 @@
         const g = svgEl("g", { "clip-path": `url(#${clipId})` });
         let cx = marginLeft;
         CATEGORIES.forEach((c) => {
-          const v = m.totals[c.key];
+          const v = m.points[c.key];
           if (v <= 0) return;
           const segW = xScale(v);
           g.appendChild(svgEl("rect", {
@@ -315,10 +357,9 @@
 
         // 2px surface gaps between segments (drawn on top of the clipped fills)
         cx = marginLeft;
-        const activeCats = CATEGORIES.filter((c) => m.totals[c.key] > 0);
+        const activeCats = CATEGORIES.filter((c) => m.points[c.key] > 0);
         activeCats.forEach((c, idx) => {
-          const v = m.totals[c.key];
-          const segW = xScale(v);
+          const segW = xScale(m.points[c.key]);
           cx += segW;
           if (idx < activeCats.length - 1) {
             svg.appendChild(svgEl("rect", {
@@ -332,30 +373,27 @@
       const totalLabel = svgEl("text", {
         class: "bar-total-label", x: marginLeft + totalWidth + 8, y: barY + barHeight / 2 + 4,
       });
-      totalLabel.textContent = m.total.toLocaleString("ja-JP");
+      totalLabel.textContent = Math.round(m.score).toLocaleString("ja-JP");
       svg.appendChild(totalLabel);
+
+      const tooltipRows = () => CATEGORIES.map((c) => ({
+        label: c.label,
+        value: `${c.raw(m).toLocaleString("ja-JP")}${c.unit} (${Math.round(m.points[c.key] * 10) / 10}pt)`,
+        color: colors[c.key],
+      })).concat([{ label: "総合スコア", value: Math.round(m.score).toLocaleString("ja-JP") }]);
 
       const hit = svgEl("rect", {
         class: "hit-rect", x: 0, y: rowY, width, height: rowHeight,
         tabindex: "0", role: "img",
-        "aria-label": `${m.name ?? m.login}: 合計 ${m.total}`,
+        "aria-label": `${m.name ?? m.login}: 総合スコア ${Math.round(m.score)}`,
       });
       hit.addEventListener("pointermove", (ev) => {
-        showTooltip(ev.clientX, ev.clientY, m.name ? `${m.name} (${m.login})` : m.login,
-          CATEGORIES.map((c) => ({
-            label: c.label, value: m.totals[c.key].toLocaleString("ja-JP"), color: colors[c.key],
-          })).concat([{ label: "合計", value: m.total.toLocaleString("ja-JP") }])
-        );
+        showTooltip(ev.clientX, ev.clientY, m.name ? `${m.name} (${m.login})` : m.login, tooltipRows());
       });
       hit.addEventListener("pointerleave", hideTooltip);
-      hit.addEventListener("focus", (ev) => {
+      hit.addEventListener("focus", () => {
         const rect = hit.getBoundingClientRect();
-        showTooltip(rect.left + rect.width / 2, rect.top,
-          m.name ? `${m.name} (${m.login})` : m.login,
-          CATEGORIES.map((c) => ({
-            label: c.label, value: m.totals[c.key].toLocaleString("ja-JP"), color: colors[c.key],
-          })).concat([{ label: "合計", value: m.total.toLocaleString("ja-JP") }])
-        );
+        showTooltip(rect.left + rect.width / 2, rect.top, m.name ? `${m.name} (${m.login})` : m.login, tooltipRows());
       });
       hit.addEventListener("blur", hideTooltip);
       svg.appendChild(hit);
@@ -513,13 +551,13 @@
 
       for (const c of CATEGORIES) {
         const td = document.createElement("td");
-        td.textContent = m.totals[c.key].toLocaleString("ja-JP");
+        td.textContent = c.raw(m).toLocaleString("ja-JP");
         tr.appendChild(td);
       }
 
-      const totalTd = document.createElement("td");
-      totalTd.textContent = m.total.toLocaleString("ja-JP");
-      tr.appendChild(totalTd);
+      const scoreTd = document.createElement("td");
+      scoreTd.textContent = Math.round(m.score).toLocaleString("ja-JP");
+      tr.appendChild(scoreTd);
 
       tbody.appendChild(tr);
     }

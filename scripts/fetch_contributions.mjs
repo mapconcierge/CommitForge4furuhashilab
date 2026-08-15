@@ -148,6 +148,56 @@ function buildRepoQuery(windows) {
   return `query($login: String!) { user(login: $login) {\n${fields}\n} }`;
 }
 
+const OWNED_REPOS_QUERY = `
+query($login: String!, $cursor: String) {
+  user(login: $login) {
+    repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC, orderBy: {field: PUSHED_AT, direction: DESC}, after: $cursor) {
+      pageInfo { hasNextPage endCursor }
+      nodes {
+        nameWithOwner
+        isFork
+        stargazerCount
+        forkCount
+        createdAt
+        pushedAt
+      }
+    }
+  }
+}
+`;
+
+// 所有している公開リポジトリを「最終 push が新しい順」に取得し、historyStart より
+// 古い push しかない（＝それより前のページも全て historyStart より古い）ページに
+// 到達した時点で打ち切る。フォークも含めて全件保持する — GitHub の公式 contribution
+// 集計はフォーク上の作業を基本的にカウントしないため、その欠落を score 算出側で
+// 補うのに使う（config/members.yaml の repo_active を参照）。
+async function fetchOwnedRepositories(login, historyStart) {
+  const repos = [];
+  let cursor = null;
+  for (let page = 0; page < 10; page++) {
+    const data = await graphql(OWNED_REPOS_QUERY, { login, cursor });
+    const conn = data.user.repositories;
+    for (const n of conn.nodes) {
+      repos.push({
+        name: n.nameWithOwner,
+        isFork: n.isFork,
+        stars: n.stargazerCount,
+        forks: n.forkCount,
+        createdAt: n.createdAt.slice(0, 10),
+        pushedAt: n.pushedAt.slice(0, 10),
+      });
+    }
+    const lastPushedAt = conn.nodes.length > 0
+      ? new Date(conn.nodes[conn.nodes.length - 1].pushedAt)
+      : null;
+    if (!conn.pageInfo.hasNextPage || !lastPushedAt || lastPushedAt < historyStart) {
+      break;
+    }
+    cursor = conn.pageInfo.endCursor;
+  }
+  return repos;
+}
+
 async function fetchMemberContributions(login, historyStart, now) {
   const monthBuckets = buildMonthBuckets(historyStart, now);
   const yearWindows = buildYearWindows(historyStart, now);
@@ -209,7 +259,9 @@ async function fetchMemberContributions(login, historyStart, now) {
     .slice(0, 10)
     .map(([name, count]) => ({ name, count }));
 
-  return { totals, monthly, daily, topRepositories };
+  const repos = await fetchOwnedRepositories(login, historyStart);
+
+  return { totals, monthly, daily, topRepositories, repos };
 }
 
 async function main() {
@@ -253,6 +305,7 @@ async function main() {
       default_period: settings.default_period,
       academic_year_start_month: settings.academic_year_start_month,
       academic_year_start_day: settings.academic_year_start_day,
+      scoring: settings.scoring,
     },
     member_count_configured: members.length,
     member_count_fetched: results.length,

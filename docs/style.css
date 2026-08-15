@@ -13,6 +13,10 @@
   --series-pr: #eb6834;
   --series-issue: #1baf7a;
   --series-review: #eda100;
+  --series-repo-created: #e87ba4;
+  --series-repo-active: #008300;
+  --series-star: #4a3aa7;
+  --series-fork: #e34948;
 
   --hover-wash: rgba(11, 11, 11, 0.05);
 }
@@ -33,6 +37,10 @@
     --series-pr: #d95926;
     --series-issue: #199e70;
     --series-review: #c98500;
+    --series-repo-created: #d55181;
+    --series-repo-active: #008300;
+    --series-star: #9085e9;
+    --series-fork: #e66767;
 
     --hover-wash: rgba(255, 255, 255, 0.06);
   }
@@ -153,6 +161,7 @@ button.preset[aria-pressed="true"] {
   background: var(--surface-2);
   border-radius: 10px;
   padding: 14px 16px;
+  border-left: 3px solid transparent;
 }
 
 .stat-tile .label {
@@ -165,20 +174,18 @@ button.preset[aria-pressed="true"] {
   font-size: 1.6rem;
   font-weight: 600;
   font-variant-numeric: proportional-nums;
+  color: var(--text-primary);
 }
 
-.stat-tile.commit .value {
-  color: var(--series-commit);
-}
-.stat-tile.pr .value {
-  color: var(--series-pr);
-}
-.stat-tile.issue .value {
-  color: var(--series-issue);
-}
-.stat-tile.review .value {
-  color: var(--series-review);
-}
+.stat-tile.commit { border-left-color: var(--series-commit); }
+.stat-tile.pr { border-left-color: var(--series-pr); }
+.stat-tile.issue { border-left-color: var(--series-issue); }
+.stat-tile.review { border-left-color: var(--series-review); }
+.stat-tile.repo-created { border-left-color: var(--series-repo-created); }
+.stat-tile.repo-active { border-left-color: var(--series-repo-active); }
+.stat-tile.star { border-left-color: var(--series-star); }
+.stat-tile.fork { border-left-color: var(--series-fork); }
+.stat-tile.score { border-left-color: var(--text-primary); }
 
 /* --- Chart cards --- */
 .chart-card {

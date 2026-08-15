@@ -11,12 +11,40 @@
 #   default_period  : Web ダッシュボード初期表示の期間モード。
 #                      "academic_year" = 年度区切り（academic_year_* に従う）
 #   academic_year_start_month / _day : 年度開始日（大学成績用のデフォルトは 4/1 始まり）。
+#
+# scoring: 「総合活動スコア」の重み付け設定。
+#   注意: GitHub は公式の「貢献度スコア」を公開していない。ここでの重みは、
+#   Issue/PR/レビューより一段重い作業とみなされる項目（新規リポジトリ作成など）を
+#   厚めに評価する、このリポジトリ独自のヒューリスティックであり、唯一の正解ではない。
+#   フォークしたリポジトリでの自主的な開発（GitHubの公式contribution集計には
+#   反映されないがコミット活動としては実在する）を拾うため repo_active を設けている。
+#   値は根拠を明記した上で研究室の判断で調整してよい。
+#   - commit / issue / pull_request / review : 単純活動指標1件あたりの得点
+#   - repo_created  : 期間内に新規作成した非フォークの公開リポジトリ1件あたりの得点
+#   - repo_active   : 期間内に push があったリポジトリ（フォーク含む）1件あたりの得点。
+#                      GitHubの公式contributionはフォーク上の作業を基本的にカウントしない
+#                      ため、その欠落を補う目的の指標。ただし各リポジトリの「最終push日時」
+#                      のみを見て判定するため、複数期間にまたがって push されたリポジトリは
+#                      直近の期間にのみ計上される（古い期間では過小評価されうる）。
+#   - star / fork   : 期間内に新規作成したリポジトリが獲得した星・フォーク数への加点。
+#                      件数は log(1+n) でスケールし、少数の人気リポジトリへの過度な
+#                      偏重を抑える。値は現時点のスナップショットであり、獲得時期の
+#                      履歴は追跡していない。
 
 settings:
   history_start: "2023-04-01"
   default_period: "academic_year"
   academic_year_start_month: 4
   academic_year_start_day: 1
+  scoring:
+    commit: 1
+    issue: 2
+    pull_request: 3
+    review: 3
+    repo_created: 15
+    repo_active: 3
+    star: 10
+    fork: 8
 
 members:
   - login: mapconcierge

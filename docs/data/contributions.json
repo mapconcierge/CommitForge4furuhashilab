@@ -1,10 +1,20 @@
 {
-  "generated_at": "2026-08-15T02:35:46.003Z",
+  "generated_at": "2026-08-15T03:49:31.300Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
     "academic_year_start_month": 4,
-    "academic_year_start_day": 1
+    "academic_year_start_day": 1,
+    "scoring": {
+      "commit": 1,
+      "issue": 2,
+      "pull_request": 3,
+      "review": 3,
+      "repo_created": 15,
+      "repo_active": 3,
+      "star": 10,
+      "fork": 8
+    }
   },
   "member_count_configured": 23,
   "member_count_fetched": 23,
@@ -13,8 +23,8 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1363,
-        "issues": 334,
+        "commits": 1364,
+        "issues": 336,
         "pullRequests": 63,
         "reviews": 0
       },
@@ -301,8 +311,8 @@
         },
         {
           "month": "2026-08",
-          "commits": 101,
-          "issues": 20,
+          "commits": 102,
+          "issues": 22,
           "pullRequests": 0,
           "reviews": 0
         }
@@ -1678,7 +1688,7 @@
         },
         {
           "date": "2026-08-15",
-          "count": 7
+          "count": 10
         }
       ],
       "topRepositories": [
@@ -1721,6 +1731,808 @@
         {
           "name": "furuhashilab/digitaltwin4shibuyaCP",
           "count": 40
+        }
+      ],
+      "repos": [
+        {
+          "name": "mapconcierge/CommitForge4furuhashilab",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-08-15"
+        },
+        {
+          "name": "mapconcierge/osm-leaderboard",
+          "isFork": false,
+          "stars": 0,
+          "forks": 2,
+          "createdAt": "2026-08-12",
+          "pushedAt": "2026-08-15"
+        },
+        {
+          "name": "mapconcierge/dm-converter",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-11",
+          "pushedAt": "2026-08-11"
+        },
+        {
+          "name": "mapconcierge/YOKOZEatlas2026_ParkingAreaAnalyzer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-02",
+          "pushedAt": "2026-08-02"
+        },
+        {
+          "name": "mapconcierge/temp",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2021-02-24",
+          "pushedAt": "2026-07-31"
+        },
+        {
+          "name": "mapconcierge/svgMapDemo",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-30",
+          "pushedAt": "2026-07-30"
+        },
+        {
+          "name": "mapconcierge/osmnx",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-22",
+          "pushedAt": "2026-07-21"
+        },
+        {
+          "name": "mapconcierge/OpenRegionalWiki",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-14",
+          "pushedAt": "2026-07-15"
+        },
+        {
+          "name": "mapconcierge/PhotoOverlayCreator4Navara",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-14",
+          "pushedAt": "2026-07-14"
+        },
+        {
+          "name": "mapconcierge/LocalWikiArchiver",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-13",
+          "pushedAt": "2026-07-13"
+        },
+        {
+          "name": "mapconcierge/GigaPanoStitcher",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-07-12",
+          "pushedAt": "2026-07-13"
+        },
+        {
+          "name": "mapconcierge/PhotoOverlayCreator",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-06",
+          "pushedAt": "2026-07-13"
+        },
+        {
+          "name": "mapconcierge/GaussianGPT",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-09",
+          "pushedAt": "2026-07-08"
+        },
+        {
+          "name": "mapconcierge/geosql",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-07",
+          "pushedAt": "2026-06-30"
+        },
+        {
+          "name": "mapconcierge/show-me-the-way2026",
+          "isFork": true,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-06-11",
+          "pushedAt": "2026-06-15"
+        },
+        {
+          "name": "mapconcierge/abot-earth-0.5",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-22",
+          "pushedAt": "2026-06-10"
+        },
+        {
+          "name": "mapconcierge/banner4agu2026",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-09",
+          "pushedAt": "2026-06-09"
+        },
+        {
+          "name": "mapconcierge/gsi-3d-2025",
+          "isFork": true,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-06-02",
+          "pushedAt": "2026-06-01"
+        },
+        {
+          "name": "mapconcierge/GeoLibre",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-01",
+          "pushedAt": "2026-05-31"
+        },
+        {
+          "name": "mapconcierge/qgis-samgeo-plugin",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-01",
+          "pushedAt": "2026-05-25"
+        },
+        {
+          "name": "mapconcierge/mapconcierge",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2020-07-08",
+          "pushedAt": "2026-05-25"
+        },
+        {
+          "name": "mapconcierge/PrescriptionRecord4taichishealthcare",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2018-02-19",
+          "pushedAt": "2026-05-25"
+        },
+        {
+          "name": "mapconcierge/gnssplusplus-library",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-06",
+          "pushedAt": "2026-05-06"
+        },
+        {
+          "name": "mapconcierge/OpenMythos",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-14",
+          "pushedAt": "2026-04-27"
+        },
+        {
+          "name": "mapconcierge/andrej-karpathy-skills",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-22",
+          "pushedAt": "2026-04-20"
+        },
+        {
+          "name": "mapconcierge/furuhashifamily",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-04-11",
+          "pushedAt": "2026-04-11"
+        },
+        {
+          "name": "mapconcierge/markitdown",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-04-12",
+          "pushedAt": "2026-03-30"
+        },
+        {
+          "name": "mapconcierge/stac-city3d",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-03",
+          "pushedAt": "2026-03-22"
+        },
+        {
+          "name": "mapconcierge/3d-city-model-generator",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-03-23",
+          "pushedAt": "2026-03-19"
+        },
+        {
+          "name": "mapconcierge/geojson.io",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-03-04",
+          "pushedAt": "2026-02-27"
+        },
+        {
+          "name": "mapconcierge/svgmapAppLayers",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-03-19",
+          "pushedAt": "2026-02-25"
+        },
+        {
+          "name": "mapconcierge/maplibreWithDuckDB",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-02-06",
+          "pushedAt": "2026-02-09"
+        },
+        {
+          "name": "mapconcierge/point-tiler",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-02-04",
+          "pushedAt": "2026-02-03"
+        },
+        {
+          "name": "mapconcierge/tiny-wifi-analyzer",
+          "isFork": true,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-02-18",
+          "pushedAt": "2026-01-25"
+        },
+        {
+          "name": "mapconcierge/MapiGuesser",
+          "isFork": false,
+          "stars": 3,
+          "forks": 1,
+          "createdAt": "2025-08-05",
+          "pushedAt": "2026-01-24"
+        },
+        {
+          "name": "mapconcierge/everything-claude-code",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-01-19",
+          "pushedAt": "2026-01-18"
+        },
+        {
+          "name": "mapconcierge/GlobalBuildingAtlas",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-01-20",
+          "pushedAt": "2026-01-07"
+        },
+        {
+          "name": "mapconcierge/BuildingShapeAnalyzer2025",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-10",
+          "pushedAt": "2025-12-18"
+        },
+        {
+          "name": "mapconcierge/GeoTIFF2COGmini_codex",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-12-12",
+          "pushedAt": "2025-12-12"
+        },
+        {
+          "name": "mapconcierge/mapillarydatadownloader",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2025-12-08",
+          "pushedAt": "2025-12-12"
+        },
+        {
+          "name": "mapconcierge/aerobostation20251101",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-01",
+          "pushedAt": "2025-12-12"
+        },
+        {
+          "name": "mapconcierge/GeoTIFFanalyzer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-12-07",
+          "pushedAt": "2025-12-08"
+        },
+        {
+          "name": "mapconcierge/GeoTIFF2COGmini",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-12-05",
+          "pushedAt": "2025-12-06"
+        },
+        {
+          "name": "mapconcierge/legendary_osint",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-01-31",
+          "pushedAt": "2025-12-04"
+        },
+        {
+          "name": "mapconcierge/hoge4opendata",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-27",
+          "pushedAt": "2025-11-27"
+        },
+        {
+          "name": "mapconcierge/banner4agu2025",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-20",
+          "pushedAt": "2025-11-20"
+        },
+        {
+          "name": "mapconcierge/banner4agu",
+          "isFork": false,
+          "stars": 0,
+          "forks": 2,
+          "createdAt": "2024-06-04",
+          "pushedAt": "2025-11-20"
+        },
+        {
+          "name": "mapconcierge/maplibregljs3Dmap",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-14",
+          "pushedAt": "2025-11-14"
+        },
+        {
+          "name": "mapconcierge/til",
+          "isFork": false,
+          "stars": 0,
+          "forks": 3,
+          "createdAt": "2016-02-16",
+          "pushedAt": "2025-11-11"
+        },
+        {
+          "name": "mapconcierge/aerobowing_planviewer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-02",
+          "pushedAt": "2025-11-02"
+        },
+        {
+          "name": "mapconcierge/aerobostationweb",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-01",
+          "pushedAt": "2025-11-01"
+        },
+        {
+          "name": "mapconcierge/eixf2kmlpoint",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-31",
+          "pushedAt": "2025-10-31"
+        },
+        {
+          "name": "mapconcierge/CSV3Dviewer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-10",
+          "pushedAt": "2025-10-10"
+        },
+        {
+          "name": "mapconcierge/wb_gad",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-03-02",
+          "pushedAt": "2025-10-06"
+        },
+        {
+          "name": "mapconcierge/gsbox",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-21",
+          "pushedAt": "2025-09-21"
+        },
+        {
+          "name": "mapconcierge/www_jcacj",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-19",
+          "pushedAt": "2025-09-05"
+        },
+        {
+          "name": "mapconcierge/GPXdrawingTool",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2025-07-08",
+          "pushedAt": "2025-07-30"
+        },
+        {
+          "name": "mapconcierge/GPXtrackSplitter",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2025-07-04",
+          "pushedAt": "2025-07-24"
+        },
+        {
+          "name": "mapconcierge/poster-map",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-07-18",
+          "pushedAt": "2025-07-18"
+        },
+        {
+          "name": "mapconcierge/streetscape-perception-survey",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-06-15",
+          "pushedAt": "2025-06-15"
+        },
+        {
+          "name": "mapconcierge/dl-tool",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-04-15",
+          "pushedAt": "2025-05-07"
+        },
+        {
+          "name": "mapconcierge/landlensdb",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-04-10",
+          "pushedAt": "2025-03-18"
+        },
+        {
+          "name": "mapconcierge/three-geospatial",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-02-23",
+          "pushedAt": "2025-02-23"
+        },
+        {
+          "name": "mapconcierge/ninja",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-05-18",
+          "pushedAt": "2025-02-20"
+        },
+        {
+          "name": "mapconcierge/open-hinata3",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-02-20",
+          "pushedAt": "2025-02-19"
+        },
+        {
+          "name": "mapconcierge/geohex",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-11-04",
+          "pushedAt": "2024-11-04"
+        },
+        {
+          "name": "mapconcierge/unvtportable2024dataset4test",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2024-10-07",
+          "pushedAt": "2024-10-31"
+        },
+        {
+          "name": "mapconcierge/sticky_note_map",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-10-30",
+          "pushedAt": "2024-10-09"
+        },
+        {
+          "name": "mapconcierge/election2024",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2024-07-04"
+        },
+        {
+          "name": "mapconcierge/Youth_JOSM-Validation",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-09",
+          "pushedAt": "2024-07-02"
+        },
+        {
+          "name": "mapconcierge/plateau-gis-converter",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-04-06",
+          "pushedAt": "2024-04-04"
+        },
+        {
+          "name": "mapconcierge/Recipe4MontBlanc",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-03-24",
+          "pushedAt": "2024-03-24"
+        },
+        {
+          "name": "mapconcierge/tkl",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-03-10",
+          "pushedAt": "2024-03-11"
+        },
+        {
+          "name": "mapconcierge/tldr",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-03-05",
+          "pushedAt": "2024-03-05"
+        },
+        {
+          "name": "mapconcierge/PLATEAU-generator-for-spatialid",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-03-13",
+          "pushedAt": "2024-02-21"
+        },
+        {
+          "name": "mapconcierge/markdown-new-tab",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-02-27",
+          "pushedAt": "2024-01-24"
+        },
+        {
+          "name": "mapconcierge/jcacj_README2025",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-15",
+          "pushedAt": "2023-12-22"
+        },
+        {
+          "name": "mapconcierge/geohex-on-yolp",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-11-04",
+          "pushedAt": "2023-09-27"
+        },
+        {
+          "name": "mapconcierge/kmlworkshop4azabu",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-09-27",
+          "pushedAt": "2023-09-27"
+        },
+        {
+          "name": "mapconcierge/negidare2023",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-08-20",
+          "pushedAt": "2023-08-20"
+        },
+        {
+          "name": "mapconcierge/extract_camm",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-02",
+          "pushedAt": "2023-08-18"
+        },
+        {
+          "name": "mapconcierge/backup4twitter",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-07-27",
+          "pushedAt": "2023-07-27"
+        },
+        {
+          "name": "mapconcierge/samplestorytelling",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-07-13",
+          "pushedAt": "2023-07-13"
+        },
+        {
+          "name": "mapconcierge/storytellingsample01",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-07-13",
+          "pushedAt": "2023-07-13"
+        },
+        {
+          "name": "mapconcierge/tippecanoe",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-07-05",
+          "pushedAt": "2023-06-27"
+        },
+        {
+          "name": "mapconcierge/segment-lidar",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-06-16",
+          "pushedAt": "2023-06-15"
+        },
+        {
+          "name": "mapconcierge/fAIr",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-06-12",
+          "pushedAt": "2023-06-12"
+        },
+        {
+          "name": "mapconcierge/banner4agu_",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-06-06",
+          "pushedAt": "2023-06-06"
+        },
+        {
+          "name": "mapconcierge/segmenteverygrain",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-06-04",
+          "pushedAt": "2023-06-03"
+        },
+        {
+          "name": "mapconcierge/docs4jca_2025",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-15",
+          "pushedAt": "2023-04-05"
+        },
+        {
+          "name": "mapconcierge/copyright-policy-jp",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2021-09-26",
+          "pushedAt": "2022-11-29"
+        },
+        {
+          "name": "mapconcierge/EOBrowser",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-11-28",
+          "pushedAt": "2022-11-19"
+        },
+        {
+          "name": "mapconcierge/citygml-convert-tools",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-11-05",
+          "pushedAt": "2022-11-05"
+        },
+        {
+          "name": "mapconcierge/3DTilesRendererJS",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-11-04",
+          "pushedAt": "2022-11-03"
+        },
+        {
+          "name": "mapconcierge/Ukraine2022data",
+          "isFork": false,
+          "stars": 80,
+          "forks": 11,
+          "createdAt": "2022-02-25",
+          "pushedAt": "2022-10-15"
+        },
+        {
+          "name": "mapconcierge/azul",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-11-05",
+          "pushedAt": "2022-09-21"
+        },
+        {
+          "name": "mapconcierge/Plateau-Blender-Importer",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-10-14",
+          "pushedAt": "2022-09-19"
+        },
+        {
+          "name": "mapconcierge/osm-seed",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-08-20",
+          "pushedAt": "2022-08-17"
+        },
+        {
+          "name": "mapconcierge/open-hinata",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-07-18",
+          "pushedAt": "2022-07-18"
+        },
+        {
+          "name": "mapconcierge/earthengine-catalog",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-07-12",
+          "pushedAt": "2022-07-12"
         }
       ]
     },
@@ -2241,6 +3053,112 @@
           "name": "furuhashilab/2026-AI-Distillation-Hackathon",
           "count": 11
         }
+      ],
+      "repos": [
+        {
+          "name": "akidinosaurs/OSM-solarpanel",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-04",
+          "pushedAt": "2026-08-04"
+        },
+        {
+          "name": "akidinosaurs/yokozeatlas2026_Community-Solar-Panel-Inventory-and-Basic-Generation-Calculation",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-02",
+          "pushedAt": "2026-08-04"
+        },
+        {
+          "name": "akidinosaurs/Addressing_social_issuesthroughsports",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-13",
+          "pushedAt": "2026-07-13"
+        },
+        {
+          "name": "akidinosaurs/dronebird-navi-qgis-mobile",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-07",
+          "pushedAt": "2026-07-07"
+        },
+        {
+          "name": "akidinosaurs/hormuz-ship-tracker",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-04-16",
+          "pushedAt": "2026-03-22"
+        },
+        {
+          "name": "akidinosaurs/2025Mapathon",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-06-14",
+          "pushedAt": "2025-06-14"
+        },
+        {
+          "name": "akidinosaurs/satoaki_profile",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-02-07",
+          "pushedAt": "2025-02-07"
+        },
+        {
+          "name": "akidinosaurs/ElevationToGeoTIFF",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-01-14",
+          "pushedAt": "2025-01-21"
+        },
+        {
+          "name": "akidinosaurs/TopoSonics_challenge1",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-01-14",
+          "pushedAt": "2025-01-14"
+        },
+        {
+          "name": "akidinosaurs/Evacuation-route-simulation-project-at-Sagamihara-campus",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-12-07",
+          "pushedAt": "2024-12-07"
+        },
+        {
+          "name": "akidinosaurs/gdal1",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-18",
+          "pushedAt": "2024-07-18"
+        },
+        {
+          "name": "akidinosaurs/samplestorytelling",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-07-13",
+          "pushedAt": "2023-07-19"
+        },
+        {
+          "name": "akidinosaurs/gsimaps",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2023-07-13",
+          "pushedAt": "2023-07-12"
+        }
       ]
     },
     {
@@ -2667,6 +3585,80 @@
         {
           "name": "mihirotakiwaza/-",
           "count": 1
+        }
+      ],
+      "repos": [
+        {
+          "name": "mihirotakiwaza/-",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-01-27",
+          "pushedAt": "2025-01-27"
+        },
+        {
+          "name": "mihirotakiwaza/h",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-01-27",
+          "pushedAt": "2025-01-27"
+        },
+        {
+          "name": "mihirotakiwaza/T-rkiye",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2024-11-12",
+          "pushedAt": "2024-11-12"
+        },
+        {
+          "name": "mihirotakiwaza/gdal",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2024-07-21"
+        },
+        {
+          "name": "mihirotakiwaza/mihirotakiwaza",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-03-22",
+          "pushedAt": "2024-03-22"
+        },
+        {
+          "name": "mihirotakiwaza/gsimaps",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-07-21",
+          "pushedAt": "2022-07-21"
+        },
+        {
+          "name": "mihirotakiwaza/logos4gsc",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-07-21",
+          "pushedAt": "2022-04-21"
+        },
+        {
+          "name": "mihirotakiwaza/HowToMakeFreeCulture",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-07-21",
+          "pushedAt": "2015-07-16"
+        },
+        {
+          "name": "mihirotakiwaza/AEDmap",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2022-07-21",
+          "pushedAt": "2014-12-11"
         }
       ]
     },
@@ -3159,6 +4151,32 @@
           "name": "furuhashilab/-SNS-",
           "count": 1
         }
+      ],
+      "repos": [
+        {
+          "name": "shocpsa/Gyoda-City_TouristMap",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-14",
+          "pushedAt": "2026-07-21"
+        },
+        {
+          "name": "shocpsa/WorldCup2026_LegendsHistory",
+          "isFork": false,
+          "stars": 1,
+          "forks": 1,
+          "createdAt": "2026-06-18",
+          "pushedAt": "2026-06-22"
+        },
+        {
+          "name": "shocpsa/shocpsa",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-07-09",
+          "pushedAt": "2025-07-09"
+        }
       ]
     },
     {
@@ -3537,6 +4555,24 @@
         {
           "name": "MoeAnjo/temp",
           "count": 1
+        }
+      ],
+      "repos": [
+        {
+          "name": "MoeAnjo/drone2025",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-29",
+          "pushedAt": "2025-11-29"
+        },
+        {
+          "name": "MoeAnjo/temp",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-24",
+          "pushedAt": "2025-10-24"
         }
       ]
     },
@@ -3985,6 +5021,40 @@
           "name": "furuhashilab/drone1_3dprinting_project",
           "count": 1
         }
+      ],
+      "repos": [
+        {
+          "name": "INADAYUKA/2026gsc_YukaInada",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-01",
+          "pushedAt": "2026-07-01"
+        },
+        {
+          "name": "INADAYUKA/2026gsc_YukaInadaa",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-07-01",
+          "pushedAt": "2026-07-01"
+        },
+        {
+          "name": "INADAYUKA/Design2",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-22",
+          "pushedAt": "2026-06-22"
+        },
+        {
+          "name": "INADAYUKA/2025gsc_YukaInada",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-20",
+          "pushedAt": "2026-02-02"
+        }
       ]
     },
     {
@@ -4351,6 +5421,16 @@
         {
           "name": "furuhashilab/Drone1_PLATEAU_Data-Import",
           "count": 2
+        }
+      ],
+      "repos": [
+        {
+          "name": "21Rensei/2025gsc_Rensei_Inoue",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-19",
+          "pushedAt": "2025-09-19"
         }
       ]
     },
@@ -4743,6 +5823,16 @@
           "name": "furuhashilab/geogacha2026",
           "count": 2
         }
+      ],
+      "repos": [
+        {
+          "name": "chihana-0421/2025gsc_ChihanaUsui",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-20",
+          "pushedAt": "2025-09-20"
+        }
       ]
     },
     {
@@ -5133,6 +6223,16 @@
         {
           "name": "furuhashilab/GeoExhibition2025",
           "count": 1
+        }
+      ],
+      "repos": [
+        {
+          "name": "Fuka-Okamura/Fuka-Okamura",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-04-11",
+          "pushedAt": "2024-04-11"
         }
       ]
     },
@@ -5693,6 +6793,192 @@
           "name": "furuhashilab/KnowledgeDistillation2026",
           "count": 5
         }
+      ],
+      "repos": [
+        {
+          "name": "yudai1206/yudai1206",
+          "isFork": false,
+          "stars": 0,
+          "forks": 2,
+          "createdAt": "2025-07-05",
+          "pushedAt": "2026-08-11"
+        },
+        {
+          "name": "yudai1206/YOKOZEAtlas2026_FootwayNaigation",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-02",
+          "pushedAt": "2026-08-03"
+        },
+        {
+          "name": "yudai1206/YOKOZEatlas2026",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-01",
+          "pushedAt": "2026-07-29"
+        },
+        {
+          "name": "yudai1206/2026gsc_YudaiKato",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-22",
+          "pushedAt": "2026-07-22"
+        },
+        {
+          "name": "yudai1206/LastFM_test",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-09",
+          "pushedAt": "2026-07-09"
+        },
+        {
+          "name": "yudai1206/Listenbrainz_test",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-07",
+          "pushedAt": "2026-07-07"
+        },
+        {
+          "name": "yudai1206/Youth2_Hackathon",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-22",
+          "pushedAt": "2026-06-22"
+        },
+        {
+          "name": "yudai1206/WorldcupQualify_Japan2026",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-18",
+          "pushedAt": "2026-06-18"
+        },
+        {
+          "name": "yudai1206/gsi-3d-2025",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-04",
+          "pushedAt": "2026-06-01"
+        },
+        {
+          "name": "yudai1206/Hackathon_202605",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-19",
+          "pushedAt": "2026-05-26"
+        },
+        {
+          "name": "yudai1206/pull_request_practice",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-04-10",
+          "pushedAt": "2026-04-10"
+        },
+        {
+          "name": "yudai1206/push_practice",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-04-10",
+          "pushedAt": "2026-04-10"
+        },
+        {
+          "name": "yudai1206/2025gsc_YudaiKato",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-21",
+          "pushedAt": "2026-02-20"
+        },
+        {
+          "name": "yudai1206/mini-tokyo-3d",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-02-07",
+          "pushedAt": "2026-02-05"
+        },
+        {
+          "name": "yudai1206/random-cat",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-23",
+          "pushedAt": "2026-01-30"
+        },
+        {
+          "name": "yudai1206/maplibergljs_additional",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-20",
+          "pushedAt": "2025-12-15"
+        },
+        {
+          "name": "yudai1206/maplibergljs3DMaps",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-20",
+          "pushedAt": "2025-12-15"
+        },
+        {
+          "name": "yudai1206/location_app_layer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-10",
+          "pushedAt": "2025-11-10"
+        },
+        {
+          "name": "yudai1206/location_app",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-10",
+          "pushedAt": "2025-11-10"
+        },
+        {
+          "name": "yudai1206/codex_test",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-14",
+          "pushedAt": "2025-10-16"
+        },
+        {
+          "name": "yudai1206/osm-sound-demo",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-21",
+          "pushedAt": "2025-09-22"
+        },
+        {
+          "name": "yudai1206/MapLibre-HandsOn-Intermediate",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-20",
+          "pushedAt": "2024-07-21"
+        },
+        {
+          "name": "yudai1206/location-tech-sample-v1",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-10",
+          "pushedAt": "2023-02-09"
+        }
       ]
     },
     {
@@ -6052,13 +7338,23 @@
           "name": "furuhashilab/geogacha2026",
           "count": 2
         }
+      ],
+      "repos": [
+        {
+          "name": "MiaKozaki/2026gsc_MiaKozaki",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-05",
+          "pushedAt": "2026-08-05"
+        }
       ]
     },
     {
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 196,
+        "commits": 197,
         "issues": 37,
         "pullRequests": 13,
         "reviews": 0
@@ -6346,7 +7642,7 @@
         },
         {
           "month": "2026-08",
-          "commits": 6,
+          "commits": 7,
           "issues": 2,
           "pullRequests": 0,
           "reviews": 0
@@ -6584,6 +7880,10 @@
         {
           "date": "2026-08-05",
           "count": 8
+        },
+        {
+          "date": "2026-08-15",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -6626,6 +7926,176 @@
         {
           "name": "furuhashilab/GeoExhibition2025",
           "count": 6
+        }
+      ],
+      "repos": [
+        {
+          "name": "usakooon/GCI_basic_2026_summer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-08-15"
+        },
+        {
+          "name": "usakooon/theta_3dgs_Sagamihara",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-01",
+          "pushedAt": "2026-07-18"
+        },
+        {
+          "name": "usakooon/fifa2026-first-time-nations-map",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-18",
+          "pushedAt": "2026-06-19"
+        },
+        {
+          "name": "usakooon/usakooon3",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-07-05",
+          "pushedAt": "2026-04-22"
+        },
+        {
+          "name": "usakooon/Asaoku_SpaceSyntax",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-10-31",
+          "pushedAt": "2026-01-02"
+        },
+        {
+          "name": "usakooon/ChurchOrientationAngle_webpages",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-09",
+          "pushedAt": "2025-12-22"
+        },
+        {
+          "name": "usakooon/maplibregis3Dmap",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-16",
+          "pushedAt": "2025-11-16"
+        },
+        {
+          "name": "usakooon/Urban_morphology_Shinyurigaoka",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-12",
+          "pushedAt": "2025-11-12"
+        },
+        {
+          "name": "usakooon/Church_orientation_angles",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-05",
+          "pushedAt": "2025-11-07"
+        },
+        {
+          "name": "usakooon/torchgeo",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-19",
+          "pushedAt": "2025-09-19"
+        },
+        {
+          "name": "usakooon/DepthmapX-experiments",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-12",
+          "pushedAt": "2025-09-12"
+        },
+        {
+          "name": "usakooon/usakooon.github.io",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-09",
+          "pushedAt": "2025-09-12"
+        },
+        {
+          "name": "usakooon/Graduation-thesis-Plan",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-12",
+          "pushedAt": "2025-09-12"
+        },
+        {
+          "name": "usakooon/Graduate-school",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-09",
+          "pushedAt": "2025-09-09"
+        },
+        {
+          "name": "usakooon/usakooon",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-09",
+          "pushedAt": "2025-09-09"
+        },
+        {
+          "name": "usakooon/geog510-demo",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-08-29",
+          "pushedAt": "2025-09-09"
+        },
+        {
+          "name": "usakooon/GeoTen2025",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-07-14",
+          "pushedAt": "2025-07-14"
+        },
+        {
+          "name": "usakooon/gsimaps",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2024-07-04"
+        },
+        {
+          "name": "usakooon/logos4gsc",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2023-03-02"
+        },
+        {
+          "name": "usakooon/AEDmap",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2022-12-22"
+        },
+        {
+          "name": "usakooon/HowToMakeFreeCulture",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2015-07-16"
         }
       ]
     },
@@ -7137,6 +8607,160 @@
         {
           "name": "furuhashilab/2026gsc_AkiraMotoyoshi",
           "count": 8
+        }
+      ],
+      "repos": [
+        {
+          "name": "Akira-Motoyoshi/HaikuGO",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-16",
+          "pushedAt": "2026-07-21"
+        },
+        {
+          "name": "Akira-Motoyoshi/Codra",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-15",
+          "pushedAt": "2026-07-16"
+        },
+        {
+          "name": "Akira-Motoyoshi/FinancialSummary",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-03",
+          "pushedAt": "2026-07-11"
+        },
+        {
+          "name": "Akira-Motoyoshi/ai-super-memory",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-21",
+          "pushedAt": "2026-06-30"
+        },
+        {
+          "name": "Akira-Motoyoshi/ResearchPlan",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-30",
+          "pushedAt": "2026-06-30"
+        },
+        {
+          "name": "Akira-Motoyoshi/PhilosophyWalk",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-23",
+          "pushedAt": "2026-06-23"
+        },
+        {
+          "name": "Akira-Motoyoshi/hakathon-idea",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-18",
+          "pushedAt": "2026-06-22"
+        },
+        {
+          "name": "Akira-Motoyoshi/codegraph",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-21",
+          "pushedAt": "2026-06-21"
+        },
+        {
+          "name": "Akira-Motoyoshi/MacBookCleaning",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-17",
+          "pushedAt": "2026-06-17"
+        },
+        {
+          "name": "Akira-Motoyoshi/2025gsc-AkiraMotoyoshi",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-20",
+          "pushedAt": "2026-05-25"
+        },
+        {
+          "name": "Akira-Motoyoshi/andrej-karpathy-skills",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-25",
+          "pushedAt": "2026-04-20"
+        },
+        {
+          "name": "Akira-Motoyoshi/GPX-art-2026",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-01-04",
+          "pushedAt": "2026-01-04"
+        },
+        {
+          "name": "Akira-Motoyoshi/AutoTestAnsweringSystem",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2025-12-11",
+          "pushedAt": "2025-12-18"
+        },
+        {
+          "name": "Akira-Motoyoshi/photo",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-12-07",
+          "pushedAt": "2025-12-11"
+        },
+        {
+          "name": "Akira-Motoyoshi/AIEditingMovie",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-30",
+          "pushedAt": "2025-11-30"
+        },
+        {
+          "name": "Akira-Motoyoshi/Miyagase-animal-sign-map",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-11",
+          "pushedAt": "2025-11-11"
+        },
+        {
+          "name": "Akira-Motoyoshi/Akira-Motoyoshi",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2025-07-06",
+          "pushedAt": "2025-10-03"
+        },
+        {
+          "name": "Akira-Motoyoshi/NYU_CTF_Bench",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-12-21",
+          "pushedAt": "2025-09-22"
+        },
+        {
+          "name": "Akira-Motoyoshi/yudai1206",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-07-09",
+          "pushedAt": "2025-07-08"
         }
       ]
     },
@@ -7797,6 +9421,456 @@
           "name": "0319-2004/ask-earth",
           "count": 3
         }
+      ],
+      "repos": [
+        {
+          "name": "0319-2004/osm-leaderboard",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-14",
+          "pushedAt": "2026-08-14"
+        },
+        {
+          "name": "0319-2004/shimokita-building-change-detection",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-03",
+          "pushedAt": "2026-08-04"
+        },
+        {
+          "name": "0319-2004/torchgeo",
+          "isFork": true,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-07-29",
+          "pushedAt": "2026-07-28"
+        },
+        {
+          "name": "0319-2004/reearth-buildings",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-22",
+          "pushedAt": "2026-07-21"
+        },
+        {
+          "name": "0319-2004/machi-no-jakuten",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-20",
+          "pushedAt": "2026-07-20"
+        },
+        {
+          "name": "0319-2004/reearth-terrain",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-22",
+          "pushedAt": "2026-07-14"
+        },
+        {
+          "name": "0319-2004/tokyo23-ndvi-greencover",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-10",
+          "pushedAt": "2026-07-10"
+        },
+        {
+          "name": "0319-2004/GaussianGPT",
+          "isFork": true,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-07-09",
+          "pushedAt": "2026-07-08"
+        },
+        {
+          "name": "0319-2004/map-post-app",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-07",
+          "pushedAt": "2026-07-07"
+        },
+        {
+          "name": "0319-2004/CodexBar",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-06",
+          "pushedAt": "2026-07-06"
+        },
+        {
+          "name": "0319-2004/oam-field-viewer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-02",
+          "pushedAt": "2026-07-02"
+        },
+        {
+          "name": "0319-2004/geosql",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-08",
+          "pushedAt": "2026-06-30"
+        },
+        {
+          "name": "0319-2004/Drone-hachathon",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-24",
+          "pushedAt": "2026-06-23"
+        },
+        {
+          "name": "0319-2004/oam_yokoze20260621elementaryschool0942furuhashilab01dfl01",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-23",
+          "pushedAt": "2026-06-22"
+        },
+        {
+          "name": "0319-2004/shibuya-path",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-31",
+          "pushedAt": "2026-05-31"
+        },
+        {
+          "name": "0319-2004/ask-earth",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-08",
+          "pushedAt": "2026-05-08"
+        },
+        {
+          "name": "0319-2004/furuhashilab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-04-30",
+          "pushedAt": "2026-04-30"
+        },
+        {
+          "name": "0319-2004/openmythos",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-14",
+          "pushedAt": "2026-04-27"
+        },
+        {
+          "name": "0319-2004/claude-code_leak",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-03-31",
+          "pushedAt": "2026-03-31"
+        },
+        {
+          "name": "0319-2004/NemoClaw",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-03-18",
+          "pushedAt": "2026-03-18"
+        },
+        {
+          "name": "0319-2004/woot26_artifact",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-03-07",
+          "pushedAt": "2026-03-07"
+        },
+        {
+          "name": "0319-2004/udfs",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-03-02",
+          "pushedAt": "2026-02-27"
+        },
+        {
+          "name": "0319-2004/openclaw",
+          "isFork": true,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-02-18",
+          "pushedAt": "2026-02-18"
+        },
+        {
+          "name": "0319-2004/daily-outfit-log",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-02-06",
+          "pushedAt": "2026-02-06"
+        },
+        {
+          "name": "0319-2004/PacificPNT_Rito_Yamasaki",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-01-31",
+          "pushedAt": "2026-02-01"
+        },
+        {
+          "name": "0319-2004/PacificPNT_Reproducible",
+          "isFork": false,
+          "stars": 2,
+          "forks": 0,
+          "createdAt": "2026-01-26",
+          "pushedAt": "2026-01-28"
+        },
+        {
+          "name": "0319-2004/everything-claude-code",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-01-20",
+          "pushedAt": "2026-01-18"
+        },
+        {
+          "name": "0319-2004/pw-amazon-experiment",
+          "isFork": false,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2025-11-17",
+          "pushedAt": "2025-11-27"
+        },
+        {
+          "name": "0319-2004/academic-wordcloud-ja",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-23",
+          "pushedAt": "2025-09-23"
+        },
+        {
+          "name": "0319-2004/NYU_CTF_Bench",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-12-21",
+          "pushedAt": "2025-09-22"
+        },
+        {
+          "name": "0319-2004/replit_vision_mate",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-13",
+          "pushedAt": "2025-09-20"
+        },
+        {
+          "name": "0319-2004/vision-mates",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-08-28",
+          "pushedAt": "2025-09-08"
+        },
+        {
+          "name": "0319-2004/visionmates-mvp",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-08-26",
+          "pushedAt": "2025-08-26"
+        },
+        {
+          "name": "0319-2004/discourse_cybersecurity",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-07-24",
+          "pushedAt": "2025-08-10"
+        },
+        {
+          "name": "0319-2004/ODM",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-08-06",
+          "pushedAt": "2025-08-05"
+        },
+        {
+          "name": "0319-2004/GPXdrawingTool",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-26",
+          "pushedAt": "2025-07-30"
+        },
+        {
+          "name": "0319-2004/GPXtrackSplitter",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-05-26",
+          "pushedAt": "2025-07-24"
+        },
+        {
+          "name": "0319-2004/WebODM-Locale",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-08-05",
+          "pushedAt": "2025-07-13"
+        },
+        {
+          "name": "0319-2004/RoadDamageDetector",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-08-06",
+          "pushedAt": "2025-06-15"
+        },
+        {
+          "name": "0319-2004/SotM2025",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-29",
+          "pushedAt": "2025-05-16"
+        },
+        {
+          "name": "0319-2004/gis-oer",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-05-08",
+          "pushedAt": "2025-04-30"
+        },
+        {
+          "name": "0319-2004/100knocks-preprocess",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-05-14",
+          "pushedAt": "2025-03-31"
+        },
+        {
+          "name": "0319-2004/geoai",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-12-18",
+          "pushedAt": "2024-11-18"
+        },
+        {
+          "name": "0319-2004/icons",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-08-29",
+          "pushedAt": "2024-08-27"
+        },
+        {
+          "name": "0319-2004/bootstrap",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-08-29",
+          "pushedAt": "2024-08-27"
+        },
+        {
+          "name": "0319-2004/gsimaps",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2024-07-04"
+        },
+        {
+          "name": "0319-2004/rules",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-22",
+          "pushedAt": "2024-04-17"
+        },
+        {
+          "name": "0319-2004/TheWebDeveloperBootcampSolutions",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-09-06",
+          "pushedAt": "2024-04-03"
+        },
+        {
+          "name": "0319-2004/CTF-CheatSheet",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-12-07",
+          "pushedAt": "2023-05-16"
+        },
+        {
+          "name": "0319-2004/bootstrap-npm-starter",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-08-29",
+          "pushedAt": "2023-03-30"
+        },
+        {
+          "name": "0319-2004/logos4gsc",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2023-03-02"
+        },
+        {
+          "name": "0319-2004/AEDmap",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2022-12-22"
+        },
+        {
+          "name": "0319-2004/S1_ARD",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-15",
+          "pushedAt": "2022-01-18"
+        },
+        {
+          "name": "0319-2004/spectacle",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-09-06",
+          "pushedAt": "2022-01-15"
+        },
+        {
+          "name": "0319-2004/RBAC-SC",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-15",
+          "pushedAt": "2021-08-26"
+        },
+        {
+          "name": "0319-2004/HowToMakeFreeCulture",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-07-04",
+          "pushedAt": "2015-07-16"
+        }
       ]
     },
     {
@@ -8160,6 +10234,32 @@
           "name": "furuhashilab/Drone-hachathon",
           "count": 1
         }
+      ],
+      "repos": [
+        {
+          "name": "mapbytomoya/YOKOZEToioetsmap202602",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-03",
+          "pushedAt": "2026-08-03"
+        },
+        {
+          "name": "mapbytomoya/mobiility_tom",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-01",
+          "pushedAt": "2026-08-01"
+        },
+        {
+          "name": "mapbytomoya/orthophoto.tileviewer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-07",
+          "pushedAt": "2026-07-07"
+        }
       ]
     },
     {
@@ -8483,7 +10583,8 @@
           "name": "furuhashilab/2026gsc_RearaKato",
           "count": 21
         }
-      ]
+      ],
+      "repos": []
     },
     {
       "login": "MinatoTanabe",
@@ -8814,6 +10915,16 @@
           "name": "MinatoTanabe/2026gsc_MinatoTanabe",
           "count": 1
         }
+      ],
+      "repos": [
+        {
+          "name": "MinatoTanabe/2026gsc_MinatoTanabe",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-05",
+          "pushedAt": "2026-08-05"
+        }
       ]
     },
     {
@@ -9140,6 +11251,16 @@
         {
           "name": "furuhashilab/2026gsc_KousakuNakagawa",
           "count": 7
+        }
+      ],
+      "repos": [
+        {
+          "name": "KousakuNakagawa/drone-ortho-xyz-viewer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-02",
+          "pushedAt": "2026-07-02"
         }
       ]
     },
@@ -9476,6 +11597,24 @@
           "name": "furuhashilab/KnowledgeDistillation2026",
           "count": 1
         }
+      ],
+      "repos": [
+        {
+          "name": "sakusaku1105/2026gsc_SakuraNakamizo",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-05",
+          "pushedAt": "2026-08-05"
+        },
+        {
+          "name": "sakusaku1105/woldcup-storymap",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-21",
+          "pushedAt": "2026-06-21"
+        }
       ]
     },
     {
@@ -9806,6 +11945,16 @@
         {
           "name": "h51917/worldcup-storymap",
           "count": 5
+        }
+      ],
+      "repos": [
+        {
+          "name": "h51917/worldcup-storymap",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-06-21",
+          "pushedAt": "2026-06-21"
         }
       ]
     },
@@ -10150,7 +12299,8 @@
           "name": "furuhashilab/KnowledgeDistillation2026",
           "count": 7
         }
-      ]
+      ],
+      "repos": []
     },
     {
       "login": "miwamiwa-76",
@@ -10473,7 +12623,8 @@
           "name": "furuhashilab/2026gsc_MiwaYonekubo",
           "count": 13
         }
-      ]
+      ],
+      "repos": []
     },
     {
       "login": "YutoKyoto",
@@ -10803,6 +12954,16 @@
         {
           "name": "furuhashilab/2026gsc_Yuto-Watanabe",
           "count": 4
+        }
+      ],
+      "repos": [
+        {
+          "name": "YutoKyoto/civic-light-web-gis",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-02",
+          "pushedAt": "2026-07-03"
         }
       ]
     }
