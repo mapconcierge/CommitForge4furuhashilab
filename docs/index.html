@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CommitForge — 古橋研究室 活動量ダッシュボード</title>
+<meta name="description" content="青山学院大学 古橋研究室メンバーのGitHub活動量（コミット・プルリクエスト・Issue・レビュー）を集計・可視化するダッシュボード" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+  <header class="page-header">
+    <h1>CommitForge</h1>
+    <p class="lede">古橋研究室（青山学院大学 地球社会共生学部）GitHub活動量ダッシュボード</p>
+    <p class="meta-line" id="meta-line">読み込み中…</p>
+  </header>
+
+  <div id="error-banner"></div>
+
+  <section class="filters" aria-label="集計期間の選択">
+    <div class="presets" id="presets" role="group" aria-label="期間プリセット">
+      <button type="button" class="preset" data-preset="academic_year">今年度</button>
+      <button type="button" class="preset" data-preset="all">全期間</button>
+    </div>
+    <div class="custom-range">
+      <label for="range-from">期間指定</label>
+      <input type="date" id="range-from" />
+      <span>〜</span>
+      <input type="date" id="range-to" />
+      <button type="button" class="preset" id="apply-range">適用</button>
+    </div>
+  </section>
+  <p class="range-note" id="range-note"></p>
+
+  <section class="stat-tiles" id="stat-tiles" aria-label="集計期間内のサマリー"></section>
+
+  <section class="chart-card">
+    <h2>メンバー別 活動量ランキング</h2>
+    <p class="chart-caption">選択期間内の合計値（コミット + プルリクエスト + Issue + レビュー）で降順ソート</p>
+    <div class="legend" id="bar-legend"></div>
+    <svg class="chart" id="bar-chart" role="img" aria-label="メンバー別活動量の積み上げ横棒グラフ"></svg>
+  </section>
+
+  <section class="chart-card">
+    <h2>活動量の推移</h2>
+    <p class="chart-caption" id="trend-caption">選択期間内の全メンバー合計（日次）</p>
+    <svg class="chart" id="trend-chart" role="img" aria-label="日次アクティビティ推移の折れ線グラフ"></svg>
+  </section>
+
+  <section class="chart-card">
+    <h2>詳細データ（表形式）</h2>
+    <div class="table-wrap">
+      <table class="data-table" id="data-table">
+        <caption>選択期間内のメンバー別内訳。グラフと同じ集計期間・同じ数値です。</caption>
+        <thead>
+          <tr>
+            <th>メンバー</th>
+            <th>コミット</th>
+            <th>プルリクエスト</th>
+            <th>Issue</th>
+            <th>レビュー</th>
+            <th>合計</th>
+          </tr>
+        </thead>
+        <tbody id="data-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <p>
+      データソース: GitHub GraphQL API（各アカウントの公開 contribution 情報）。
+      集計対象アカウントは <a href="https://github.com/mapconcierge/CommitForge4furuhashilab/blob/main/config/members.yaml" target="_blank" rel="noopener">config/members.yaml</a> で管理しています。
+    </p>
+    <p>
+      数値は各メンバーの GitHub 上での公開活動を機械的に集計した参考値であり、研究・開発への貢献度そのものを表すものではありません（非公開リポジトリでの作業、コードレビュー以外の貢献、Issue起票以外の議論などは反映されません）。成績等の判断材料として単独で用いる場合はご注意ください。
+    </p>
+    <p>
+      ソースコード: <a href="https://github.com/mapconcierge/CommitForge4furuhashilab" target="_blank" rel="noopener">mapconcierge/CommitForge4furuhashilab</a>（ライセンスはリポジトリ内 LICENSE を参照）。
+    </p>
+  </footer>
+</main>
+
+<div class="tooltip" id="tooltip" role="tooltip"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

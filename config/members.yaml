@@ -1,0 +1,50 @@
+# 古橋研究室 活動量集計・可視化ツール — 集計対象アカウント設定
+#
+# members: 集計対象の GitHub アカウント一覧。
+#   login は必須。name は GitHub プロフィールに公開されている表示名が
+#   確認できたアカウントのみ記載（未公開の場合はキー自体を省略する）。
+#   メンバーの追加・削除はこのファイルを編集するだけでよい。
+#
+# settings: 集計の挙動に関する設定。
+#   history_start   : この日付より前の活動は取得・集計しない（GitHub Actions の
+#                      実行負荷と API レート制限を抑えるための下限）。
+#   default_period  : Web ダッシュボード初期表示の期間モード。
+#                      "academic_year" = 年度区切り（academic_year_* に従う）
+#   academic_year_start_month / _day : 年度開始日（大学成績用のデフォルトは 4/1 始まり）。
+
+settings:
+  history_start: "2023-04-01"
+  default_period: "academic_year"
+  academic_year_start_month: 4
+  academic_year_start_day: 1
+
+members:
+  - login: mapconcierge
+    name: "Taichi FURUHASHI"
+  - login: akidinosaurs
+  - login: mihirotakiwaza
+    name: "mihiro takizawa"
+  - login: shocpsa
+    name: "ShotaArakawa"
+  - login: MoeAnjo
+  - login: INADAYUKA
+  - login: 21Rensei
+  - login: chihana-0421
+  - login: Fuka-Okamura
+    name: "Fuka"
+  - login: yudai1206
+  - login: MiaKozaki
+  - login: usakooon
+    name: "Hinako Terado"
+  - login: Akira-Motoyoshi
+    name: "AKIRA"
+  - login: "0319-2004"
+  - login: mapbytomoya
+  - login: rea2610
+  - login: MinatoTanabe
+  - login: KousakuNakagawa
+  - login: sakusaku1105
+  - login: h51917
+  - login: Kanoko4
+  - login: miwamiwa-76
+  - login: YutoKyoto
