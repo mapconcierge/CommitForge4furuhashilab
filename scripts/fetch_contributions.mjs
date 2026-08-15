@@ -5,6 +5,9 @@
 // 種別（コミット/Issue/PR/レビュー）ごとの内訳を取得する（contributionsCollection の from/to は
 // 1年までしか受け付けないため、月単位に区切れば必ず制限内に収まる）。
 // 日次の合計値（種別内訳なし）は contributionCalendar からあわせて取得し、推移グラフに使う。
+// 月次バケットごとに commitContributionsByRepository も取得し、どのリポジトリ（個人名義/
+// Organization名義、フォーク含む）にコミットしたかを保持する。これは「活動リポジトリ数」の
+// 算出と、settings.organizations 配下リポジトリの作成者推定の両方に使う。
 //
 // 実行には GITHUB_TOKEN 環境変数が必要（public な contribution 情報の取得のみなので
 // GitHub Actions のデフォルト GITHUB_TOKEN で動作する）。
@@ -127,6 +130,10 @@ function buildMonthlyQuery(buckets) {
       contributionCalendar {
         weeks { contributionDays { date contributionCount } }
       }
+      commitContributionsByRepository(maxRepositories: 100) {
+        repository { nameWithOwner }
+        contributions { totalCount }
+      }
     }`
     )
     .join("\n");
@@ -198,6 +205,88 @@ async function fetchOwnedRepositories(login, historyStart) {
   return repos;
 }
 
+const ORG_REPOS_QUERY = `
+query($org: String!, $cursor: String) {
+  organization(login: $org) {
+    repositories(first: 100, privacy: PUBLIC, isFork: false, orderBy: {field: CREATED_AT, direction: DESC}, after: $cursor) {
+      pageInfo { hasNextPage endCursor }
+      nodes {
+        nameWithOwner
+        stargazerCount
+        forkCount
+        createdAt
+        pushedAt
+      }
+    }
+  }
+}
+`;
+
+// Organization配下の非フォーク公開リポジトリを「作成日が新しい順」に取得し、
+// historyStart より古い作成日のページに到達した時点で打ち切る。
+async function fetchOrgRepositories(org, historyStart) {
+  const repos = [];
+  let cursor = null;
+  for (let page = 0; page < 10; page++) {
+    const data = await graphql(ORG_REPOS_QUERY, { org, cursor });
+    if (!data.organization) {
+      throw new Error(`organization not found: ${org}`);
+    }
+    const conn = data.organization.repositories;
+    for (const n of conn.nodes) {
+      const createdAt = new Date(n.createdAt);
+      if (createdAt < historyStart) continue;
+      repos.push({
+        name: n.nameWithOwner,
+        isFork: false,
+        stars: n.stargazerCount,
+        forks: n.forkCount,
+        createdAt: n.createdAt.slice(0, 10),
+        pushedAt: n.pushedAt.slice(0, 10),
+      });
+    }
+    const lastCreatedAt = conn.nodes.length > 0
+      ? new Date(conn.nodes[conn.nodes.length - 1].createdAt)
+      : null;
+    if (!conn.pageInfo.hasNextPage || !lastCreatedAt || lastCreatedAt < historyStart) {
+      break;
+    }
+    cursor = conn.pageInfo.endCursor;
+  }
+  return repos;
+}
+
+// Organization配下の各リポジトリについて、メンバー全員の月次コミット内訳
+// (monthly[].repos、全期間分)を突き合わせ、全期間を通じて「このリポジトリに
+// コミットしたのが1名だけ」であるリポジトリのみ、その1名に新規作成の帰属を
+// 認める。複数メンバーが関与している場合は共同プロジェクトとみなし、
+// 個人への帰属は行わない（コミット数自体は各人のcommits集計に含まれ続ける）。
+function attributeOrgRepos(results, orgRepos) {
+  const commitsByRepo = new Map(); // repoName -> Map(login -> totalCommits)
+  for (const member of results) {
+    for (const bucket of member.monthly) {
+      for (const r of bucket.repos) {
+        if (!commitsByRepo.has(r.name)) commitsByRepo.set(r.name, new Map());
+        const m = commitsByRepo.get(r.name);
+        m.set(member.login, (m.get(member.login) ?? 0) + r.count);
+      }
+    }
+  }
+
+  const attributedByLogin = new Map(); // login -> repo[]
+  let attributedCount = 0;
+  for (const repo of orgRepos) {
+    const contributors = commitsByRepo.get(repo.name);
+    if (!contributors || contributors.size !== 1) continue;
+    const [login] = contributors.keys();
+    if (!attributedByLogin.has(login)) attributedByLogin.set(login, []);
+    attributedByLogin.get(login).push(repo);
+    attributedCount += 1;
+  }
+
+  return { attributedByLogin, attributedCount };
+}
+
 async function fetchMemberContributions(login, historyStart, now) {
   const monthBuckets = buildMonthBuckets(historyStart, now);
   const yearWindows = buildYearWindows(historyStart, now);
@@ -220,7 +309,11 @@ async function fetchMemberContributions(login, historyStart, now) {
     const pullRequests = cc.totalPullRequestContributions;
     const reviews = cc.totalPullRequestReviewContributions;
 
-    monthly.push({ month: bucket.key, commits, issues, pullRequests, reviews });
+    const repos = cc.commitContributionsByRepository
+      .filter((e) => e.contributions.totalCount > 0)
+      .map((e) => ({ name: e.repository.nameWithOwner, count: e.contributions.totalCount }));
+
+    monthly.push({ month: bucket.key, commits, issues, pullRequests, reviews, repos });
     totals.commits += commits;
     totals.issues += issues;
     totals.pullRequests += pullRequests;
@@ -298,6 +391,25 @@ async function main() {
     }
   }
 
+  const organizations = settings.organizations ?? [];
+  const orgSummary = [];
+  for (const org of organizations) {
+    process.stdout.write(`Organization取得中: ${org} ... `);
+    try {
+      const orgRepos = await fetchOrgRepositories(org, historyStart);
+      const { attributedByLogin, attributedCount } = attributeOrgRepos(results, orgRepos);
+      for (const member of results) {
+        const attributed = attributedByLogin.get(member.login) ?? [];
+        member.repos.push(...attributed);
+      }
+      orgSummary.push({ org, repoCount: orgRepos.length, attributedCount });
+      console.log(`OK (対象リポジトリ${orgRepos.length}件中${attributedCount}件を個人に帰属)`);
+    } catch (err) {
+      console.log(`ERROR: ${err.message}`);
+      errors.push({ login: `org:${org}`, message: err.message });
+    }
+  }
+
   const output = {
     generated_at: now.toISOString(),
     history_start: settings.history_start,
@@ -305,10 +417,12 @@ async function main() {
       default_period: settings.default_period,
       academic_year_start_month: settings.academic_year_start_month,
       academic_year_start_day: settings.academic_year_start_day,
+      organizations,
       scoring: settings.scoring,
     },
     member_count_configured: members.length,
     member_count_fetched: results.length,
+    organization_summary: orgSummary,
     members: results,
     errors,
   };

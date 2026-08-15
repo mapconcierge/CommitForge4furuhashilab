@@ -168,12 +168,20 @@
 
     const perMember = data.members.map((m) => {
       const totals = { commits: 0, issues: 0, pullRequests: 0, reviews: 0 };
+      // 活動リポジトリ = このメンバーが選択期間内にコミットした形跡があるリポジトリの集合。
+      // 個人名義リポジトリの「最終push日時」(pushedAtベース、フォーク含む)と、
+      // 月次コミット内訳(monthly[].repos、個人名義/Organization名義どちらも含む)の
+      // 両方を突き合わせて和集合を取る。前者はGitHubの公式contribution集計が拾わない
+      // フォーク上の作業を補うため、後者は共同開発中でreposCreatedには帰属しない
+      // Organizationリポジトリでの活動を取りこぼさないため。
+      const activeRepoNames = new Set();
       for (const bucket of m.monthly) {
         if (bucket.month < fromKey || bucket.month > toKey) continue;
         totals.commits += bucket.commits;
         totals.issues += bucket.issues;
         totals.pullRequests += bucket.pullRequests;
         totals.reviews += bucket.reviews;
+        for (const r of bucket.repos ?? []) activeRepoNames.add(r.name);
       }
 
       const repos = m.repos ?? [];
@@ -181,9 +189,10 @@
         (r) => !r.isFork && r.createdAt >= fromDateStr && r.createdAt <= toDateStr
       );
       const reposCreated = createdInPeriod.length;
-      const reposActive = repos.filter(
-        (r) => r.pushedAt >= fromDateStr && r.pushedAt <= toDateStr
-      ).length;
+      for (const r of repos) {
+        if (r.pushedAt >= fromDateStr && r.pushedAt <= toDateStr) activeRepoNames.add(r.name);
+      }
+      const reposActive = activeRepoNames.size;
       const starsSum = createdInPeriod.reduce((s, r) => s + r.stars, 0);
       const forksSum = createdInPeriod.reduce((s, r) => s + r.forks, 0);
 

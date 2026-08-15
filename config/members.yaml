@@ -11,6 +11,13 @@
 #   default_period  : Web ダッシュボード初期表示の期間モード。
 #                      "academic_year" = 年度区切り（academic_year_* に従う）
 #   academic_year_start_month / _day : 年度開始日（大学成績用のデフォルトは 4/1 始まり）。
+#   organizations   : メンバーが所属する GitHub Organization のログイン名一覧。
+#                      ここに列挙した Organization 配下の公開リポジトリも
+#                      「新規リポジトリ作成」の集計対象に含める（個人アカウント名義の
+#                      リポジトリだけでは、卒論・ゼミ論などOrganization配下に作成される
+#                      リポジトリが漏れてしまうため）。どのメンバーが作成したかは、
+#                      各メンバーのコミット実績（後述）から一意に特定できた場合のみ
+#                      個人に帰属させる（詳細は README「総合活動スコアについて」参照）。
 #
 # scoring: 「総合活動スコア」の重み付け設定。
 #   注意: GitHub は公式の「貢献度スコア」を公開していない。ここでの重みは、
@@ -20,12 +27,14 @@
 #   反映されないがコミット活動としては実在する）を拾うため repo_active を設けている。
 #   値は根拠を明記した上で研究室の判断で調整してよい。
 #   - commit / issue / pull_request / review : 単純活動指標1件あたりの得点
-#   - repo_created  : 期間内に新規作成した非フォークの公開リポジトリ1件あたりの得点
-#   - repo_active   : 期間内に push があったリポジトリ（フォーク含む）1件あたりの得点。
-#                      GitHubの公式contributionはフォーク上の作業を基本的にカウントしない
-#                      ため、その欠落を補う目的の指標。ただし各リポジトリの「最終push日時」
-#                      のみを見て判定するため、複数期間にまたがって push されたリポジトリは
-#                      直近の期間にのみ計上される（古い期間では過小評価されうる）。
+#   - repo_created  : 期間内に新規作成した非フォークの公開リポジトリ1件あたりの得点。
+#                      個人アカウント名義に加え、settings.organizations 配下で
+#                      本人に一意に帰属させられたリポジトリも対象に含む。
+#   - repo_active   : 期間内にコミットのあったリポジトリ数（フォーク・Organization配下を
+#                      含む）1件あたりの得点。GitHubの公式contribution集計はフォーク上の
+#                      作業を基本的にカウントしないため、その欠落を補う目的の指標。
+#                      「期間内にコミット実績のあるリポジトリ」に加え、個人名義リポジトリで
+#                      期間内にpushがあったもの（フォーク含む）の両方を見て判定する。
 #   - star / fork   : 期間内に新規作成したリポジトリが獲得した星・フォーク数への加点。
 #                      件数は log(1+n) でスケールし、少数の人気リポジトリへの過度な
 #                      偏重を抑える。値は現時点のスナップショットであり、獲得時期の
@@ -36,6 +45,8 @@ settings:
   default_period: "academic_year"
   academic_year_start_month: 4
   academic_year_start_day: 1
+  organizations:
+    - furuhashilab
   scoring:
     commit: 1
     issue: 2
