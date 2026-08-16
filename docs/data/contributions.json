@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:20:34.490Z",
+  "generated_at": "2026-08-16T15:22:17.595Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1369,
+        "commits": 1371,
         "issues": 336,
         "pullRequests": 63,
         "reviews": 0
@@ -1317,7 +1317,7 @@
         },
         {
           "month": "2026-08",
-          "commits": 107,
+          "commits": 109,
           "issues": 22,
           "pullRequests": 0,
           "reviews": 0,
@@ -1349,6 +1349,10 @@
             {
               "name": "mapconcierge/temp",
               "count": 3
+            },
+            {
+              "name": "mapconcierge/MediumArchive4furuhashilab",
+              "count": 2
             },
             {
               "name": "furuhashilab/KnowledgeDistillation2026",
@@ -2745,6 +2749,10 @@
         {
           "date": "2026-08-15",
           "count": 15
+        },
+        {
+          "date": "2026-08-16",
+          "count": 3
         }
       ],
       "topRepositories": [
@@ -2790,6 +2798,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "mapconcierge/MediumArchive4furuhashilab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-16",
+          "pushedAt": "2026-08-16"
+        },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
           "isFork": false,
@@ -3581,14 +3597,6 @@
           "forks": 0,
           "createdAt": "2022-07-18",
           "pushedAt": "2022-07-18"
-        },
-        {
-          "name": "mapconcierge/earthengine-catalog",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2022-07-12",
-          "pushedAt": "2022-07-12"
         },
         {
           "name": "furuhashilab/ITskillBootCamp2026",
@@ -11821,7 +11829,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 168,
+        "commits": 173,
         "issues": 22,
         "pullRequests": 6,
         "reviews": 0
@@ -12239,11 +12247,15 @@
         },
         {
           "month": "2026-08",
-          "commits": 5,
+          "commits": 10,
           "issues": 7,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
+            {
+              "name": "0319-2004/urban-change-evidence-explorer",
+              "count": 5
+            },
             {
               "name": "eukarya-biz/navara-hw-yamasaki",
               "count": 4
@@ -12571,6 +12583,10 @@
         {
           "date": "2026-08-14",
           "count": 6
+        },
+        {
+          "date": "2026-08-16",
+          "count": 6
         }
       ],
       "topRepositories": [
@@ -12603,19 +12619,27 @@
           "count": 9
         },
         {
+          "name": "0319-2004/urban-change-evidence-explorer",
+          "count": 5
+        },
+        {
           "name": "eukarya-biz/navara-hw-yamasaki",
           "count": 4
         },
         {
           "name": "furuhashilab/Drone-hachathon",
           "count": 3
-        },
-        {
-          "name": "0319-2004/ask-earth",
-          "count": 3
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/urban-change-evidence-explorer",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-16",
+          "pushedAt": "2026-08-16"
+        },
         {
           "name": "0319-2004/osm-leaderboard",
           "isFork": true,
