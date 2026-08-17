@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T15:22:17.595Z",
+  "generated_at": "2026-08-17T15:25:58.532Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1371,
+        "commits": 1387,
         "issues": 336,
         "pullRequests": 63,
         "reviews": 0
@@ -1317,7 +1317,7 @@
         },
         {
           "month": "2026-08",
-          "commits": 109,
+          "commits": 125,
           "issues": 22,
           "pullRequests": 0,
           "reviews": 0,
@@ -1329,6 +1329,10 @@
             {
               "name": "furuhashilab/YOKOZEatlas2026",
               "count": 26
+            },
+            {
+              "name": "mapconcierge/MediumArchive4furuhashilab",
+              "count": 18
             },
             {
               "name": "furuhashilab/ITskillBootCamp2026",
@@ -1349,10 +1353,6 @@
             {
               "name": "mapconcierge/temp",
               "count": 3
-            },
-            {
-              "name": "mapconcierge/MediumArchive4furuhashilab",
-              "count": 2
             },
             {
               "name": "furuhashilab/KnowledgeDistillation2026",
@@ -2753,6 +2753,10 @@
         {
           "date": "2026-08-16",
           "count": 3
+        },
+        {
+          "date": "2026-08-17",
+          "count": 16
         }
       ],
       "topRepositories": [
@@ -2804,7 +2808,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-16",
-          "pushedAt": "2026-08-16"
+          "pushedAt": "2026-08-17"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -2812,7 +2816,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-08-15"
+          "pushedAt": "2026-08-16"
         },
         {
           "name": "mapconcierge/osm-leaderboard",
@@ -11829,7 +11833,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 173,
+        "commits": 177,
         "issues": 22,
         "pullRequests": 6,
         "reviews": 0
@@ -12247,7 +12251,7 @@
         },
         {
           "month": "2026-08",
-          "commits": 10,
+          "commits": 14,
           "issues": 7,
           "pullRequests": 0,
           "reviews": 0,
@@ -12255,6 +12259,10 @@
             {
               "name": "0319-2004/urban-change-evidence-explorer",
               "count": 5
+            },
+            {
+              "name": "0319-2004/temporal-window-robustness-lab",
+              "count": 4
             },
             {
               "name": "eukarya-biz/navara-hw-yamasaki",
@@ -12587,6 +12595,10 @@
         {
           "date": "2026-08-16",
           "count": 6
+        },
+        {
+          "date": "2026-08-17",
+          "count": 5
         }
       ],
       "topRepositories": [
@@ -12623,15 +12635,23 @@
           "count": 5
         },
         {
-          "name": "eukarya-biz/navara-hw-yamasaki",
+          "name": "0319-2004/temporal-window-robustness-lab",
           "count": 4
         },
         {
-          "name": "furuhashilab/Drone-hachathon",
-          "count": 3
+          "name": "eukarya-biz/navara-hw-yamasaki",
+          "count": 4
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/temporal-window-robustness-lab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-17",
+          "pushedAt": "2026-08-17"
+        },
         {
           "name": "0319-2004/urban-change-evidence-explorer",
           "isFork": false,
@@ -13110,9 +13130,9 @@
       "login": "mapbytomoya",
       "name": null,
       "totals": {
-        "commits": 52,
+        "commits": 54,
         "issues": 12,
-        "pullRequests": 2,
+        "pullRequests": 3,
         "reviews": 0
       },
       "monthly": [
@@ -13460,9 +13480,9 @@
         },
         {
           "month": "2026-08",
-          "commits": 32,
+          "commits": 34,
           "issues": 9,
-          "pullRequests": 2,
+          "pullRequests": 3,
           "reviews": 0,
           "repos": [
             {
@@ -13480,6 +13500,10 @@
             {
               "name": "furuhashilab/labintroductionvideo_2026",
               "count": 5
+            },
+            {
+              "name": "mapbytomoya/where_does_the_yen_move",
+              "count": 2
             }
           ]
         }
@@ -13520,6 +13544,10 @@
         {
           "date": "2026-08-05",
           "count": 11
+        },
+        {
+          "date": "2026-08-17",
+          "count": 4
         }
       ],
       "topRepositories": [
@@ -13540,6 +13568,10 @@
           "count": 6
         },
         {
+          "name": "mapbytomoya/where_does_the_yen_move",
+          "count": 2
+        },
+        {
           "name": "mapbytomoya/orthophoto.tileviewer",
           "count": 1
         },
@@ -13549,6 +13581,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "mapbytomoya/where_does_the_yen_move",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-17",
+          "pushedAt": "2026-08-17"
+        },
         {
           "name": "mapbytomoya/YOKOZEToioetsmap202602",
           "isFork": false,
