@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:32:23.269Z",
+  "generated_at": "2026-08-19T15:32:04.424Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1387,
+        "commits": 1405,
         "issues": 336,
         "pullRequests": 63,
         "reviews": 0
@@ -1317,7 +1317,7 @@
         },
         {
           "month": "2026-08",
-          "commits": 125,
+          "commits": 143,
           "issues": 22,
           "pullRequests": 0,
           "reviews": 0,
@@ -1327,12 +1327,12 @@
               "count": 50
             },
             {
-              "name": "furuhashilab/YOKOZEatlas2026",
-              "count": 26
+              "name": "mapconcierge/MediumArchive4furuhashilab",
+              "count": 36
             },
             {
-              "name": "mapconcierge/MediumArchive4furuhashilab",
-              "count": 18
+              "name": "furuhashilab/YOKOZEatlas2026",
+              "count": 26
             },
             {
               "name": "furuhashilab/ITskillBootCamp2026",
@@ -2757,6 +2757,10 @@
         {
           "date": "2026-08-17",
           "count": 16
+        },
+        {
+          "date": "2026-08-19",
+          "count": 18
         }
       ],
       "topRepositories": [
@@ -2803,20 +2807,20 @@
       ],
       "repos": [
         {
+          "name": "mapconcierge/MediumArchive4furuhashilab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-08-16",
+          "pushedAt": "2026-08-19"
+        },
+        {
           "name": "mapconcierge/CommitForge4furuhashilab",
           "isFork": false,
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-08-17"
-        },
-        {
-          "name": "mapconcierge/MediumArchive4furuhashilab",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-08-16",
-          "pushedAt": "2026-08-17"
+          "pushedAt": "2026-08-18"
         },
         {
           "name": "mapconcierge/osm-leaderboard",
@@ -3565,7 +3569,7 @@
         {
           "name": "mapconcierge/Ukraine2022data",
           "isFork": false,
-          "stars": 80,
+          "stars": 81,
           "forks": 11,
           "createdAt": "2022-02-25",
           "pushedAt": "2022-10-15"
