@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:32:04.424Z",
+  "generated_at": "2026-08-20T15:34:27.568Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,8 +33,8 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1405,
-        "issues": 336,
+        "commits": 1406,
+        "issues": 337,
         "pullRequests": 63,
         "reviews": 0
       },
@@ -1317,8 +1317,8 @@
         },
         {
           "month": "2026-08",
-          "commits": 143,
-          "issues": 22,
+          "commits": 144,
+          "issues": 23,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
@@ -1361,6 +1361,10 @@
             {
               "name": "mapconcierge/YOKOZEatlas2026_ParkingAreaAnalyzer",
               "count": 2
+            },
+            {
+              "name": "mapconcierge/til",
+              "count": 1
             },
             {
               "name": "furuhashilab/2026gsc_KousakuNakagawa",
@@ -2761,6 +2765,10 @@
         {
           "date": "2026-08-19",
           "count": 18
+        },
+        {
+          "date": "2026-08-20",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -2807,12 +2815,12 @@
       ],
       "repos": [
         {
-          "name": "mapconcierge/MediumArchive4furuhashilab",
+          "name": "mapconcierge/til",
           "isFork": false,
           "stars": 0,
-          "forks": 1,
-          "createdAt": "2026-08-16",
-          "pushedAt": "2026-08-19"
+          "forks": 3,
+          "createdAt": "2016-02-16",
+          "pushedAt": "2026-08-20"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -2820,7 +2828,15 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-08-18"
+          "pushedAt": "2026-08-19"
+        },
+        {
+          "name": "mapconcierge/MediumArchive4furuhashilab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-08-16",
+          "pushedAt": "2026-08-19"
         },
         {
           "name": "mapconcierge/osm-leaderboard",
@@ -3197,14 +3213,6 @@
           "forks": 0,
           "createdAt": "2025-11-14",
           "pushedAt": "2025-11-14"
-        },
-        {
-          "name": "mapconcierge/til",
-          "isFork": false,
-          "stars": 0,
-          "forks": 3,
-          "createdAt": "2016-02-16",
-          "pushedAt": "2025-11-11"
         },
         {
           "name": "mapconcierge/aerobowing_planviewer",
@@ -12603,6 +12611,10 @@
         {
           "date": "2026-08-17",
           "count": 5
+        },
+        {
+          "date": "2026-08-20",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -13031,6 +13043,14 @@
           "forks": 0,
           "createdAt": "2024-07-04",
           "pushedAt": "2024-07-04"
+        },
+        {
+          "name": "0319-2004/plateau2minecraft",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-20",
+          "pushedAt": "2024-05-31"
         },
         {
           "name": "0319-2004/rules",
