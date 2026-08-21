@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:34:27.568Z",
+  "generated_at": "2026-08-21T15:33:55.222Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1406,
+        "commits": 1411,
         "issues": 337,
         "pullRequests": 63,
         "reviews": 0
@@ -1317,7 +1317,7 @@
         },
         {
           "month": "2026-08",
-          "commits": 144,
+          "commits": 149,
           "issues": 23,
           "pullRequests": 0,
           "reviews": 0,
@@ -1335,16 +1335,16 @@
               "count": 26
             },
             {
+              "name": "sotm-asia/sotm-asia-2026-website",
+              "count": 9
+            },
+            {
               "name": "furuhashilab/ITskillBootCamp2026",
               "count": 8
             },
             {
               "name": "mapconcierge/CommitForge4furuhashilab",
               "count": 7
-            },
-            {
-              "name": "sotm-asia/sotm-asia-2026-website",
-              "count": 4
             },
             {
               "name": "furuhashilab/2019gsc_HironoriMorita",
@@ -2769,6 +2769,10 @@
         {
           "date": "2026-08-20",
           "count": 2
+        },
+        {
+          "date": "2026-08-21",
+          "count": 5
         }
       ],
       "topRepositories": [
@@ -2815,20 +2819,20 @@
       ],
       "repos": [
         {
+          "name": "mapconcierge/CommitForge4furuhashilab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-08-20"
+        },
+        {
           "name": "mapconcierge/til",
           "isFork": false,
           "stars": 0,
           "forks": 3,
           "createdAt": "2016-02-16",
           "pushedAt": "2026-08-20"
-        },
-        {
-          "name": "mapconcierge/CommitForge4furuhashilab",
-          "isFork": false,
-          "stars": 0,
-          "forks": 1,
-          "createdAt": "2026-08-15",
-          "pushedAt": "2026-08-19"
         },
         {
           "name": "mapconcierge/MediumArchive4furuhashilab",
@@ -12615,6 +12619,10 @@
         {
           "date": "2026-08-20",
           "count": 1
+        },
+        {
+          "date": "2026-08-21",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -12660,6 +12668,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/modular",
+          "isFork": true,
+          "stars": 1,
+          "forks": 0,
+          "createdAt": "2026-08-21",
+          "pushedAt": "2026-08-21"
+        },
         {
           "name": "0319-2004/temporal-window-robustness-lab",
           "isFork": false,
