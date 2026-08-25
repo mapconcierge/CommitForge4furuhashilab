@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T15:39:56.749Z",
+  "generated_at": "2026-08-25T15:42:24.685Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,8 +33,8 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1421,
-        "issues": 341,
+        "commits": 1430,
+        "issues": 343,
         "pullRequests": 63,
         "reviews": 0
       },
@@ -1317,8 +1317,8 @@
         },
         {
           "month": "2026-08",
-          "commits": 159,
-          "issues": 27,
+          "commits": 168,
+          "issues": 29,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
@@ -1331,12 +1331,12 @@
               "count": 36
             },
             {
-              "name": "furuhashilab/YOKOZEatlas2026",
-              "count": 26
+              "name": "sotm-asia/sotm-asia-2026-website",
+              "count": 28
             },
             {
-              "name": "sotm-asia/sotm-asia-2026-website",
-              "count": 19
+              "name": "furuhashilab/YOKOZEatlas2026",
+              "count": 26
             },
             {
               "name": "furuhashilab/ITskillBootCamp2026",
@@ -2785,6 +2785,10 @@
         {
           "date": "2026-08-24",
           "count": 9
+        },
+        {
+          "date": "2026-08-25",
+          "count": 11
         }
       ],
       "topRepositories": [
@@ -2805,6 +2809,10 @@
           "count": 48
         },
         {
+          "name": "sotm-asia/sotm-asia-2026-website",
+          "count": 47
+        },
+        {
           "name": "mapconcierge/mapconcierge",
           "count": 46
         },
@@ -2823,20 +2831,16 @@
         {
           "name": "furuhashilab/geogacha",
           "count": 40
-        },
-        {
-          "name": "furuhashilab/digitaltwin4shibuyaCP",
-          "count": 40
         }
       ],
       "repos": [
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
           "isFork": false,
-          "stars": 0,
-          "forks": 1,
+          "stars": 1,
+          "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-08-23"
+          "pushedAt": "2026-08-24"
         },
         {
           "name": "mapconcierge/til",
@@ -2857,7 +2861,7 @@
         {
           "name": "mapconcierge/osm-leaderboard",
           "isFork": false,
-          "stars": 0,
+          "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-12",
           "pushedAt": "2026-08-15"
@@ -3948,7 +3952,7 @@
       "login": "akidinosaurs",
       "name": "Aki Sato",
       "totals": {
-        "commits": 324,
+        "commits": 325,
         "issues": 55,
         "pullRequests": 6,
         "reviews": 0
@@ -4404,7 +4408,7 @@
         },
         {
           "month": "2026-08",
-          "commits": 43,
+          "commits": 44,
           "issues": 2,
           "pullRequests": 5,
           "reviews": 0,
@@ -4422,12 +4426,12 @@
               "count": 8
             },
             {
-              "name": "akidinosaurs/OSM-solarpanel",
+              "name": "akidinosaurs/Mini_Maizuru",
               "count": 3
             },
             {
-              "name": "akidinosaurs/Mini_Maizuru",
-              "count": 2
+              "name": "akidinosaurs/OSM-solarpanel",
+              "count": 3
             }
           ]
         }
@@ -4620,6 +4624,10 @@
         {
           "date": "2026-08-24",
           "count": 3
+        },
+        {
+          "date": "2026-08-25",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -4671,7 +4679,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-24",
-          "pushedAt": "2026-08-24"
+          "pushedAt": "2026-08-25"
         },
         {
           "name": "akidinosaurs/ui-ux-pro-max-skill",
@@ -8163,7 +8171,7 @@
       "name": "Fuka",
       "totals": {
         "commits": 105,
-        "issues": 5,
+        "issues": 6,
         "pullRequests": 0,
         "reviews": 0
       },
@@ -8536,7 +8544,7 @@
         {
           "month": "2026-08",
           "commits": 3,
-          "issues": 0,
+          "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
@@ -8611,6 +8619,10 @@
         {
           "date": "2026-08-05",
           "count": 3
+        },
+        {
+          "date": "2026-08-25",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -11028,7 +11040,7 @@
       "name": "AKIRA",
       "totals": {
         "commits": 365,
-        "issues": 9,
+        "issues": 11,
         "pullRequests": 4,
         "reviews": 0
       },
@@ -11479,7 +11491,7 @@
         {
           "month": "2026-08",
           "commits": 8,
-          "issues": 2,
+          "issues": 4,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
@@ -11670,6 +11682,10 @@
         {
           "date": "2026-08-05",
           "count": 10
+        },
+        {
+          "date": "2026-08-25",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -11890,7 +11906,7 @@
       "name": "Rito Yamasaki",
       "totals": {
         "commits": 177,
-        "issues": 22,
+        "issues": 23,
         "pullRequests": 6,
         "reviews": 0
       },
@@ -12308,7 +12324,7 @@
         {
           "month": "2026-08",
           "commits": 14,
-          "issues": 7,
+          "issues": 8,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
@@ -12662,6 +12678,10 @@
         },
         {
           "date": "2026-08-21",
+          "count": 1
+        },
+        {
+          "date": "2026-08-25",
           "count": 1
         }
       ],
