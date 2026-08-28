@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T00:16:19.793Z",
+  "generated_at": "2026-08-28T23:53:09.833Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2844,7 +2844,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-08-26"
+          "pushedAt": "2026-08-28"
         },
         {
           "name": "mapconcierge/til",
