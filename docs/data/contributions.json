@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T18:12:25.218Z",
+  "generated_at": "2026-08-30T18:27:36.633Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2848,7 +2848,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-08-28"
+          "pushedAt": "2026-08-29"
         },
         {
           "name": "mapconcierge/til",
@@ -12691,6 +12691,10 @@
         {
           "date": "2026-08-25",
           "count": 1
+        },
+        {
+          "date": "2026-08-30",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -12736,6 +12740,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/scalable-raster-analytics",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-30",
+          "pushedAt": "2026-08-30"
+        },
         {
           "name": "0319-2004/modular",
           "isFork": true,
