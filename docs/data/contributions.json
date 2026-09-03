@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T18:27:16.531Z",
+  "generated_at": "2026-09-03T18:22:49.166Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2818,6 +2818,10 @@
         {
           "date": "2026-09-02",
           "count": 2
+        },
+        {
+          "date": "2026-09-03",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -2869,7 +2873,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-01"
+          "pushedAt": "2026-09-02"
         },
         {
           "name": "mapconcierge/til",
@@ -2886,6 +2890,14 @@
           "forks": 1,
           "createdAt": "2026-08-16",
           "pushedAt": "2026-08-19"
+        },
+        {
+          "name": "mapconcierge/natural-japanese",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-09-03",
+          "pushedAt": "2026-08-17"
         },
         {
           "name": "mapconcierge/osm-leaderboard",
@@ -3654,14 +3666,6 @@
           "forks": 0,
           "createdAt": "2022-10-14",
           "pushedAt": "2022-09-19"
-        },
-        {
-          "name": "mapconcierge/osm-seed",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2022-08-20",
-          "pushedAt": "2022-08-17"
         },
         {
           "name": "furuhashilab/ITskillBootCamp2026",
