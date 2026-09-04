@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T18:22:49.166Z",
+  "generated_at": "2026-09-04T18:09:56.919Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1438,
+        "commits": 1440,
         "issues": 344,
         "pullRequests": 63,
         "reviews": 0
@@ -1378,14 +1378,14 @@
         },
         {
           "month": "2026-09",
-          "commits": 4,
+          "commits": 6,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "sotm-asia/sotm-asia-2026-website",
-              "count": 4
+              "count": 6
             }
           ]
         }
@@ -2822,19 +2822,23 @@
         {
           "date": "2026-09-03",
           "count": 1
+        },
+        {
+          "date": "2026-09-04",
+          "count": 2
         }
       ],
       "topRepositories": [
+        {
+          "name": "sotm-asia/sotm-asia-2026-website",
+          "count": 55
+        },
         {
           "name": "japancartographersassociation/www_develop",
           "count": 54
         },
         {
           "name": "mapconcierge/MapiGuesser",
-          "count": 53
-        },
-        {
-          "name": "sotm-asia/sotm-asia-2026-website",
           "count": 53
         },
         {
@@ -2873,7 +2877,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-02"
+          "pushedAt": "2026-09-03"
         },
         {
           "name": "mapconcierge/til",
@@ -11848,6 +11852,10 @@
         {
           "date": "2026-08-25",
           "count": 1
+        },
+        {
+          "date": "2026-09-04",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -11893,6 +11901,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "Akira-Motoyoshi/camera-to-blender",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-09-04",
+          "pushedAt": "2026-09-03"
+        },
         {
           "name": "Akira-Motoyoshi/HaikuGO",
           "isFork": false,
