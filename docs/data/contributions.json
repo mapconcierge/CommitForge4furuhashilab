@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:11:31.254Z",
+  "generated_at": "2026-09-06T17:31:08.957Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,8 +33,8 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1445,
-        "issues": 344,
+        "commits": 1451,
+        "issues": 345,
         "pullRequests": 63,
         "reviews": 0
       },
@@ -1378,14 +1378,22 @@
         },
         {
           "month": "2026-09",
-          "commits": 11,
-          "issues": 0,
+          "commits": 17,
+          "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "sotm-asia/sotm-asia-2026-website",
-              "count": 11
+              "count": 15
+            },
+            {
+              "name": "crisismappersjapan/logo4CMJ",
+              "count": 1
+            },
+            {
+              "name": "MAPconciergeInc/logo4geo",
+              "count": 1
             }
           ]
         }
@@ -2830,12 +2838,16 @@
         {
           "date": "2026-09-05",
           "count": 5
+        },
+        {
+          "date": "2026-09-06",
+          "count": 7
         }
       ],
       "topRepositories": [
         {
           "name": "sotm-asia/sotm-asia-2026-website",
-          "count": 60
+          "count": 64
         },
         {
           "name": "japancartographersassociation/www_develop",
@@ -2881,7 +2893,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-04"
+          "pushedAt": "2026-09-05"
         },
         {
           "name": "mapconcierge/til",
