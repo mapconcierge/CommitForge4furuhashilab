@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T17:31:08.957Z",
+  "generated_at": "2026-09-07T19:01:16.969Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1451,
+        "commits": 1453,
         "issues": 345,
         "pullRequests": 63,
         "reviews": 0
@@ -1378,14 +1378,14 @@
         },
         {
           "month": "2026-09",
-          "commits": 17,
+          "commits": 19,
           "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "sotm-asia/sotm-asia-2026-website",
-              "count": 15
+              "count": 17
             },
             {
               "name": "crisismappersjapan/logo4CMJ",
@@ -2842,12 +2842,16 @@
         {
           "date": "2026-09-06",
           "count": 7
+        },
+        {
+          "date": "2026-09-07",
+          "count": 2
         }
       ],
       "topRepositories": [
         {
           "name": "sotm-asia/sotm-asia-2026-website",
-          "count": 64
+          "count": 66
         },
         {
           "name": "japancartographersassociation/www_develop",
@@ -2893,7 +2897,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-05"
+          "pushedAt": "2026-09-06"
         },
         {
           "name": "mapconcierge/til",
@@ -10246,7 +10250,7 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 197,
+        "commits": 199,
         "issues": 37,
         "pullRequests": 13,
         "reviews": 0
@@ -10719,11 +10723,20 @@
         },
         {
           "month": "2026-09",
-          "commits": 0,
+          "commits": 2,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "usakooon/usakooon.github.io",
+              "count": 1
+            },
+            {
+              "name": "usakooon/usakooon",
+              "count": 1
+            }
+          ]
         }
       ],
       "daily": [
@@ -10734,6 +10747,10 @@
         {
           "date": "2024-07-04",
           "count": 4
+        },
+        {
+          "date": "2025-04-16",
+          "count": 1
         },
         {
           "date": "2025-07-05",
@@ -10773,7 +10790,7 @@
         },
         {
           "date": "2025-08-31",
-          "count": 7
+          "count": 8
         },
         {
           "date": "2025-09-08",
@@ -10952,6 +10969,10 @@
           "count": 22
         },
         {
+          "date": "2026-07-14",
+          "count": 2
+        },
+        {
           "date": "2026-07-17",
           "count": 1
         },
@@ -10970,6 +10991,10 @@
         {
           "date": "2026-08-31",
           "count": 1
+        },
+        {
+          "date": "2026-09-07",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -11015,6 +11040,22 @@
         }
       ],
       "repos": [
+        {
+          "name": "usakooon/usakooon",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-09",
+          "pushedAt": "2026-09-07"
+        },
+        {
+          "name": "usakooon/usakooon.github.io",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-09",
+          "pushedAt": "2026-09-07"
+        },
         {
           "name": "usakooon/city2graph-workshop",
           "isFork": true,
@@ -11112,14 +11153,6 @@
           "pushedAt": "2025-09-12"
         },
         {
-          "name": "usakooon/usakooon.github.io",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2025-09-09",
-          "pushedAt": "2025-09-12"
-        },
-        {
           "name": "usakooon/Graduation-thesis-Plan",
           "isFork": false,
           "stars": 0,
@@ -11129,14 +11162,6 @@
         },
         {
           "name": "usakooon/Graduate-school",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2025-09-09",
-          "pushedAt": "2025-09-09"
-        },
-        {
-          "name": "usakooon/usakooon",
           "isFork": false,
           "stars": 0,
           "forks": 0,
@@ -12905,6 +12930,10 @@
         {
           "date": "2026-09-02",
           "count": 1
+        },
+        {
+          "date": "2026-09-07",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -12957,6 +12986,14 @@
           "forks": 0,
           "createdAt": "2026-09-02",
           "pushedAt": "2026-09-01"
+        },
+        {
+          "name": "0319-2004/OmniVoice",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-09-07",
+          "pushedAt": "2026-08-31"
         },
         {
           "name": "0319-2004/navara",
