@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:12:29.421Z",
+  "generated_at": "2026-09-12T17:41:43.565Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2897,7 +2897,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-10"
+          "pushedAt": "2026-09-11"
         },
         {
           "name": "mapconcierge/til",
@@ -4757,7 +4757,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-09-01",
-          "pushedAt": "2026-09-01"
+          "pushedAt": "2026-09-12"
         },
         {
           "name": "akidinosaurs/Mini_Maizuru",
