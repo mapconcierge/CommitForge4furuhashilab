@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:44:33.749Z",
+  "generated_at": "2026-09-15T18:44:11.112Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,9 +33,9 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1453,
+        "commits": 1469,
         "issues": 345,
-        "pullRequests": 63,
+        "pullRequests": 64,
         "reviews": 0
       },
       "monthly": [
@@ -1378,14 +1378,18 @@
         },
         {
           "month": "2026-09",
-          "commits": 19,
+          "commits": 35,
           "issues": 1,
-          "pullRequests": 0,
+          "pullRequests": 1,
           "reviews": 0,
           "repos": [
             {
               "name": "sotm-asia/sotm-asia-2026-website",
               "count": 17
+            },
+            {
+              "name": "mapconcierge/KMLEarthPro",
+              "count": 16
             },
             {
               "name": "crisismappersjapan/logo4CMJ",
@@ -2846,6 +2850,10 @@
         {
           "date": "2026-09-07",
           "count": 2
+        },
+        {
+          "date": "2026-09-15",
+          "count": 18
         }
       ],
       "topRepositories": [
@@ -2892,12 +2900,28 @@
       ],
       "repos": [
         {
+          "name": "mapconcierge/KMLEarthPro",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-09-15",
+          "pushedAt": "2026-09-15"
+        },
+        {
+          "name": "mapconcierge/MediumArchive4furuhashilab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-08-16",
+          "pushedAt": "2026-09-15"
+        },
+        {
           "name": "mapconcierge/CommitForge4furuhashilab",
           "isFork": false,
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-13"
+          "pushedAt": "2026-09-14"
         },
         {
           "name": "mapconcierge/til",
@@ -2906,14 +2930,6 @@
           "forks": 3,
           "createdAt": "2016-02-16",
           "pushedAt": "2026-08-20"
-        },
-        {
-          "name": "mapconcierge/MediumArchive4furuhashilab",
-          "isFork": false,
-          "stars": 0,
-          "forks": 1,
-          "createdAt": "2026-08-16",
-          "pushedAt": "2026-08-19"
         },
         {
           "name": "mapconcierge/natural-japanese",
@@ -3682,14 +3698,6 @@
           "forks": 0,
           "createdAt": "2022-11-05",
           "pushedAt": "2022-09-21"
-        },
-        {
-          "name": "mapconcierge/Plateau-Blender-Importer",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2022-10-14",
-          "pushedAt": "2022-09-19"
         },
         {
           "name": "furuhashilab/ITskillBootCamp2026",
