@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:44:11.112Z",
+  "generated_at": "2026-09-16T18:43:06.555Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,8 +33,8 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1469,
-        "issues": 345,
+        "commits": 1485,
+        "issues": 352,
         "pullRequests": 64,
         "reviews": 0
       },
@@ -1378,18 +1378,18 @@
         },
         {
           "month": "2026-09",
-          "commits": 35,
-          "issues": 1,
+          "commits": 51,
+          "issues": 8,
           "pullRequests": 1,
           "reviews": 0,
           "repos": [
             {
-              "name": "sotm-asia/sotm-asia-2026-website",
-              "count": 17
+              "name": "mapconcierge/KMLEarthPro",
+              "count": 32
             },
             {
-              "name": "mapconcierge/KMLEarthPro",
-              "count": 16
+              "name": "sotm-asia/sotm-asia-2026-website",
+              "count": 17
             },
             {
               "name": "crisismappersjapan/logo4CMJ",
@@ -2854,6 +2854,10 @@
         {
           "date": "2026-09-15",
           "count": 18
+        },
+        {
+          "date": "2026-09-16",
+          "count": 23
         }
       ],
       "topRepositories": [
@@ -2902,10 +2906,10 @@
         {
           "name": "mapconcierge/KMLEarthPro",
           "isFork": false,
-          "stars": 0,
+          "stars": 2,
           "forks": 0,
           "createdAt": "2026-09-15",
-          "pushedAt": "2026-09-15"
+          "pushedAt": "2026-09-16"
         },
         {
           "name": "mapconcierge/MediumArchive4furuhashilab",
@@ -2913,7 +2917,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
-          "pushedAt": "2026-09-15"
+          "pushedAt": "2026-09-16"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -2921,7 +2925,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-14"
+          "pushedAt": "2026-09-15"
         },
         {
           "name": "mapconcierge/til",
@@ -12132,7 +12136,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 183,
+        "commits": 191,
         "issues": 23,
         "pullRequests": 6,
         "reviews": 0
@@ -12579,14 +12583,22 @@
         },
         {
           "month": "2026-09",
-          "commits": 4,
+          "commits": 12,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
+              "name": "0319-2004/machi-no-jakuten",
+              "count": 5
+            },
+            {
               "name": "0319-2004/temporal-window-robustness-lab",
               "count": 4
+            },
+            {
+              "name": "furuhashilab/plateau-cityhack-2026-hokudai-son",
+              "count": 3
             }
           ]
         }
@@ -12951,6 +12963,10 @@
         {
           "date": "2026-09-09",
           "count": 4
+        },
+        {
+          "date": "2026-09-16",
+          "count": 8
         }
       ],
       "topRepositories": [
@@ -12987,15 +13003,23 @@
           "count": 8
         },
         {
-          "name": "0319-2004/urban-change-evidence-explorer",
-          "count": 5
+          "name": "0319-2004/machi-no-jakuten",
+          "count": 6
         },
         {
-          "name": "eukarya-biz/navara-hw-yamasaki",
-          "count": 4
+          "name": "furuhashilab/plateau-cityhack-2026-hokudai-son",
+          "count": 5
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/machi-no-jakuten",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-20",
+          "pushedAt": "2026-09-16"
+        },
         {
           "name": "0319-2004/temporal-window-robustness-lab",
           "isFork": false,
@@ -13099,14 +13123,6 @@
           "forks": 0,
           "createdAt": "2026-07-22",
           "pushedAt": "2026-07-21"
-        },
-        {
-          "name": "0319-2004/machi-no-jakuten",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-07-20",
-          "pushedAt": "2026-07-20"
         },
         {
           "name": "0319-2004/reearth-terrain",
