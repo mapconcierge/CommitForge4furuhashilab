@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:43:06.555Z",
+  "generated_at": "2026-09-17T18:50:27.011Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2904,20 +2904,12 @@
       ],
       "repos": [
         {
-          "name": "mapconcierge/KMLEarthPro",
-          "isFork": false,
-          "stars": 2,
-          "forks": 0,
-          "createdAt": "2026-09-15",
-          "pushedAt": "2026-09-16"
-        },
-        {
           "name": "mapconcierge/MediumArchive4furuhashilab",
           "isFork": false,
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
-          "pushedAt": "2026-09-16"
+          "pushedAt": "2026-09-17"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -2925,7 +2917,15 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-15"
+          "pushedAt": "2026-09-16"
+        },
+        {
+          "name": "mapconcierge/KMLEarthPro",
+          "isFork": false,
+          "stars": 6,
+          "forks": 0,
+          "createdAt": "2026-09-15",
+          "pushedAt": "2026-09-16"
         },
         {
           "name": "mapconcierge/til",
@@ -5562,7 +5562,7 @@
       "login": "shocpsa",
       "name": "ShotaArakawa",
       "totals": {
-        "commits": 162,
+        "commits": 164,
         "issues": 22,
         "pullRequests": 0,
         "reviews": 0
@@ -5961,11 +5961,16 @@
         },
         {
           "month": "2026-09",
-          "commits": 0,
+          "commits": 2,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/2026gsc_ShotaArakawa",
+              "count": 2
+            }
+          ]
         }
       ],
       "daily": [
@@ -6120,6 +6125,10 @@
         {
           "date": "2026-08-05",
           "count": 4
+        },
+        {
+          "date": "2026-09-17",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -6140,12 +6149,12 @@
           "count": 7
         },
         {
-          "name": "furuhashilab/KnowledgeDistillation2026",
-          "count": 5
+          "name": "furuhashilab/2026gsc_ShotaArakawa",
+          "count": 6
         },
         {
-          "name": "furuhashilab/2026gsc_ShotaArakawa",
-          "count": 4
+          "name": "furuhashilab/KnowledgeDistillation2026",
+          "count": 5
         },
         {
           "name": "furuhashilab/Nov_2025VF_hackathon",
@@ -6191,7 +6200,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-04",
-          "pushedAt": "2026-08-05"
+          "pushedAt": "2026-09-17"
         },
         {
           "name": "furuhashilab/Nov_2025VF_hackathon",
@@ -12967,6 +12976,10 @@
         {
           "date": "2026-09-16",
           "count": 8
+        },
+        {
+          "date": "2026-09-17",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -13098,6 +13111,14 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-03",
+          "pushedAt": "2026-08-04"
+        },
+        {
+          "name": "0319-2004/navara-hw-yamasaki",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-09-17",
           "pushedAt": "2026-08-04"
         },
         {
