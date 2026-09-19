@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:06:10.277Z",
+  "generated_at": "2026-09-19T17:48:46.008Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2904,20 +2904,20 @@
       ],
       "repos": [
         {
+          "name": "mapconcierge/CommitForge4furuhashilab",
+          "isFork": false,
+          "stars": 1,
+          "forks": 2,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-09-18"
+        },
+        {
           "name": "mapconcierge/MediumArchive4furuhashilab",
           "isFork": false,
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
           "pushedAt": "2026-09-18"
-        },
-        {
-          "name": "mapconcierge/CommitForge4furuhashilab",
-          "isFork": false,
-          "stars": 1,
-          "forks": 2,
-          "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-17"
         },
         {
           "name": "mapconcierge/KMLEarthPro",
