@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:48:46.008Z",
+  "generated_at": "2026-09-20T18:02:03.066Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2904,20 +2904,20 @@
       ],
       "repos": [
         {
-          "name": "mapconcierge/CommitForge4furuhashilab",
-          "isFork": false,
-          "stars": 1,
-          "forks": 2,
-          "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-18"
-        },
-        {
           "name": "mapconcierge/MediumArchive4furuhashilab",
           "isFork": false,
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
-          "pushedAt": "2026-09-18"
+          "pushedAt": "2026-09-20"
+        },
+        {
+          "name": "mapconcierge/CommitForge4furuhashilab",
+          "isFork": false,
+          "stars": 1,
+          "forks": 2,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-09-19"
         },
         {
           "name": "mapconcierge/KMLEarthPro",
@@ -12980,6 +12980,10 @@
         {
           "date": "2026-09-17",
           "count": 1
+        },
+        {
+          "date": "2026-09-20",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -13226,6 +13230,14 @@
           "pushedAt": "2026-05-31"
         },
         {
+          "name": "0319-2004/map3d",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-09-20",
+          "pushedAt": "2026-05-13"
+        },
+        {
           "name": "0319-2004/ask-earth",
           "isFork": false,
           "stars": 0,
@@ -13316,7 +13328,7 @@
         {
           "name": "0319-2004/PacificPNT_Reproducible",
           "isFork": false,
-          "stars": 2,
+          "stars": 3,
           "forks": 0,
           "createdAt": "2026-01-26",
           "pushedAt": "2026-01-28"
