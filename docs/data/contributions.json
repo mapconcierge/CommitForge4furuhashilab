@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T18:33:34.101Z",
+  "generated_at": "2026-09-23T18:53:16.508Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,8 +33,8 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1485,
-        "issues": 352,
+        "commits": 1504,
+        "issues": 362,
         "pullRequests": 64,
         "reviews": 0
       },
@@ -1378,8 +1378,8 @@
         },
         {
           "month": "2026-09",
-          "commits": 51,
-          "issues": 8,
+          "commits": 70,
+          "issues": 18,
           "pullRequests": 1,
           "reviews": 0,
           "repos": [
@@ -1390,6 +1390,14 @@
             {
               "name": "sotm-asia/sotm-asia-2026-website",
               "count": 17
+            },
+            {
+              "name": "mapconcierge/YOKOZEatlas2026_ArakawaRiverBasinFieldwork202609",
+              "count": 13
+            },
+            {
+              "name": "furuhashilab/YOKOZEatlas2026",
+              "count": 6
             },
             {
               "name": "crisismappersjapan/logo4CMJ",
@@ -2858,6 +2866,10 @@
         {
           "date": "2026-09-16",
           "count": 23
+        },
+        {
+          "date": "2026-09-23",
+          "count": 30
         }
       ],
       "topRepositories": [
@@ -2904,12 +2916,12 @@
       ],
       "repos": [
         {
-          "name": "mapconcierge/MediumArchive4furuhashilab",
+          "name": "mapconcierge/YOKOZEatlas2026_ArakawaRiverBasinFieldwork202609",
           "isFork": false,
           "stars": 0,
           "forks": 1,
-          "createdAt": "2026-08-16",
-          "pushedAt": "2026-09-22"
+          "createdAt": "2026-09-23",
+          "pushedAt": "2026-09-23"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -2917,7 +2929,15 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-21"
+          "pushedAt": "2026-09-22"
+        },
+        {
+          "name": "mapconcierge/MediumArchive4furuhashilab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-08-16",
+          "pushedAt": "2026-09-22"
         },
         {
           "name": "mapconcierge/KMLEarthPro",
@@ -3694,14 +3714,6 @@
           "forks": 12,
           "createdAt": "2022-02-25",
           "pushedAt": "2022-10-15"
-        },
-        {
-          "name": "mapconcierge/azul",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2022-11-05",
-          "pushedAt": "2022-09-21"
         },
         {
           "name": "furuhashilab/ITskillBootCamp2026",
