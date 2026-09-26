@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:08:56.360Z",
+  "generated_at": "2026-09-26T18:23:56.224Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2921,7 +2921,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
-          "pushedAt": "2026-09-25"
+          "pushedAt": "2026-09-26"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -2929,7 +2929,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-24"
+          "pushedAt": "2026-09-25"
         },
         {
           "name": "mapconcierge/YOKOZEatlas2026_ArakawaRiverBasinFieldwork202609",
@@ -2942,7 +2942,7 @@
         {
           "name": "mapconcierge/KMLEarthPro",
           "isFork": false,
-          "stars": 6,
+          "stars": 7,
           "forks": 0,
           "createdAt": "2026-09-15",
           "pushedAt": "2026-09-16"
@@ -8857,9 +8857,9 @@
       "login": "yudai1206",
       "name": null,
       "totals": {
-        "commits": 155,
+        "commits": 162,
         "issues": 12,
-        "pullRequests": 15,
+        "pullRequests": 18,
         "reviews": 1
       },
       "monthly": [
@@ -9337,11 +9337,16 @@
         },
         {
           "month": "2026-09",
-          "commits": 0,
+          "commits": 7,
           "issues": 0,
-          "pullRequests": 0,
+          "pullRequests": 3,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/2026gsc_YudaiKato",
+              "count": 7
+            }
+          ]
         }
       ],
       "daily": [
@@ -9560,6 +9565,10 @@
         {
           "date": "2026-08-11",
           "count": 3
+        },
+        {
+          "date": "2026-09-26",
+          "count": 10
         }
       ],
       "topRepositories": [
@@ -9568,12 +9577,12 @@
           "count": 47
         },
         {
-          "name": "yudai1206/yudai1206",
-          "count": 15
+          "name": "furuhashilab/2026gsc_YudaiKato",
+          "count": 17
         },
         {
-          "name": "furuhashilab/2026gsc_YudaiKato",
-          "count": 10
+          "name": "yudai1206/yudai1206",
+          "count": 15
         },
         {
           "name": "yudai1206/YOKOZEAtlas2026_FootwayNaigation",
@@ -9606,6 +9615,14 @@
       ],
       "repos": [
         {
+          "name": "yudai1206/2026gsc_YudaiKato",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-22",
+          "pushedAt": "2026-09-26"
+        },
+        {
           "name": "yudai1206/yudai1206",
           "isFork": false,
           "stars": 0,
@@ -9628,14 +9645,6 @@
           "forks": 0,
           "createdAt": "2026-08-01",
           "pushedAt": "2026-07-29"
-        },
-        {
-          "name": "yudai1206/2026gsc_YudaiKato",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-07-22",
-          "pushedAt": "2026-07-22"
         },
         {
           "name": "yudai1206/LastFM_test",
@@ -9795,7 +9804,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-07-22",
-          "pushedAt": "2026-08-04"
+          "pushedAt": "2026-09-26"
         },
         {
           "name": "furuhashilab/Youth2_Hackathon",
@@ -13008,6 +13017,10 @@
         {
           "date": "2026-09-20",
           "count": 1
+        },
+        {
+          "date": "2026-09-26",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -13059,6 +13072,14 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-07-20",
+          "pushedAt": "2026-09-16"
+        },
+        {
+          "name": "0319-2004/Dream-RSI",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-09-26",
           "pushedAt": "2026-09-16"
         },
         {
