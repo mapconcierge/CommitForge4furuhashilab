@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T18:23:56.224Z",
+  "generated_at": "2026-09-27T18:55:02.102Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2921,7 +2921,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
-          "pushedAt": "2026-09-26"
+          "pushedAt": "2026-09-27"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -2929,7 +2929,7 @@
           "stars": 1,
           "forks": 2,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-25"
+          "pushedAt": "2026-09-26"
         },
         {
           "name": "mapconcierge/YOKOZEatlas2026_ArakawaRiverBasinFieldwork202609",
