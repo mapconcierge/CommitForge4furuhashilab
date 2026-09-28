@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T18:55:02.102Z",
+  "generated_at": "2026-09-28T21:05:50.009Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -2916,20 +2916,20 @@
       ],
       "repos": [
         {
+          "name": "mapconcierge/CommitForge4furuhashilab",
+          "isFork": false,
+          "stars": 1,
+          "forks": 2,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-09-27"
+        },
+        {
           "name": "mapconcierge/MediumArchive4furuhashilab",
           "isFork": false,
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
           "pushedAt": "2026-09-27"
-        },
-        {
-          "name": "mapconcierge/CommitForge4furuhashilab",
-          "isFork": false,
-          "stars": 1,
-          "forks": 2,
-          "createdAt": "2026-08-15",
-          "pushedAt": "2026-09-26"
         },
         {
           "name": "mapconcierge/YOKOZEatlas2026_ArakawaRiverBasinFieldwork202609",
@@ -13021,6 +13021,10 @@
         {
           "date": "2026-09-26",
           "count": 1
+        },
+        {
+          "date": "2026-09-28",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -13066,6 +13070,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/OpenHands",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-09-28",
+          "pushedAt": "2026-09-27"
+        },
         {
           "name": "0319-2004/machi-no-jakuten",
           "isFork": false,
