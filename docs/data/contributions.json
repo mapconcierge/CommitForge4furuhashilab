@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T21:51:22.284Z",
+  "generated_at": "2026-10-06T19:59:54.946Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -24,8 +24,8 @@
   "organization_summary": [
     {
       "org": "furuhashilab",
-      "repoCount": 139,
-      "attributedCount": 49
+      "repoCount": 141,
+      "attributedCount": 51
     }
   ],
   "members": [
@@ -3445,7 +3445,7 @@
       "login": "21Rensei",
       "name": null,
       "totals": {
-        "commits": 22,
+        "commits": 23,
         "issues": 13,
         "pullRequests": 0,
         "reviews": 0
@@ -3814,11 +3814,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 1,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hachathon_October_RenseiInoue",
+              "count": 1
+            }
+          ]
         }
       ],
       "daily": [
@@ -3873,6 +3878,10 @@
         {
           "date": "2026-08-05",
           "count": 4
+        },
+        {
+          "date": "2026-10-06",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -3887,6 +3896,10 @@
         {
           "name": "furuhashilab/Drone1_PLATEAU_Data-Import",
           "count": 2
+        },
+        {
+          "name": "furuhashilab/Hachathon_October_RenseiInoue",
+          "count": 1
         }
       ],
       "repos": [
@@ -3897,6 +3910,14 @@
           "forks": 0,
           "createdAt": "2025-09-19",
           "pushedAt": "2025-09-19"
+        },
+        {
+          "name": "furuhashilab/Hachathon_October_RenseiInoue",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-06",
+          "pushedAt": "2026-10-06"
         },
         {
           "name": "furuhashilab/2026gsc_RenseiInoue",
@@ -4433,7 +4454,7 @@
       "login": "Fuka-Okamura",
       "name": "Fuka",
       "totals": {
-        "commits": 105,
+        "commits": 112,
         "issues": 6,
         "pullRequests": 0,
         "reviews": 0
@@ -4827,11 +4848,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 7,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hackathon_Oct_FukaOkamura",
+              "count": 7
+            }
+          ]
         }
       ],
       "daily": [
@@ -4902,6 +4928,10 @@
         {
           "date": "2026-08-25",
           "count": 1
+        },
+        {
+          "date": "2026-10-06",
+          "count": 7
         }
       ],
       "topRepositories": [
@@ -4922,6 +4952,10 @@
           "count": 12
         },
         {
+          "name": "furuhashilab/Hackathon_Oct_FukaOkamura",
+          "count": 7
+        },
+        {
           "name": "furuhashilab/geogacha2026",
           "count": 4
         },
@@ -4938,6 +4972,14 @@
           "forks": 0,
           "createdAt": "2024-04-11",
           "pushedAt": "2024-04-11"
+        },
+        {
+          "name": "furuhashilab/Hackathon_Oct_FukaOkamura",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-06",
+          "pushedAt": "2026-10-06"
         },
         {
           "name": "furuhashilab/2026gsc_FukaOkamura",
@@ -5736,7 +5778,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-07-22",
-          "pushedAt": "2026-09-26"
+          "pushedAt": "2026-10-06"
         },
         {
           "name": "yudai1206/yudai1206",
@@ -9235,6 +9277,10 @@
         {
           "date": "2026-10-04",
           "count": 1
+        },
+        {
+          "date": "2026-10-06",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -9295,6 +9341,14 @@
           "forks": 0,
           "createdAt": "2026-10-01",
           "pushedAt": "2026-09-30"
+        },
+        {
+          "name": "0319-2004/open-dronelog",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-06",
+          "pushedAt": "2026-09-28"
         },
         {
           "name": "0319-2004/humanizer",
@@ -9391,6 +9445,14 @@
           "forks": 0,
           "createdAt": "2026-08-21",
           "pushedAt": "2026-08-21"
+        },
+        {
+          "name": "0319-2004/Flight-Viewer",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-06",
+          "pushedAt": "2026-08-19"
         },
         {
           "name": "0319-2004/urban-change-evidence-explorer",
@@ -10377,6 +10439,10 @@
         {
           "date": "2026-10-05",
           "count": 6
+        },
+        {
+          "date": "2026-10-06",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -10425,6 +10491,14 @@
           "forks": 0,
           "createdAt": "2026-10-05",
           "pushedAt": "2026-10-05"
+        },
+        {
+          "name": "mapbytomoya/open-dronelog",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-06",
+          "pushedAt": "2026-09-28"
         },
         {
           "name": "mapbytomoya/where_does_the_yen_move",
