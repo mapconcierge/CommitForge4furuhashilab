@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:59:54.946Z",
+  "generated_at": "2026-10-07T20:25:51.629Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -24,8 +24,8 @@
   "organization_summary": [
     {
       "org": "furuhashilab",
-      "repoCount": 141,
-      "attributedCount": 51
+      "repoCount": 145,
+      "attributedCount": 52
     }
   ],
   "members": [
@@ -3445,7 +3445,7 @@
       "login": "21Rensei",
       "name": null,
       "totals": {
-        "commits": 23,
+        "commits": 25,
         "issues": 13,
         "pullRequests": 0,
         "reviews": 0
@@ -3814,14 +3814,14 @@
         },
         {
           "month": "2026-10",
-          "commits": 1,
+          "commits": 3,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
-              "name": "furuhashilab/Hachathon_October_RenseiInoue",
-              "count": 1
+              "name": "furuhashilab/Hachathon_Oct_RenseiInoue",
+              "count": 3
             }
           ]
         }
@@ -3882,6 +3882,10 @@
         {
           "date": "2026-10-06",
           "count": 1
+        },
+        {
+          "date": "2026-10-07",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -3894,12 +3898,12 @@
           "count": 6
         },
         {
-          "name": "furuhashilab/Drone1_PLATEAU_Data-Import",
-          "count": 2
+          "name": "furuhashilab/Hachathon_Oct_RenseiInoue",
+          "count": 3
         },
         {
-          "name": "furuhashilab/Hachathon_October_RenseiInoue",
-          "count": 1
+          "name": "furuhashilab/Drone1_PLATEAU_Data-Import",
+          "count": 2
         }
       ],
       "repos": [
@@ -3912,12 +3916,12 @@
           "pushedAt": "2025-09-19"
         },
         {
-          "name": "furuhashilab/Hachathon_October_RenseiInoue",
+          "name": "furuhashilab/Hachathon_Oct_RenseiInoue",
           "isFork": false,
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-06",
-          "pushedAt": "2026-10-06"
+          "pushedAt": "2026-10-07"
         },
         {
           "name": "furuhashilab/2026gsc_RenseiInoue",
@@ -9281,6 +9285,10 @@
         {
           "date": "2026-10-06",
           "count": 2
+        },
+        {
+          "date": "2026-10-07",
+          "count": 3
         }
       ],
       "topRepositories": [
@@ -9326,6 +9334,30 @@
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/codex-security",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-07",
+          "pushedAt": "2026-10-07"
+        },
+        {
+          "name": "0319-2004/openai-agents-python",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-07",
+          "pushedAt": "2026-10-07"
+        },
+        {
+          "name": "0319-2004/openai_math",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-07",
+          "pushedAt": "2026-10-06"
+        },
         {
           "name": "0319-2004/yomiyasu",
           "isFork": true,
@@ -13466,7 +13498,7 @@
       "login": "YutoKyoto",
       "name": null,
       "totals": {
-        "commits": 18,
+        "commits": 8,
         "issues": 3,
         "pullRequests": 0,
         "reviews": 0
@@ -13786,16 +13818,11 @@
         },
         {
           "month": "2026-07",
-          "commits": 14,
+          "commits": 0,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": [
-            {
-              "name": "YutoKyoto/civic-light-web-gis",
-              "count": 14
-            }
-          ]
+          "repos": []
         },
         {
           "month": "2026-08",
@@ -13820,11 +13847,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 4,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hackathon_Oct_YutoWatanabe",
+              "count": 4
+            }
+          ]
         }
       ],
       "daily": [
@@ -13837,22 +13869,18 @@
           "count": 1
         },
         {
-          "date": "2026-07-02",
-          "count": 7
-        },
-        {
-          "date": "2026-07-03",
-          "count": 8
-        },
-        {
           "date": "2026-08-05",
           "count": 6
+        },
+        {
+          "date": "2026-10-07",
+          "count": 5
         }
       ],
       "topRepositories": [
         {
-          "name": "YutoKyoto/civic-light-web-gis",
-          "count": 14
+          "name": "furuhashilab/Hackathon_Oct_YutoWatanabe",
+          "count": 4
         },
         {
           "name": "furuhashilab/2026gsc_Yuto-Watanabe",
@@ -13861,12 +13889,20 @@
       ],
       "repos": [
         {
-          "name": "YutoKyoto/civic-light-web-gis",
+          "name": "YutoKyoto/Hackathon_Oct_YutoWatanabe",
           "isFork": false,
           "stars": 0,
           "forks": 0,
-          "createdAt": "2026-07-02",
-          "pushedAt": "2026-07-03"
+          "createdAt": "2026-10-07",
+          "pushedAt": "2026-10-07"
+        },
+        {
+          "name": "furuhashilab/Hackathon_Oct_YutoWatanabe",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-07",
+          "pushedAt": "2026-10-07"
         },
         {
           "name": "furuhashilab/2026gsc_Yuto-Watanabe",
