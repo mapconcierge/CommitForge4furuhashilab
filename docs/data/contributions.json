@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:00:38.154Z",
+  "generated_at": "2026-10-10T19:08:46.252Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -1630,7 +1630,7 @@
       "login": "shocpsa",
       "name": "ShotaArakawa",
       "totals": {
-        "commits": 166,
+        "commits": 169,
         "issues": 22,
         "pullRequests": 0,
         "reviews": 0
@@ -2042,14 +2042,14 @@
         },
         {
           "month": "2026-10",
-          "commits": 2,
+          "commits": 5,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/Hackathon_Oct_ShotaArakawa",
-              "count": 2
+              "count": 5
             }
           ]
         }
@@ -2218,6 +2218,10 @@
         {
           "date": "2026-10-09",
           "count": 1
+        },
+        {
+          "date": "2026-10-10",
+          "count": 3
         }
       ],
       "topRepositories": [
@@ -2242,12 +2246,12 @@
           "count": 6
         },
         {
-          "name": "furuhashilab/KnowledgeDistillation2026",
+          "name": "furuhashilab/Hackathon_Oct_ShotaArakawa",
           "count": 5
         },
         {
-          "name": "furuhashilab/Hackathon_Oct_ShotaArakawa",
-          "count": 2
+          "name": "furuhashilab/KnowledgeDistillation2026",
+          "count": 5
         },
         {
           "name": "furuhashilab/Nov_2025VF_hackathon",
@@ -2293,7 +2297,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-08",
-          "pushedAt": "2026-10-09"
+          "pushedAt": "2026-10-10"
         },
         {
           "name": "furuhashilab/2026gsc_ShotaArakawa",
