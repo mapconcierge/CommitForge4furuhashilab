@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T19:08:46.252Z",
+  "generated_at": "2026-10-11T19:22:31.456Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -24,7 +24,7 @@
   "organization_summary": [
     {
       "org": "furuhashilab",
-      "repoCount": 147,
+      "repoCount": 148,
       "attributedCount": 56
     }
   ],
@@ -7545,7 +7545,7 @@
       "login": "Akira-Motoyoshi",
       "name": "AKIRA",
       "totals": {
-        "commits": 366,
+        "commits": 369,
         "issues": 10,
         "pullRequests": 4,
         "reviews": 0
@@ -8017,11 +8017,15 @@
         },
         {
           "month": "2026-10",
-          "commits": 1,
+          "commits": 4,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
+            {
+              "name": "Akira-Motoyoshi/town-karte",
+              "count": 3
+            },
             {
               "name": "Akira-Motoyoshi/orbit-shift",
               "count": 1
@@ -8225,6 +8229,10 @@
         {
           "date": "2026-10-02",
           "count": 2
+        },
+        {
+          "date": "2026-10-11",
+          "count": 4
         }
       ],
       "topRepositories": [
@@ -8270,6 +8278,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "Akira-Motoyoshi/town-karte",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-11",
+          "pushedAt": "2026-10-11"
+        },
         {
           "name": "Akira-Motoyoshi/orbit-shift",
           "isFork": false,
