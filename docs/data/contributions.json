@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T22:24:31.112Z",
+  "generated_at": "2026-10-13T20:31:17.989Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -24,8 +24,8 @@
   "organization_summary": [
     {
       "org": "furuhashilab",
-      "repoCount": 160,
-      "attributedCount": 64
+      "repoCount": 161,
+      "attributedCount": 70
     }
   ],
   "members": [
@@ -33,7 +33,7 @@
       "login": "akidinosaurs",
       "name": "Aki Sato",
       "totals": {
-        "commits": 327,
+        "commits": 350,
         "issues": 55,
         "pullRequests": 8,
         "reviews": 0
@@ -535,11 +535,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 23,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hackathon_Oct_Aki-Sato",
+              "count": 23
+            }
+          ]
         }
       ],
       "daily": [
@@ -738,6 +743,10 @@
         {
           "date": "2026-09-01",
           "count": 6
+        },
+        {
+          "date": "2026-10-13",
+          "count": 23
         }
       ],
       "topRepositories": [
@@ -748,6 +757,10 @@
         {
           "name": "furuhashilab/2024GSC_SatoAki2",
           "count": 25
+        },
+        {
+          "name": "furuhashilab/Hackathon_Oct_Aki-Sato",
+          "count": 23
         },
         {
           "name": "akidinosaurs/samplestorytelling",
@@ -776,10 +789,6 @@
         {
           "name": "furuhashilab/furuhashilab_movie_2024",
           "count": 12
-        },
-        {
-          "name": "furuhashilab/2026-AI-Distillation-Hackathon",
-          "count": 11
         }
       ],
       "repos": [
@@ -912,6 +921,14 @@
           "pushedAt": "2023-07-12"
         },
         {
+          "name": "furuhashilab/Hackathon_Oct_Aki-Sato",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-12",
+          "pushedAt": "2026-10-13"
+        },
+        {
           "name": "furuhashilab/2026gsc_SatoAki",
           "isFork": false,
           "stars": 0,
@@ -1005,7 +1022,7 @@
       "login": "mihirotakiwaza",
       "name": "mihiro takizawa",
       "totals": {
-        "commits": 190,
+        "commits": 203,
         "issues": 47,
         "pullRequests": 3,
         "reviews": 0
@@ -1396,11 +1413,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 13,
           "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hackathon_Oct_MihiroTakizawa",
+              "count": 13
+            }
+          ]
         }
       ],
       "daily": [
@@ -1511,6 +1533,10 @@
         {
           "date": "2026-10-10",
           "count": 1
+        },
+        {
+          "date": "2026-10-13",
+          "count": 13
         }
       ],
       "topRepositories": [
@@ -1529,6 +1555,10 @@
         {
           "name": "furuhashilab/2026gsc_MihiroTakizawa",
           "count": 33
+        },
+        {
+          "name": "furuhashilab/Hackathon_Oct_MihiroTakizawa",
+          "count": 13
         },
         {
           "name": "mihirotakiwaza/mihirotakiwaza",
@@ -1611,6 +1641,14 @@
           "forks": 0,
           "createdAt": "2022-07-21",
           "pushedAt": "2014-12-11"
+        },
+        {
+          "name": "furuhashilab/Hackathon_Oct_MihiroTakizawa",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-10",
+          "pushedAt": "2026-10-13"
         },
         {
           "name": "furuhashilab/2026gsc_MihiroTakizawa",
@@ -2333,7 +2371,7 @@
       "login": "MoeAnjo",
       "name": null,
       "totals": {
-        "commits": 36,
+        "commits": 41,
         "issues": 9,
         "pullRequests": 0,
         "reviews": 0
@@ -2716,14 +2754,14 @@
         },
         {
           "month": "2026-10",
-          "commits": 1,
+          "commits": 6,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/Hackathon_Oct_MoeAnjo",
-              "count": 1
+              "count": 6
             }
           ]
         }
@@ -2784,6 +2822,10 @@
         {
           "date": "2026-10-12",
           "count": 1
+        },
+        {
+          "date": "2026-10-13",
+          "count": 5
         }
       ],
       "topRepositories": [
@@ -2800,6 +2842,10 @@
           "count": 8
         },
         {
+          "name": "furuhashilab/Hackathon_Oct_MoeAnjo",
+          "count": 6
+        },
+        {
           "name": "MoeAnjo/drone2025",
           "count": 4
         },
@@ -2809,10 +2855,6 @@
         },
         {
           "name": "MoeAnjo/temp",
-          "count": 1
-        },
-        {
-          "name": "furuhashilab/Hackathon_Oct_MoeAnjo",
           "count": 1
         }
       ],
@@ -2863,7 +2905,7 @@
       "login": "INADAYUKA",
       "name": null,
       "totals": {
-        "commits": 185,
+        "commits": 190,
         "issues": 20,
         "pullRequests": 0,
         "reviews": 0
@@ -3281,11 +3323,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 5,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hackathon_Oct_YukaInada",
+              "count": 5
+            }
+          ]
         }
       ],
       "daily": [
@@ -3400,6 +3447,10 @@
         {
           "date": "2026-08-05",
           "count": 52
+        },
+        {
+          "date": "2026-10-13",
+          "count": 5
         }
       ],
       "topRepositories": [
@@ -3424,6 +3475,10 @@
           "count": 8
         },
         {
+          "name": "furuhashilab/Hackathon_Oct_YukaInada",
+          "count": 5
+        },
+        {
           "name": "INADAYUKA/2026gsc_YukaInada",
           "count": 5
         },
@@ -3438,10 +3493,6 @@
         {
           "name": "furuhashilab/Drone1_PLATEAU_Data-Import",
           "count": 2
-        },
-        {
-          "name": "furuhashilab/drone1_3dprinting_project",
-          "count": 1
         }
       ],
       "repos": [
@@ -3478,6 +3529,14 @@
           "pushedAt": "2026-02-02"
         },
         {
+          "name": "furuhashilab/Hackathon_Oct_YukaInada",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-12",
+          "pushedAt": "2026-10-12"
+        },
+        {
           "name": "furuhashilab/2026gsc_YukaInada",
           "isFork": false,
           "stars": 0,
@@ -3499,7 +3558,7 @@
       "login": "21Rensei",
       "name": null,
       "totals": {
-        "commits": 45,
+        "commits": 47,
         "issues": 13,
         "pullRequests": 0,
         "reviews": 0
@@ -3868,14 +3927,14 @@
         },
         {
           "month": "2026-10",
-          "commits": 23,
+          "commits": 25,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/Hachathon_Oct_RenseiInoue",
-              "count": 23
+              "count": 25
             }
           ]
         }
@@ -3952,12 +4011,16 @@
         {
           "date": "2026-10-12",
           "count": 1
+        },
+        {
+          "date": "2026-10-13",
+          "count": 2
         }
       ],
       "topRepositories": [
         {
           "name": "furuhashilab/Hachathon_Oct_RenseiInoue",
-          "count": 23
+          "count": 25
         },
         {
           "name": "furuhashilab/2025gsc_RenseiInoue",
@@ -3987,7 +4050,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-06",
-          "pushedAt": "2026-10-12"
+          "pushedAt": "2026-10-13"
         },
         {
           "name": "furuhashilab/2026gsc_RenseiInoue",
@@ -4547,7 +4610,7 @@
       "totals": {
         "commits": 116,
         "issues": 6,
-        "pullRequests": 3,
+        "pullRequests": 4,
         "reviews": 0
       },
       "monthly": [
@@ -4941,7 +5004,7 @@
           "month": "2026-10",
           "commits": 11,
           "issues": 0,
-          "pullRequests": 3,
+          "pullRequests": 4,
           "reviews": 0,
           "repos": [
             {
@@ -5027,6 +5090,10 @@
         {
           "date": "2026-10-12",
           "count": 7
+        },
+        {
+          "date": "2026-10-13",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -6106,7 +6173,7 @@
       "login": "MiaKozaki",
       "name": null,
       "totals": {
-        "commits": 30,
+        "commits": 31,
         "issues": 6,
         "pullRequests": 0,
         "reviews": 0
@@ -6480,14 +6547,14 @@
         },
         {
           "month": "2026-10",
-          "commits": 1,
+          "commits": 2,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/Hackathon_Oct_MiaKozaki",
-              "count": 1
+              "count": 2
             }
           ]
         }
@@ -6536,6 +6603,10 @@
         {
           "date": "2026-10-12",
           "count": 1
+        },
+        {
+          "date": "2026-10-13",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -6552,12 +6623,12 @@
           "count": 3
         },
         {
-          "name": "furuhashilab/geogacha2026",
+          "name": "furuhashilab/Hackathon_Oct_MiaKozaki",
           "count": 2
         },
         {
-          "name": "furuhashilab/Hackathon_Oct_MiaKozaki",
-          "count": 1
+          "name": "furuhashilab/geogacha2026",
+          "count": 2
         }
       ],
       "repos": [
@@ -6575,7 +6646,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-12",
-          "pushedAt": "2026-10-12"
+          "pushedAt": "2026-10-13"
         },
         {
           "name": "furuhashilab/2026gsc_MiaKozaki",
@@ -6599,8 +6670,8 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 206,
-        "issues": 38,
+        "commits": 218,
+        "issues": 40,
         "pullRequests": 15,
         "reviews": 0
       },
@@ -7093,18 +7164,22 @@
         },
         {
           "month": "2026-10",
-          "commits": 4,
-          "issues": 1,
+          "commits": 16,
+          "issues": 3,
           "pullRequests": 1,
           "reviews": 0,
           "repos": [
             {
-              "name": "usakooon/ChurchOrientationAngle_webpages",
-              "count": 3
+              "name": "usakooon/night-walk-photomap",
+              "count": 7
             },
             {
               "name": "furuhashilab/Hackathon_Oct_HinakoTerado",
-              "count": 1
+              "count": 6
+            },
+            {
+              "name": "usakooon/ChurchOrientationAngle_webpages",
+              "count": 3
             }
           ]
         }
@@ -7376,7 +7451,11 @@
         },
         {
           "date": "2026-10-12",
-          "count": 2
+          "count": 3
+        },
+        {
+          "date": "2026-10-13",
+          "count": 15
         }
       ],
       "topRepositories": [
@@ -7417,11 +7496,27 @@
           "count": 8
         },
         {
-          "name": "furuhashilab/GeoExhibition2025",
-          "count": 6
+          "name": "usakooon/night-walk-photomap",
+          "count": 7
         }
       ],
       "repos": [
+        {
+          "name": "usakooon/night-walk-photomap",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-13",
+          "pushedAt": "2026-10-13"
+        },
+        {
+          "name": "usakooon/Hackathon_Oct_HinakoTerado",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-12",
+          "pushedAt": "2026-10-12"
+        },
         {
           "name": "usakooon/ChurchOrientationAngle_webpages",
           "isFork": false,
@@ -7602,9 +7697,9 @@
           "name": "furuhashilab/Hackathon_Oct_HinakoTerado",
           "isFork": false,
           "stars": 0,
-          "forks": 0,
+          "forks": 1,
           "createdAt": "2026-10-12",
-          "pushedAt": "2026-10-12"
+          "pushedAt": "2026-10-13"
         },
         {
           "name": "furuhashilab/2026gsc_HinakoTerado",
@@ -8595,7 +8690,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 191,
+        "commits": 193,
         "issues": 23,
         "pullRequests": 6,
         "reviews": 0
@@ -9063,11 +9158,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 2,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hackathon_Oct_RitoYamasaki",
+              "count": 2
+            }
+          ]
         }
       ],
       "daily": [
@@ -9478,6 +9578,10 @@
         {
           "date": "2026-10-12",
           "count": 1
+        },
+        {
+          "date": "2026-10-13",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -10204,6 +10308,14 @@
           "pushedAt": "2015-07-16"
         },
         {
+          "name": "furuhashilab/Hackathon_Oct_RitoYamasaki",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-12",
+          "pushedAt": "2026-10-13"
+        },
+        {
           "name": "furuhashilab/2026gsc_RitoYamasaki",
           "isFork": false,
           "stars": 0,
@@ -10226,7 +10338,7 @@
       "name": null,
       "totals": {
         "commits": 65,
-        "issues": 12,
+        "issues": 13,
         "pullRequests": 3,
         "reviews": 0
       },
@@ -10617,7 +10729,7 @@
         {
           "month": "2026-10",
           "commits": 7,
-          "issues": 0,
+          "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
@@ -10688,6 +10800,10 @@
         {
           "date": "2026-10-12",
           "count": 2
+        },
+        {
+          "date": "2026-10-13",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -10733,6 +10849,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "mapbytomoya/Hackathon_Oct_TomoyaAiko",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-13",
+          "pushedAt": "2026-10-12"
+        },
         {
           "name": "mapbytomoya/fieldtrace",
           "isFork": false,
@@ -10785,7 +10909,7 @@
           "name": "furuhashilab/Hackathon_Oct_TomoyaAiko",
           "isFork": false,
           "stars": 0,
-          "forks": 0,
+          "forks": 1,
           "createdAt": "2026-10-12",
           "pushedAt": "2026-10-12"
         },
@@ -11206,7 +11330,7 @@
       "login": "MinatoTanabe",
       "name": null,
       "totals": {
-        "commits": 12,
+        "commits": 22,
         "issues": 4,
         "pullRequests": 0,
         "reviews": 0
@@ -11564,11 +11688,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 10,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hackathon_Oct_MinatoTanabe",
+              "count": 10
+            }
+          ]
         }
       ],
       "daily": [
@@ -11587,9 +11716,17 @@
         {
           "date": "2026-08-05",
           "count": 13
+        },
+        {
+          "date": "2026-10-13",
+          "count": 11
         }
       ],
       "topRepositories": [
+        {
+          "name": "furuhashilab/Hackathon_Oct_MinatoTanabe",
+          "count": 10
+        },
         {
           "name": "furuhashilab/2026gsc_MinatoTanabe",
           "count": 8
@@ -11605,12 +11742,28 @@
       ],
       "repos": [
         {
+          "name": "MinatoTanabe/Hakkathon_Oct_MinatoTanabe",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-13",
+          "pushedAt": "2026-10-12"
+        },
+        {
           "name": "MinatoTanabe/2026gsc_MinatoTanabe",
           "isFork": false,
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-05",
           "pushedAt": "2026-08-05"
+        },
+        {
+          "name": "furuhashilab/Hackathon_Oct_MinatoTanabe",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-10-12",
+          "pushedAt": "2026-10-12"
         },
         {
           "name": "furuhashilab/2026gsc_MinatoTanabe",
@@ -12059,7 +12212,7 @@
       "login": "sakusaku1105",
       "name": "Sakura Nakamizo",
       "totals": {
-        "commits": 8,
+        "commits": 9,
         "issues": 2,
         "pullRequests": 0,
         "reviews": 0
@@ -12422,14 +12575,14 @@
         },
         {
           "month": "2026-10",
-          "commits": 1,
+          "commits": 2,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/Hackathon_Oct_SakuraNakamizo",
-              "count": 1
+              "count": 2
             }
           ]
         }
@@ -12454,9 +12607,17 @@
         {
           "date": "2026-10-12",
           "count": 1
+        },
+        {
+          "date": "2026-10-13",
+          "count": 1
         }
       ],
       "topRepositories": [
+        {
+          "name": "furuhashilab/Hackathon_Oct_SakuraNakamizo",
+          "count": 2
+        },
         {
           "name": "furuhashilab/2026gsc_SakuraNakazo",
           "count": 2
@@ -12468,10 +12629,6 @@
         {
           "name": "sakusaku1105/woldcup-storymap",
           "count": 2
-        },
-        {
-          "name": "furuhashilab/Hackathon_Oct_SakuraNakamizo",
-          "count": 1
         },
         {
           "name": "furuhashilab/KnowledgeDistillation2026",
@@ -13400,7 +13557,7 @@
       "login": "miwamiwa-76",
       "name": null,
       "totals": {
-        "commits": 13,
+        "commits": 14,
         "issues": 3,
         "pullRequests": 0,
         "reviews": 0
@@ -13749,11 +13906,16 @@
         },
         {
           "month": "2026-10",
-          "commits": 0,
+          "commits": 1,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/Hackathon_Oct_MiwaYonekubo",
+              "count": 1
+            }
+          ]
         }
       ],
       "daily": [
@@ -13776,12 +13938,20 @@
         {
           "date": "2026-09-29",
           "count": 1
+        },
+        {
+          "date": "2026-10-13",
+          "count": 1
         }
       ],
       "topRepositories": [
         {
           "name": "furuhashilab/2026gsc_MiwaYonekubo",
           "count": 13
+        },
+        {
+          "name": "furuhashilab/Hackathon_Oct_MiwaYonekubo",
+          "count": 1
         }
       ],
       "repos": [
@@ -13792,6 +13962,14 @@
           "forks": 0,
           "createdAt": "2026-09-29",
           "pushedAt": "2026-08-05"
+        },
+        {
+          "name": "furuhashilab/Hackathon_Oct_MiwaYonekubo",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-12",
+          "pushedAt": "2026-10-12"
         },
         {
           "name": "furuhashilab/2026gsc_MiwaYonekubo",
