@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T18:54:18.985Z",
+  "generated_at": "2026-10-16T18:39:12.357Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -6670,7 +6670,7 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 218,
+        "commits": 223,
         "issues": 40,
         "pullRequests": 15,
         "reviews": 0
@@ -7164,14 +7164,14 @@
         },
         {
           "month": "2026-10",
-          "commits": 16,
+          "commits": 21,
           "issues": 3,
           "pullRequests": 1,
           "reviews": 0,
           "repos": [
             {
               "name": "usakooon/night-walk-photomap",
-              "count": 7
+              "count": 12
             },
             {
               "name": "furuhashilab/Hackathon_Oct_HinakoTerado",
@@ -7456,6 +7456,10 @@
         {
           "date": "2026-10-13",
           "count": 15
+        },
+        {
+          "date": "2026-10-16",
+          "count": 5
         }
       ],
       "topRepositories": [
@@ -7484,6 +7488,10 @@
           "count": 13
         },
         {
+          "name": "usakooon/night-walk-photomap",
+          "count": 12
+        },
+        {
           "name": "usakooon/Church_orientation_angles",
           "count": 9
         },
@@ -7494,10 +7502,6 @@
         {
           "name": "furuhashilab/KnowledgeDistillation2026",
           "count": 8
-        },
-        {
-          "name": "usakooon/night-walk-photomap",
-          "count": 7
         }
       ],
       "repos": [
@@ -7507,7 +7511,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-13",
-          "pushedAt": "2026-10-13"
+          "pushedAt": "2026-10-16"
         },
         {
           "name": "usakooon/Hackathon_Oct_HinakoTerado",
@@ -10911,7 +10915,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-10-12",
-          "pushedAt": "2026-10-12"
+          "pushedAt": "2026-10-16"
         },
         {
           "name": "furuhashilab/2026gsc_TomoyaAiko",
