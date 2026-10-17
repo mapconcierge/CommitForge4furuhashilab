@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:39:12.357Z",
+  "generated_at": "2026-10-17T17:46:49.001Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -24,8 +24,8 @@
   "organization_summary": [
     {
       "org": "furuhashilab",
-      "repoCount": 161,
-      "attributedCount": 70
+      "repoCount": 162,
+      "attributedCount": 71
     }
   ],
   "members": [
@@ -6670,8 +6670,8 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 223,
-        "issues": 40,
+        "commits": 224,
+        "issues": 42,
         "pullRequests": 15,
         "reviews": 0
       },
@@ -7164,8 +7164,8 @@
         },
         {
           "month": "2026-10",
-          "commits": 21,
-          "issues": 3,
+          "commits": 22,
+          "issues": 5,
           "pullRequests": 1,
           "reviews": 0,
           "repos": [
@@ -7175,7 +7175,7 @@
             },
             {
               "name": "furuhashilab/Hackathon_Oct_HinakoTerado",
-              "count": 6
+              "count": 7
             },
             {
               "name": "usakooon/ChurchOrientationAngle_webpages",
@@ -7460,6 +7460,10 @@
         {
           "date": "2026-10-16",
           "count": 5
+        },
+        {
+          "date": "2026-10-17",
+          "count": 5
         }
       ],
       "topRepositories": [
@@ -7506,20 +7510,20 @@
       ],
       "repos": [
         {
+          "name": "usakooon/Hackathon_Oct_HinakoTerado",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-12",
+          "pushedAt": "2026-10-17"
+        },
+        {
           "name": "usakooon/night-walk-photomap",
           "isFork": false,
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-13",
           "pushedAt": "2026-10-16"
-        },
-        {
-          "name": "usakooon/Hackathon_Oct_HinakoTerado",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-10-12",
-          "pushedAt": "2026-10-12"
         },
         {
           "name": "usakooon/ChurchOrientationAngle_webpages",
@@ -7703,7 +7707,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-10-12",
-          "pushedAt": "2026-10-13"
+          "pushedAt": "2026-10-17"
         },
         {
           "name": "furuhashilab/2026gsc_HinakoTerado",
@@ -10341,9 +10345,9 @@
       "login": "mapbytomoya",
       "name": null,
       "totals": {
-        "commits": 65,
-        "issues": 13,
-        "pullRequests": 3,
+        "commits": 66,
+        "issues": 19,
+        "pullRequests": 4,
         "reviews": 0
       },
       "monthly": [
@@ -10732,9 +10736,9 @@
         },
         {
           "month": "2026-10",
-          "commits": 7,
-          "issues": 1,
-          "pullRequests": 0,
+          "commits": 8,
+          "issues": 7,
+          "pullRequests": 1,
           "reviews": 0,
           "repos": [
             {
@@ -10744,6 +10748,10 @@
             {
               "name": "furuhashilab/Hackathon_Oct_TomoyaAiko",
               "count": 2
+            },
+            {
+              "name": "furuhashilab/uruhashilab-drone-territory-sandbox",
+              "count": 1
             }
           ]
         }
@@ -10808,6 +10816,10 @@
         {
           "date": "2026-10-13",
           "count": 2
+        },
+        {
+          "date": "2026-10-17",
+          "count": 8
         }
       ],
       "topRepositories": [
@@ -10844,11 +10856,11 @@
           "count": 2
         },
         {
-          "name": "mapbytomoya/orthophoto.tileviewer",
+          "name": "furuhashilab/uruhashilab-drone-territory-sandbox",
           "count": 1
         },
         {
-          "name": "furuhashilab/Drone-hachathon",
+          "name": "mapbytomoya/orthophoto.tileviewer",
           "count": 1
         }
       ],
@@ -10908,6 +10920,14 @@
           "forks": 0,
           "createdAt": "2026-07-07",
           "pushedAt": "2026-07-07"
+        },
+        {
+          "name": "furuhashilab/uruhashilab-drone-territory-sandbox",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-17",
+          "pushedAt": "2026-10-17"
         },
         {
           "name": "furuhashilab/Hackathon_Oct_TomoyaAiko",
