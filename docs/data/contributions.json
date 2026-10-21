@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:58:53.802Z",
+  "generated_at": "2026-10-21T19:08:29.261Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -8698,7 +8698,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 193,
+        "commits": 201,
         "issues": 23,
         "pullRequests": 6,
         "reviews": 0
@@ -9166,11 +9166,15 @@
         },
         {
           "month": "2026-10",
-          "commits": 2,
+          "commits": 10,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
+            {
+              "name": "furuhashilab/2026gsc_RitoYamasaki",
+              "count": 8
+            },
             {
               "name": "furuhashilab/Hackathon_Oct_RitoYamasaki",
               "count": 2
@@ -9594,6 +9598,10 @@
         {
           "date": "2026-10-20",
           "count": 5
+        },
+        {
+          "date": "2026-10-21",
+          "count": 8
         }
       ],
       "topRepositories": [
@@ -9626,16 +9634,16 @@
           "count": 9
         },
         {
+          "name": "furuhashilab/2026gsc_RitoYamasaki",
+          "count": 9
+        },
+        {
           "name": "0319-2004/temporal-window-robustness-lab",
           "count": 8
         },
         {
           "name": "0319-2004/machi-no-jakuten",
           "count": 6
-        },
-        {
-          "name": "furuhashilab/plateau-cityhack-2026-hokudai-son",
-          "count": 5
         }
       ],
       "repos": [
@@ -10373,7 +10381,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-03",
-          "pushedAt": "2026-08-05"
+          "pushedAt": "2026-10-21"
         },
         {
           "name": "furuhashilab/2025gsc_RitoYamasaki",
