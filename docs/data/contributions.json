@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T19:08:29.261Z",
+  "generated_at": "2026-10-22T19:04:05.253Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -5165,9 +5165,9 @@
       "login": "yudai1206",
       "name": null,
       "totals": {
-        "commits": 174,
+        "commits": 192,
         "issues": 12,
-        "pullRequests": 21,
+        "pullRequests": 30,
         "reviews": 1
       },
       "monthly": [
@@ -5658,11 +5658,15 @@
         },
         {
           "month": "2026-10",
-          "commits": 6,
+          "commits": 24,
           "issues": 0,
-          "pullRequests": 0,
+          "pullRequests": 9,
           "reviews": 0,
           "repos": [
+            {
+              "name": "furuhashilab/2026gsc_YudaiKato",
+              "count": 18
+            },
             {
               "name": "furuhashilab/Hackathon_Oct_YudaiKato",
               "count": 6
@@ -5898,6 +5902,10 @@
         {
           "date": "2026-10-08",
           "count": 7
+        },
+        {
+          "date": "2026-10-22",
+          "count": 27
         }
       ],
       "topRepositories": [
@@ -5907,7 +5915,7 @@
         },
         {
           "name": "furuhashilab/2026gsc_YudaiKato",
-          "count": 23
+          "count": 41
         },
         {
           "name": "yudai1206/yudai1206",
@@ -5944,20 +5952,20 @@
       ],
       "repos": [
         {
+          "name": "yudai1206/2026gsc_YudaiKato",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-07-22",
+          "pushedAt": "2026-10-22"
+        },
+        {
           "name": "yudai1206/Hackathon_Oct_YudaiKato",
           "isFork": true,
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-08",
           "pushedAt": "2026-10-08"
-        },
-        {
-          "name": "yudai1206/2026gsc_YudaiKato",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-07-22",
-          "pushedAt": "2026-10-06"
         },
         {
           "name": "yudai1206/yudai1206",
@@ -6149,7 +6157,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-07-22",
-          "pushedAt": "2026-09-29"
+          "pushedAt": "2026-10-22"
         },
         {
           "name": "furuhashilab/Youth2_Hackathon",
@@ -9648,6 +9656,14 @@
       ],
       "repos": [
         {
+          "name": "0319-2004/reverse_engineering_anything",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-12",
+          "pushedAt": "2026-10-21"
+        },
+        {
           "name": "0319-2004/archify",
           "isFork": true,
           "stars": 0,
@@ -9662,14 +9678,6 @@
           "forks": 0,
           "createdAt": "2026-10-20",
           "pushedAt": "2026-10-20"
-        },
-        {
-          "name": "0319-2004/reverse_engineering_anything",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-10-12",
-          "pushedAt": "2026-10-12"
         },
         {
           "name": "0319-2004/skills",
