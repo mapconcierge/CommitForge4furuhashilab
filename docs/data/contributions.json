@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T17:54:11.533Z",
+  "generated_at": "2026-10-25T18:12:15.387Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -7476,6 +7476,10 @@
         {
           "date": "2026-10-17",
           "count": 5
+        },
+        {
+          "date": "2026-10-25",
+          "count": 6
         }
       ],
       "topRepositories": [
@@ -7608,6 +7612,14 @@
           "forks": 0,
           "createdAt": "2025-10-31",
           "pushedAt": "2026-01-02"
+        },
+        {
+          "name": "usakooon/BuildingShapeAnalyzer2025",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-25",
+          "pushedAt": "2025-12-18"
         },
         {
           "name": "usakooon/maplibregis3Dmap",
@@ -10900,6 +10912,10 @@
         {
           "date": "2026-10-23",
           "count": 3
+        },
+        {
+          "date": "2026-10-25",
+          "count": 30
         }
       ],
       "topRepositories": [
