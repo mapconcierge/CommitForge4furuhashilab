@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:12:15.387Z",
+  "generated_at": "2026-10-26T20:19:47.435Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -5165,7 +5165,7 @@
       "login": "yudai1206",
       "name": null,
       "totals": {
-        "commits": 194,
+        "commits": 195,
         "issues": 12,
         "pullRequests": 31,
         "reviews": 1
@@ -5658,14 +5658,14 @@
         },
         {
           "month": "2026-10",
-          "commits": 26,
+          "commits": 27,
           "issues": 0,
           "pullRequests": 10,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/2026gsc_YudaiKato",
-              "count": 20
+              "count": 21
             },
             {
               "name": "furuhashilab/Hackathon_Oct_YudaiKato",
@@ -5910,6 +5910,10 @@
         {
           "date": "2026-10-23",
           "count": 3
+        },
+        {
+          "date": "2026-10-26",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -5919,7 +5923,7 @@
         },
         {
           "name": "furuhashilab/2026gsc_YudaiKato",
-          "count": 43
+          "count": 44
         },
         {
           "name": "yudai1206/yudai1206",
@@ -6161,7 +6165,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-07-22",
-          "pushedAt": "2026-10-23"
+          "pushedAt": "2026-10-26"
         },
         {
           "name": "furuhashilab/Youth2_Hackathon",
@@ -6682,7 +6686,7 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 224,
+        "commits": 236,
         "issues": 42,
         "pullRequests": 15,
         "reviews": 0
@@ -7176,7 +7180,7 @@
         },
         {
           "month": "2026-10",
-          "commits": 22,
+          "commits": 34,
           "issues": 5,
           "pullRequests": 1,
           "reviews": 0,
@@ -7186,8 +7190,16 @@
               "count": 12
             },
             {
+              "name": "usakooon/research-portfolio",
+              "count": 9
+            },
+            {
               "name": "furuhashilab/Hackathon_Oct_HinakoTerado",
               "count": 7
+            },
+            {
+              "name": "usakooon/usakooon",
+              "count": 3
             },
             {
               "name": "usakooon/ChurchOrientationAngle_webpages",
@@ -7480,6 +7492,10 @@
         {
           "date": "2026-10-25",
           "count": 6
+        },
+        {
+          "date": "2026-10-26",
+          "count": 6
         }
       ],
       "topRepositories": [
@@ -7520,11 +7536,27 @@
           "count": 9
         },
         {
-          "name": "furuhashilab/KnowledgeDistillation2026",
-          "count": 8
+          "name": "usakooon/research-portfolio",
+          "count": 9
         }
       ],
       "repos": [
+        {
+          "name": "usakooon/usakooon",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-09-09",
+          "pushedAt": "2026-10-26"
+        },
+        {
+          "name": "usakooon/research-portfolio",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-17",
+          "pushedAt": "2026-10-26"
+        },
         {
           "name": "usakooon/Hackathon_Oct_HinakoTerado",
           "isFork": true,
@@ -7548,14 +7580,6 @@
           "forks": 0,
           "createdAt": "2025-11-09",
           "pushedAt": "2026-10-01"
-        },
-        {
-          "name": "usakooon/usakooon",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2025-09-09",
-          "pushedAt": "2026-09-07"
         },
         {
           "name": "usakooon/usakooon.github.io",
@@ -8723,8 +8747,8 @@
       "name": "Rito Yamasaki",
       "totals": {
         "commits": 201,
-        "issues": 23,
-        "pullRequests": 6,
+        "issues": 24,
+        "pullRequests": 8,
         "reviews": 0
       },
       "monthly": [
@@ -9191,8 +9215,8 @@
         {
           "month": "2026-10",
           "commits": 10,
-          "issues": 0,
-          "pullRequests": 0,
+          "issues": 1,
+          "pullRequests": 2,
           "reviews": 0,
           "repos": [
             {
@@ -9626,6 +9650,10 @@
         {
           "date": "2026-10-21",
           "count": 8
+        },
+        {
+          "date": "2026-10-26",
+          "count": 3
         }
       ],
       "topRepositories": [
@@ -11023,7 +11051,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-17",
-          "pushedAt": "2026-10-19"
+          "pushedAt": "2026-10-26"
         },
         {
           "name": "furuhashilab/Hackathon_Oct_TomoyaAiko",
@@ -13237,7 +13265,7 @@
       "totals": {
         "commits": 56,
         "issues": 2,
-        "pullRequests": 1,
+        "pullRequests": 2,
         "reviews": 0
       },
       "monthly": [
@@ -13596,7 +13624,7 @@
           "month": "2026-10",
           "commits": 23,
           "issues": 0,
-          "pullRequests": 1,
+          "pullRequests": 2,
           "reviews": 0,
           "repos": [
             {
@@ -13638,6 +13666,10 @@
         {
           "date": "2026-10-12",
           "count": 24
+        },
+        {
+          "date": "2026-10-26",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -14111,7 +14143,7 @@
       "totals": {
         "commits": 8,
         "issues": 3,
-        "pullRequests": 0,
+        "pullRequests": 1,
         "reviews": 0
       },
       "monthly": [
@@ -14460,7 +14492,7 @@
           "month": "2026-10",
           "commits": 4,
           "issues": 0,
-          "pullRequests": 0,
+          "pullRequests": 1,
           "reviews": 0,
           "repos": [
             {
@@ -14486,6 +14518,10 @@
         {
           "date": "2026-10-07",
           "count": 5
+        },
+        {
+          "date": "2026-10-26",
+          "count": 1
         }
       ],
       "topRepositories": [
