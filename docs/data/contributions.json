@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:19:47.435Z",
+  "generated_at": "2026-10-27T19:51:52.295Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -9654,6 +9654,10 @@
         {
           "date": "2026-10-26",
           "count": 3
+        },
+        {
+          "date": "2026-10-27",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -9699,6 +9703,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/nyxis",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-27",
+          "pushedAt": "2026-10-26"
+        },
         {
           "name": "0319-2004/reverse_engineering_anything",
           "isFork": true,
@@ -10449,9 +10461,9 @@
       "login": "mapbytomoya",
       "name": null,
       "totals": {
-        "commits": 68,
+        "commits": 66,
         "issues": 24,
-        "pullRequests": 6,
+        "pullRequests": 5,
         "reviews": 0
       },
       "monthly": [
@@ -10799,9 +10811,9 @@
         },
         {
           "month": "2026-08",
-          "commits": 38,
+          "commits": 36,
           "issues": 9,
-          "pullRequests": 3,
+          "pullRequests": 2,
           "reviews": 0,
           "repos": [
             {
@@ -10823,10 +10835,6 @@
             {
               "name": "furuhashilab/plateau-cityhack-2026-hokudai-son",
               "count": 4
-            },
-            {
-              "name": "mapbytomoya/where_does_the_yen_move",
-              "count": 2
             }
           ]
         },
@@ -10980,11 +10988,11 @@
           "count": 2
         },
         {
-          "name": "mapbytomoya/where_does_the_yen_move",
-          "count": 2
+          "name": "mapbytomoya/orthophoto.tileviewer",
+          "count": 1
         },
         {
-          "name": "mapbytomoya/orthophoto.tileviewer",
+          "name": "furuhashilab/Drone-hachathon",
           "count": 1
         }
       ],
@@ -11012,14 +11020,6 @@
           "forks": 0,
           "createdAt": "2026-10-06",
           "pushedAt": "2026-09-28"
-        },
-        {
-          "name": "mapbytomoya/where_does_the_yen_move",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-08-17",
-          "pushedAt": "2026-08-17"
         },
         {
           "name": "mapbytomoya/YOKOZEToioetsmap202602",
