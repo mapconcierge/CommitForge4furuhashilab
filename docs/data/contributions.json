@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:51:52.295Z",
+  "generated_at": "2026-10-28T20:06:31.786Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -4074,7 +4074,7 @@
       "login": "chihana-0421",
       "name": null,
       "totals": {
-        "commits": 75,
+        "commits": 77,
         "issues": 8,
         "pullRequests": 0,
         "reviews": 0
@@ -4457,11 +4457,15 @@
         },
         {
           "month": "2026-10",
-          "commits": 2,
+          "commits": 4,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
+            {
+              "name": "furuhashilab/2026gsc_ChihanaUsui",
+              "count": 2
+            },
             {
               "name": "furuhashilab/Hackathon_Oct_ChihanaUsui",
               "count": 2
@@ -4537,6 +4541,10 @@
         {
           "date": "2026-10-12",
           "count": 2
+        },
+        {
+          "date": "2026-10-28",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -4550,7 +4558,7 @@
         },
         {
           "name": "furuhashilab/2026gsc_ChihanaUsui",
-          "count": 4
+          "count": 6
         },
         {
           "name": "furuhashilab/2025gsc_InadaYuka",
@@ -4592,7 +4600,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-04",
-          "pushedAt": "2026-08-05"
+          "pushedAt": "2026-10-28"
         },
         {
           "name": "furuhashilab/2025gsc-ChihanaUsui",
@@ -6686,7 +6694,7 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 236,
+        "commits": 237,
         "issues": 42,
         "pullRequests": 15,
         "reviews": 0
@@ -7152,7 +7160,7 @@
               "count": 6
             },
             {
-              "name": "usakooon/GCI_basic_2026_summer",
+              "name": "usakooon/gci-learning-portfolio",
               "count": 1
             }
           ]
@@ -7180,7 +7188,7 @@
         },
         {
           "month": "2026-10",
-          "commits": 34,
+          "commits": 35,
           "issues": 5,
           "pullRequests": 1,
           "reviews": 0,
@@ -7204,6 +7212,10 @@
             {
               "name": "usakooon/ChurchOrientationAngle_webpages",
               "count": 3
+            },
+            {
+              "name": "usakooon/gci-learning-portfolio",
+              "count": 1
             }
           ]
         }
@@ -7216,10 +7228,6 @@
         {
           "date": "2024-07-04",
           "count": 4
-        },
-        {
-          "date": "2025-04-16",
-          "count": 1
         },
         {
           "date": "2025-07-05",
@@ -7259,7 +7267,7 @@
         },
         {
           "date": "2025-08-31",
-          "count": 8
+          "count": 7
         },
         {
           "date": "2025-09-08",
@@ -7438,10 +7446,6 @@
           "count": 22
         },
         {
-          "date": "2026-07-14",
-          "count": 2
-        },
-        {
           "date": "2026-07-17",
           "count": 1
         },
@@ -7470,10 +7474,6 @@
           "count": 8
         },
         {
-          "date": "2026-10-02",
-          "count": 3
-        },
-        {
           "date": "2026-10-12",
           "count": 3
         },
@@ -7496,6 +7496,10 @@
         {
           "date": "2026-10-26",
           "count": 6
+        },
+        {
+          "date": "2026-10-28",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -7541,6 +7545,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "usakooon/gci-learning-portfolio",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-10-28"
+        },
         {
           "name": "usakooon/usakooon",
           "isFork": false,
@@ -7596,14 +7608,6 @@
           "forks": 0,
           "createdAt": "2026-08-31",
           "pushedAt": "2026-08-25"
-        },
-        {
-          "name": "usakooon/GCI_basic_2026_summer",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-08-15",
-          "pushedAt": "2026-08-15"
         },
         {
           "name": "usakooon/theta_3dgs_Sagamihara",
@@ -8746,7 +8750,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 201,
+        "commits": 204,
         "issues": 24,
         "pullRequests": 8,
         "reviews": 0
@@ -9214,7 +9218,7 @@
         },
         {
           "month": "2026-10",
-          "commits": 10,
+          "commits": 13,
           "issues": 1,
           "pullRequests": 2,
           "reviews": 0,
@@ -9222,6 +9226,10 @@
             {
               "name": "furuhashilab/2026gsc_RitoYamasaki",
               "count": 8
+            },
+            {
+              "name": "0319-2004/before-its-built",
+              "count": 3
             },
             {
               "name": "furuhashilab/Hackathon_Oct_RitoYamasaki",
@@ -9658,6 +9666,10 @@
         {
           "date": "2026-10-27",
           "count": 1
+        },
+        {
+          "date": "2026-10-28",
+          "count": 4
         }
       ],
       "topRepositories": [
@@ -9703,6 +9715,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "0319-2004/before-its-built",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-28",
+          "pushedAt": "2026-10-28"
+        },
         {
           "name": "0319-2004/nyxis",
           "isFork": true,
