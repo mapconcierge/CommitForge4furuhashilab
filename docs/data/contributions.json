@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:05:13.380Z",
+  "generated_at": "2026-10-30T19:52:21.433Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -1672,7 +1672,7 @@
       "login": "shocpsa",
       "name": "ShotaArakawa",
       "totals": {
-        "commits": 169,
+        "commits": 170,
         "issues": 22,
         "pullRequests": 0,
         "reviews": 0
@@ -2084,7 +2084,7 @@
         },
         {
           "month": "2026-10",
-          "commits": 5,
+          "commits": 6,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
@@ -2092,6 +2092,10 @@
             {
               "name": "furuhashilab/Hackathon_Oct_ShotaArakawa",
               "count": 5
+            },
+            {
+              "name": "furuhashilab/2026gsc_ShotaArakawa",
+              "count": 1
             }
           ]
         }
@@ -2264,6 +2268,10 @@
         {
           "date": "2026-10-10",
           "count": 3
+        },
+        {
+          "date": "2026-10-30",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -2285,7 +2293,7 @@
         },
         {
           "name": "furuhashilab/2026gsc_ShotaArakawa",
-          "count": 6
+          "count": 7
         },
         {
           "name": "furuhashilab/Hackathon_Oct_ShotaArakawa",
@@ -2347,7 +2355,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-04",
-          "pushedAt": "2026-09-17"
+          "pushedAt": "2026-10-30"
         },
         {
           "name": "furuhashilab/Nov_2025VF_hackathon",
@@ -9838,7 +9846,7 @@
         {
           "name": "0319-2004/machi-no-jakuten",
           "isFork": false,
-          "stars": 0,
+          "stars": 1,
           "forks": 0,
           "createdAt": "2026-07-20",
           "pushedAt": "2026-09-16"
@@ -9878,7 +9886,7 @@
         {
           "name": "0319-2004/plateau-cityhack-2026-hokudai-son",
           "isFork": true,
-          "stars": 0,
+          "stars": 1,
           "forks": 0,
           "createdAt": "2026-09-02",
           "pushedAt": "2026-09-01"
@@ -9934,7 +9942,7 @@
         {
           "name": "0319-2004/urban-change-evidence-explorer",
           "isFork": false,
-          "stars": 0,
+          "stars": 1,
           "forks": 0,
           "createdAt": "2026-08-16",
           "pushedAt": "2026-08-16"
@@ -10046,7 +10054,7 @@
         {
           "name": "0319-2004/Drone-hachathon",
           "isFork": true,
-          "stars": 0,
+          "stars": 1,
           "forks": 0,
           "createdAt": "2026-06-24",
           "pushedAt": "2026-06-23"
@@ -10198,7 +10206,7 @@
         {
           "name": "0319-2004/pw-amazon-experiment",
           "isFork": false,
-          "stars": 1,
+          "stars": 2,
           "forks": 0,
           "createdAt": "2025-11-17",
           "pushedAt": "2025-11-27"
@@ -10350,7 +10358,7 @@
         {
           "name": "0319-2004/gsimaps",
           "isFork": true,
-          "stars": 0,
+          "stars": 1,
           "forks": 0,
           "createdAt": "2024-07-04",
           "pushedAt": "2024-07-04"
