@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:52:21.433Z",
+  "generated_at": "2026-10-31T19:07:56.728Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -6702,7 +6702,7 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 237,
+        "commits": 241,
         "issues": 42,
         "pullRequests": 15,
         "reviews": 0
@@ -7196,7 +7196,7 @@
         },
         {
           "month": "2026-10",
-          "commits": 35,
+          "commits": 39,
           "issues": 5,
           "pullRequests": 1,
           "reviews": 0,
@@ -7210,15 +7210,15 @@
               "count": 9
             },
             {
+              "name": "usakooon/ChurchOrientationAngle_webpages",
+              "count": 7
+            },
+            {
               "name": "furuhashilab/Hackathon_Oct_HinakoTerado",
               "count": 7
             },
             {
               "name": "usakooon/usakooon",
-              "count": 3
-            },
-            {
-              "name": "usakooon/ChurchOrientationAngle_webpages",
               "count": 3
             },
             {
@@ -7236,6 +7236,10 @@
         {
           "date": "2024-07-04",
           "count": 4
+        },
+        {
+          "date": "2025-04-16",
+          "count": 1
         },
         {
           "date": "2025-07-05",
@@ -7275,7 +7279,7 @@
         },
         {
           "date": "2025-08-31",
-          "count": 7
+          "count": 8
         },
         {
           "date": "2025-09-08",
@@ -7454,6 +7458,10 @@
           "count": 22
         },
         {
+          "date": "2026-07-14",
+          "count": 2
+        },
+        {
           "date": "2026-07-17",
           "count": 1
         },
@@ -7482,6 +7490,10 @@
           "count": 8
         },
         {
+          "date": "2026-10-02",
+          "count": 3
+        },
+        {
           "date": "2026-10-12",
           "count": 3
         },
@@ -7508,6 +7520,10 @@
         {
           "date": "2026-10-28",
           "count": 1
+        },
+        {
+          "date": "2026-10-31",
+          "count": 4
         }
       ],
       "topRepositories": [
@@ -7517,7 +7533,7 @@
         },
         {
           "name": "usakooon/ChurchOrientationAngle_webpages",
-          "count": 31
+          "count": 35
         },
         {
           "name": "usakooon/theta_3dgs_Sagamihara",
@@ -7553,6 +7569,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "usakooon/ChurchOrientationAngle_webpages",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2025-11-09",
+          "pushedAt": "2026-10-31"
+        },
         {
           "name": "usakooon/gci-learning-portfolio",
           "isFork": false,
@@ -7592,14 +7616,6 @@
           "forks": 0,
           "createdAt": "2026-10-13",
           "pushedAt": "2026-10-16"
-        },
-        {
-          "name": "usakooon/ChurchOrientationAngle_webpages",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2025-11-09",
-          "pushedAt": "2026-10-01"
         },
         {
           "name": "usakooon/usakooon.github.io",
