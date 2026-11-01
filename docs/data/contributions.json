@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T19:07:56.728Z",
+  "generated_at": "2026-11-01T19:23:19.323Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -545,6 +545,14 @@
               "count": 23
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -1423,6 +1431,14 @@
               "count": 13
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -2098,6 +2114,14 @@
               "count": 1
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -2347,7 +2371,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-08",
-          "pushedAt": "2026-10-10"
+          "pushedAt": "2026-11-01"
         },
         {
           "name": "furuhashilab/2026gsc_ShotaArakawa",
@@ -2772,6 +2796,14 @@
               "count": 6
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -3341,6 +3373,14 @@
               "count": 5
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -3945,6 +3985,14 @@
               "count": 25
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -4479,6 +4527,14 @@
               "count": 2
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -5028,6 +5084,14 @@
               "count": 11
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -5688,6 +5752,14 @@
               "count": 6
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -6589,6 +6661,14 @@
               "count": 2
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -7226,6 +7306,14 @@
               "count": 1
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -8305,6 +8393,14 @@
               "count": 1
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -8774,7 +8870,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 204,
+        "commits": 229,
         "issues": 24,
         "pullRequests": 8,
         "reviews": 0
@@ -9242,22 +9338,35 @@
         },
         {
           "month": "2026-10",
-          "commits": 13,
+          "commits": 29,
           "issues": 1,
           "pullRequests": 2,
           "reviews": 0,
           "repos": [
             {
+              "name": "0319-2004/before-its-built",
+              "count": 19
+            },
+            {
               "name": "furuhashilab/2026gsc_RitoYamasaki",
               "count": 8
             },
             {
-              "name": "0319-2004/before-its-built",
-              "count": 3
-            },
-            {
               "name": "furuhashilab/Hackathon_Oct_RitoYamasaki",
               "count": 2
+            }
+          ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 9,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": [
+            {
+              "name": "0319-2004/before-its-built",
+              "count": 9
             }
           ]
         }
@@ -9694,6 +9803,14 @@
         {
           "date": "2026-10-28",
           "count": 4
+        },
+        {
+          "date": "2026-10-31",
+          "count": 7
+        },
+        {
+          "date": "2026-11-01",
+          "count": 18
         }
       ],
       "topRepositories": [
@@ -9708,6 +9825,10 @@
         {
           "name": "furuhashilab/2025gsc_RitoYamasaki",
           "count": 20
+        },
+        {
+          "name": "0319-2004/before-its-built",
+          "count": 19
         },
         {
           "name": "0319-2004/pw-amazon-experiment",
@@ -9732,10 +9853,6 @@
         {
           "name": "0319-2004/temporal-window-robustness-lab",
           "count": 8
-        },
-        {
-          "name": "0319-2004/machi-no-jakuten",
-          "count": 6
         }
       ],
       "repos": [
@@ -9745,7 +9862,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-28",
-          "pushedAt": "2026-10-28"
+          "pushedAt": "2026-11-01"
         },
         {
           "name": "0319-2004/nyxis",
@@ -10910,6 +11027,14 @@
               "count": 2
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -10996,6 +11121,10 @@
         {
           "date": "2026-10-25",
           "count": 30
+        },
+        {
+          "date": "2026-11-01",
+          "count": 10
         }
       ],
       "topRepositories": [
@@ -11481,6 +11610,14 @@
           "pullRequests": 0,
           "reviews": 2,
           "repos": []
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -11894,6 +12031,14 @@
               "count": 10
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -12339,6 +12484,14 @@
               "count": 5
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -12781,6 +12934,14 @@
               "count": 2
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -13234,6 +13395,14 @@
               "count": 3
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -13676,6 +13845,14 @@
               "count": 23
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -14116,6 +14293,14 @@
               "count": 1
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
@@ -14544,6 +14729,14 @@
               "count": 4
             }
           ]
+        },
+        {
+          "month": "2026-11",
+          "commits": 0,
+          "issues": 0,
+          "pullRequests": 0,
+          "reviews": 0,
+          "repos": []
         }
       ],
       "daily": [
