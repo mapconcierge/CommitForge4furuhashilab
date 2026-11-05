@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:05:03.098Z",
+  "generated_at": "2026-11-05T21:20:38.267Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -3054,7 +3054,7 @@
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-03"
+          "pushedAt": "2026-11-04"
         },
         {
           "name": "mapconcierge/gigapan_75225",
@@ -8533,9 +8533,9 @@
       "login": "21Rensei",
       "name": null,
       "totals": {
-        "commits": 57,
-        "issues": 14,
-        "pullRequests": 1,
+        "commits": 63,
+        "issues": 15,
+        "pullRequests": 3,
         "reviews": 0
       },
       "monthly": [
@@ -8915,14 +8915,14 @@
         },
         {
           "month": "2026-11",
-          "commits": 4,
-          "issues": 1,
-          "pullRequests": 1,
+          "commits": 10,
+          "issues": 2,
+          "pullRequests": 3,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/2026gsc_RenseiInoue",
-              "count": 4
+              "count": 10
             }
           ]
         }
@@ -9007,6 +9007,10 @@
         {
           "date": "2026-11-04",
           "count": 6
+        },
+        {
+          "date": "2026-11-05",
+          "count": 9
         }
       ],
       "topRepositories": [
@@ -9016,7 +9020,7 @@
         },
         {
           "name": "furuhashilab/2026gsc_RenseiInoue",
-          "count": 16
+          "count": 22
         },
         {
           "name": "furuhashilab/2025gsc_RenseiInoue",
@@ -9050,7 +9054,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-02",
-          "pushedAt": "2026-11-04"
+          "pushedAt": "2026-11-05"
         },
         {
           "name": "furuhashilab/2025gsc_RenseiInoue",
@@ -9066,7 +9070,7 @@
       "login": "chihana-0421",
       "name": null,
       "totals": {
-        "commits": 95,
+        "commits": 108,
         "issues": 9,
         "pullRequests": 0,
         "reviews": 0
@@ -9466,14 +9470,14 @@
         },
         {
           "month": "2026-11",
-          "commits": 18,
+          "commits": 31,
           "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/2026gsc_ChihanaUsui",
-              "count": 18
+              "count": 31
             }
           ]
         }
@@ -9554,9 +9558,17 @@
         {
           "date": "2026-11-03",
           "count": 19
+        },
+        {
+          "date": "2026-11-05",
+          "count": 13
         }
       ],
       "topRepositories": [
+        {
+          "name": "furuhashilab/2026gsc_ChihanaUsui",
+          "count": 37
+        },
         {
           "name": "furuhashilab/KnowledgeDistillation2026",
           "count": 33
@@ -9564,10 +9576,6 @@
         {
           "name": "furuhashilab/2025gsc-ChihanaUsui",
           "count": 27
-        },
-        {
-          "name": "furuhashilab/2026gsc_ChihanaUsui",
-          "count": 24
         },
         {
           "name": "furuhashilab/2025gsc_InadaYuka",
@@ -9609,7 +9617,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-04",
-          "pushedAt": "2026-11-03"
+          "pushedAt": "2026-11-05"
         },
         {
           "name": "furuhashilab/2025gsc-ChihanaUsui",
@@ -11736,8 +11744,8 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 241,
-        "issues": 42,
+        "commits": 242,
+        "issues": 43,
         "pullRequests": 15,
         "reviews": 0
       },
@@ -12263,11 +12271,16 @@
         },
         {
           "month": "2026-11",
-          "commits": 0,
-          "issues": 0,
+          "commits": 1,
+          "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "usakooon/mathematics-for-geomatics",
+              "count": 1
+            }
+          ]
         }
       ],
       "daily": [
@@ -12566,6 +12579,10 @@
         {
           "date": "2026-10-31",
           "count": 4
+        },
+        {
+          "date": "2026-11-05",
+          "count": 3
         }
       ],
       "topRepositories": [
@@ -12611,6 +12628,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "usakooon/mathematics-for-geomatics",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-11-05",
+          "pushedAt": "2026-11-05"
+        },
         {
           "name": "usakooon/ChurchOrientationAngle_webpages",
           "isFork": false,
@@ -13820,7 +13845,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 271,
+        "commits": 283,
         "issues": 24,
         "pullRequests": 8,
         "reviews": 0
@@ -14309,18 +14334,18 @@
         },
         {
           "month": "2026-11",
-          "commits": 51,
+          "commits": 63,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
-              "name": "0319-2004/before-its-built",
-              "count": 31
+              "name": "0319-2004/machi-karte",
+              "count": 32
             },
             {
-              "name": "0319-2004/machi-karte",
-              "count": 20
+              "name": "0319-2004/before-its-built",
+              "count": 31
             }
           ]
         }
@@ -14801,6 +14826,10 @@
         {
           "date": "2026-11-04",
           "count": 5
+        },
+        {
+          "date": "2026-11-05",
+          "count": 13
         }
       ],
       "topRepositories": [
@@ -14813,15 +14842,15 @@
           "count": 35
         },
         {
+          "name": "0319-2004/machi-karte",
+          "count": 32
+        },
+        {
           "name": "0319-2004/discourse_cybersecurity",
           "count": 31
         },
         {
           "name": "furuhashilab/2025gsc_RitoYamasaki",
-          "count": 20
-        },
-        {
-          "name": "0319-2004/machi-karte",
           "count": 20
         },
         {
@@ -14847,19 +14876,19 @@
       ],
       "repos": [
         {
-          "name": "0319-2004/before-its-built",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-10-28",
-          "pushedAt": "2026-11-04"
-        },
-        {
           "name": "0319-2004/machi-karte",
           "isFork": false,
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-11-02",
+          "pushedAt": "2026-11-05"
+        },
+        {
+          "name": "0319-2004/before-its-built",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-28",
           "pushedAt": "2026-11-04"
         },
         {
@@ -15303,6 +15332,14 @@
           "pushedAt": "2026-02-18"
         },
         {
+          "name": "0319-2004/Evaluation_Code",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-11-05",
+          "pushedAt": "2026-02-08"
+        },
+        {
           "name": "0319-2004/daily-outfit-log",
           "isFork": false,
           "stars": 0,
@@ -15620,9 +15657,9 @@
       "login": "mapbytomoya",
       "name": null,
       "totals": {
-        "commits": 82,
+        "commits": 83,
         "issues": 57,
-        "pullRequests": 18,
+        "pullRequests": 19,
         "reviews": 0
       },
       "monthly": [
@@ -16032,14 +16069,14 @@
         },
         {
           "month": "2026-11",
-          "commits": 14,
+          "commits": 15,
           "issues": 33,
-          "pullRequests": 12,
+          "pullRequests": 13,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/2026gsc_TomoyaAiko",
-              "count": 8
+              "count": 9
             },
             {
               "name": "furuhashilab/circuitforge-ai",
@@ -16148,12 +16185,16 @@
         {
           "date": "2026-11-04",
           "count": 45
+        },
+        {
+          "date": "2026-11-05",
+          "count": 2
         }
       ],
       "topRepositories": [
         {
           "name": "furuhashilab/2026gsc_TomoyaAiko",
-          "count": 14
+          "count": 15
         },
         {
           "name": "mapbytomoya/YOKOZEToioetsmap202602",
