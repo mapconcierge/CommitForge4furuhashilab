@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:42:32.270Z",
+  "generated_at": "2026-11-07T19:16:26.245Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -3062,20 +3062,20 @@
       ],
       "repos": [
         {
+          "name": "mapconcierge/CommitForge4furuhashilab",
+          "isFork": false,
+          "stars": 1,
+          "forks": 3,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-11-06"
+        },
+        {
           "name": "mapconcierge/glTF2OSM3D",
           "isFork": false,
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-11-05",
           "pushedAt": "2026-11-06"
-        },
-        {
-          "name": "mapconcierge/CommitForge4furuhashilab",
-          "isFork": false,
-          "stars": 1,
-          "forks": 3,
-          "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-05"
         },
         {
           "name": "mapconcierge/gigapan_75225",
@@ -10224,9 +10224,9 @@
       "login": "yudai1206",
       "name": null,
       "totals": {
-        "commits": 195,
+        "commits": 197,
         "issues": 12,
-        "pullRequests": 31,
+        "pullRequests": 32,
         "reviews": 1
       },
       "monthly": [
@@ -10734,11 +10734,16 @@
         },
         {
           "month": "2026-11",
-          "commits": 0,
+          "commits": 2,
           "issues": 0,
-          "pullRequests": 0,
+          "pullRequests": 1,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/2026gsc_YudaiKato",
+              "count": 2
+            }
+          ]
         }
       ],
       "daily": [
@@ -10981,6 +10986,10 @@
         {
           "date": "2026-10-26",
           "count": 1
+        },
+        {
+          "date": "2026-11-07",
+          "count": 3
         }
       ],
       "topRepositories": [
@@ -10990,7 +10999,7 @@
         },
         {
           "name": "furuhashilab/2026gsc_YudaiKato",
-          "count": 44
+          "count": 46
         },
         {
           "name": "yudai1206/yudai1206",
@@ -11232,7 +11241,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-07-22",
-          "pushedAt": "2026-10-26"
+          "pushedAt": "2026-11-07"
         },
         {
           "name": "furuhashilab/Youth2_Hackathon",
@@ -11761,7 +11770,7 @@
       "login": "usakooon",
       "name": "Hinako Terado",
       "totals": {
-        "commits": 242,
+        "commits": 244,
         "issues": 43,
         "pullRequests": 15,
         "reviews": 0
@@ -12288,11 +12297,15 @@
         },
         {
           "month": "2026-11",
-          "commits": 1,
+          "commits": 3,
           "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
+            {
+              "name": "usakooon/research-portfolio",
+              "count": 2
+            },
             {
               "name": "usakooon/mathematics-for-geomatics",
               "count": 1
@@ -12600,6 +12613,10 @@
         {
           "date": "2026-11-05",
           "count": 3
+        },
+        {
+          "date": "2026-11-07",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -12632,19 +12649,27 @@
           "count": 12
         },
         {
+          "name": "usakooon/research-portfolio",
+          "count": 11
+        },
+        {
           "name": "usakooon/Church_orientation_angles",
           "count": 9
         },
         {
           "name": "usakooon/geog510-demo",
           "count": 9
-        },
-        {
-          "name": "usakooon/research-portfolio",
-          "count": 9
         }
       ],
       "repos": [
+        {
+          "name": "usakooon/research-portfolio",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-17",
+          "pushedAt": "2026-11-07"
+        },
         {
           "name": "usakooon/mathematics-for-geomatics",
           "isFork": false,
@@ -12675,14 +12700,6 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2025-09-09",
-          "pushedAt": "2026-10-26"
-        },
-        {
-          "name": "usakooon/research-portfolio",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-10-17",
           "pushedAt": "2026-10-26"
         },
         {
@@ -13882,7 +13899,7 @@
       "login": "0319-2004",
       "name": "Rito Yamasaki",
       "totals": {
-        "commits": 291,
+        "commits": 315,
         "issues": 24,
         "pullRequests": 8,
         "reviews": 0
@@ -14371,14 +14388,14 @@
         },
         {
           "month": "2026-11",
-          "commits": 71,
+          "commits": 95,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "0319-2004/machi-karte",
-              "count": 40
+              "count": 64
             },
             {
               "name": "0319-2004/before-its-built",
@@ -14871,16 +14888,20 @@
         {
           "date": "2026-11-06",
           "count": 8
+        },
+        {
+          "date": "2026-11-07",
+          "count": 32
         }
       ],
       "topRepositories": [
         {
-          "name": "0319-2004/before-its-built",
-          "count": 41
+          "name": "0319-2004/machi-karte",
+          "count": 64
         },
         {
-          "name": "0319-2004/machi-karte",
-          "count": 40
+          "name": "0319-2004/before-its-built",
+          "count": 41
         },
         {
           "name": "0319-2004/PacificPNT_Reproducible",
@@ -14922,6 +14943,14 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-11-02",
+          "pushedAt": "2026-11-07"
+        },
+        {
+          "name": "0319-2004/auto-ontology",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-11-07",
           "pushedAt": "2026-11-06"
         },
         {
@@ -15698,9 +15727,9 @@
       "login": "mapbytomoya",
       "name": null,
       "totals": {
-        "commits": 85,
-        "issues": 57,
-        "pullRequests": 22,
+        "commits": 88,
+        "issues": 60,
+        "pullRequests": 23,
         "reviews": 0
       },
       "monthly": [
@@ -16110,9 +16139,9 @@
         },
         {
           "month": "2026-11",
-          "commits": 17,
-          "issues": 33,
-          "pullRequests": 16,
+          "commits": 20,
+          "issues": 36,
+          "pullRequests": 17,
           "reviews": 0,
           "repos": [
             {
@@ -16120,12 +16149,12 @@
               "count": 11
             },
             {
-              "name": "furuhashilab/circuitforge-ai",
-              "count": 4
+              "name": "mapbytomoya/bebe-momo",
+              "count": 5
             },
             {
-              "name": "mapbytomoya/bebe-momo",
-              "count": 2
+              "name": "furuhashilab/circuitforge-ai",
+              "count": 4
             }
           ]
         }
@@ -16234,6 +16263,10 @@
         {
           "date": "2026-11-06",
           "count": 5
+        },
+        {
+          "date": "2026-11-07",
+          "count": 7
         }
       ],
       "topRepositories": [
@@ -16254,6 +16287,10 @@
           "count": 7
         },
         {
+          "name": "mapbytomoya/bebe-momo",
+          "count": 5
+        },
+        {
           "name": "mapbytomoya/fieldtrace",
           "count": 5
         },
@@ -16270,10 +16307,6 @@
           "count": 3
         },
         {
-          "name": "mapbytomoya/bebe-momo",
-          "count": 2
-        },
-        {
           "name": "furuhashilab/Hackathon_Oct_TomoyaAiko",
           "count": 2
         }
@@ -16285,7 +16318,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-11-04",
-          "pushedAt": "2026-11-04"
+          "pushedAt": "2026-11-07"
         },
         {
           "name": "mapbytomoya/Hackathon_Oct_TomoyaAiko",
@@ -16381,7 +16414,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-05",
-          "pushedAt": "2026-11-06"
+          "pushedAt": "2026-11-07"
         },
         {
           "name": "furuhashilab/labintroductionvideo_2026",
@@ -18173,7 +18206,7 @@
       "login": "h51917",
       "name": "Himari Nonaka",
       "totals": {
-        "commits": 28,
+        "commits": 34,
         "issues": 3,
         "pullRequests": 2,
         "reviews": 0
@@ -18540,11 +18573,16 @@
         },
         {
           "month": "2026-11",
-          "commits": 0,
+          "commits": 6,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
-          "repos": []
+          "repos": [
+            {
+              "name": "furuhashilab/2026gsc_HimariNonaka",
+              "count": 6
+            }
+          ]
         }
       ],
       "daily": [
@@ -18571,12 +18609,16 @@
         {
           "date": "2026-10-12",
           "count": 5
+        },
+        {
+          "date": "2026-11-07",
+          "count": 6
         }
       ],
       "topRepositories": [
         {
           "name": "furuhashilab/2026gsc_HimariNonaka",
-          "count": 20
+          "count": 26
         },
         {
           "name": "h51917/worldcup-storymap",
@@ -18610,7 +18652,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-02",
-          "pushedAt": "2026-08-05"
+          "pushedAt": "2026-11-07"
         }
       ]
     },
