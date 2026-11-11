@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:13:17.654Z",
+  "generated_at": "2026-11-11T21:46:04.103Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1548,
+        "commits": 1563,
         "issues": 391,
         "pullRequests": 70,
         "reviews": 0
@@ -1460,11 +1460,15 @@
         },
         {
           "month": "2026-11",
-          "commits": 15,
+          "commits": 30,
           "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
+            {
+              "name": "furuhashilab/www_furuhashiab_com",
+              "count": 15
+            },
             {
               "name": "mapconcierge/glTF2OSM3D",
               "count": 15
@@ -3024,6 +3028,10 @@
         {
           "date": "2026-11-10",
           "count": 1
+        },
+        {
+          "date": "2026-11-11",
+          "count": 15
         }
       ],
       "topRepositories": [
@@ -3070,6 +3078,14 @@
       ],
       "repos": [
         {
+          "name": "mapconcierge/CommitForge4furuhashilab",
+          "isFork": false,
+          "stars": 1,
+          "forks": 3,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-11-10"
+        },
+        {
           "name": "mapconcierge/MediumArchive4furuhashilab",
           "isFork": false,
           "stars": 0,
@@ -3084,14 +3100,6 @@
           "forks": 0,
           "createdAt": "2026-11-05",
           "pushedAt": "2026-11-10"
-        },
-        {
-          "name": "mapconcierge/CommitForge4furuhashilab",
-          "isFork": false,
-          "stars": 1,
-          "forks": 3,
-          "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-09"
         },
         {
           "name": "mapconcierge/gigapan_75225",
@@ -7352,7 +7360,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-04",
-          "pushedAt": "2026-11-04"
+          "pushedAt": "2026-11-11"
         },
         {
           "name": "furuhashilab/Nov_2025VF_hackathon",
@@ -15892,7 +15900,7 @@
       "name": null,
       "totals": {
         "commits": 88,
-        "issues": 60,
+        "issues": 61,
         "pullRequests": 23,
         "reviews": 0
       },
@@ -16304,7 +16312,7 @@
         {
           "month": "2026-11",
           "commits": 20,
-          "issues": 36,
+          "issues": 37,
           "pullRequests": 17,
           "reviews": 0,
           "repos": [
@@ -16431,6 +16439,10 @@
         {
           "date": "2026-11-07",
           "count": 7
+        },
+        {
+          "date": "2026-11-11",
+          "count": 1
         }
       ],
       "topRepositories": [
