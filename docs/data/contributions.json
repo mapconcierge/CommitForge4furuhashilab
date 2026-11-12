@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T21:46:04.103Z",
+  "generated_at": "2026-11-12T21:45:26.879Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1563,
+        "commits": 1565,
         "issues": 391,
         "pullRequests": 70,
         "reviews": 0
@@ -1460,18 +1460,22 @@
         },
         {
           "month": "2026-11",
-          "commits": 30,
+          "commits": 32,
           "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/www_furuhashiab_com",
-              "count": 15
+              "count": 16
             },
             {
               "name": "mapconcierge/glTF2OSM3D",
               "count": 15
+            },
+            {
+              "name": "gsc-aoyama/logos4gsc",
+              "count": 1
             }
           ]
         }
@@ -3032,6 +3036,10 @@
         {
           "date": "2026-11-11",
           "count": 15
+        },
+        {
+          "date": "2026-11-12",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -3083,7 +3091,7 @@
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-10"
+          "pushedAt": "2026-11-11"
         },
         {
           "name": "mapconcierge/MediumArchive4furuhashilab",
@@ -6640,7 +6648,7 @@
       "login": "shocpsa",
       "name": "ShotaArakawa",
       "totals": {
-        "commits": 176,
+        "commits": 177,
         "issues": 25,
         "pullRequests": 0,
         "reviews": 0
@@ -7069,7 +7077,7 @@
         },
         {
           "month": "2026-11",
-          "commits": 6,
+          "commits": 7,
           "issues": 3,
           "pullRequests": 0,
           "reviews": 0,
@@ -7080,7 +7088,7 @@
             },
             {
               "name": "furuhashilab/2026gsc_ShotaArakawa",
-              "count": 2
+              "count": 3
             }
           ]
         }
@@ -7277,6 +7285,10 @@
         {
           "date": "2026-11-08",
           "count": 1
+        },
+        {
+          "date": "2026-11-12",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -7293,11 +7305,11 @@
           "count": 15
         },
         {
-          "name": "furuhashilab/gyoda-kakikomi-map",
-          "count": 9
+          "name": "furuhashilab/2026gsc_ShotaArakawa",
+          "count": 10
         },
         {
-          "name": "furuhashilab/2026gsc_ShotaArakawa",
+          "name": "furuhashilab/gyoda-kakikomi-map",
           "count": 9
         },
         {
@@ -7352,7 +7364,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-08",
-          "pushedAt": "2026-11-08"
+          "pushedAt": "2026-11-12"
         },
         {
           "name": "furuhashilab/2026gsc_ShotaArakawa",
@@ -7360,7 +7372,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-04",
-          "pushedAt": "2026-11-11"
+          "pushedAt": "2026-11-12"
         },
         {
           "name": "furuhashilab/Nov_2025VF_hackathon",
@@ -8624,7 +8636,7 @@
       "login": "21Rensei",
       "name": null,
       "totals": {
-        "commits": 63,
+        "commits": 64,
         "issues": 16,
         "pullRequests": 3,
         "reviews": 0
@@ -9006,7 +9018,7 @@
         },
         {
           "month": "2026-11",
-          "commits": 10,
+          "commits": 11,
           "issues": 3,
           "pullRequests": 3,
           "reviews": 0,
@@ -9014,6 +9026,10 @@
             {
               "name": "furuhashilab/2026gsc_RenseiInoue",
               "count": 10
+            },
+            {
+              "name": "goshuin-map/.github",
+              "count": 1
             }
           ]
         }
@@ -9106,6 +9122,10 @@
         {
           "date": "2026-11-10",
           "count": 1
+        },
+        {
+          "date": "2026-11-12",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -9124,6 +9144,10 @@
         {
           "name": "furuhashilab/Drone1_PLATEAU_Data-Import",
           "count": 2
+        },
+        {
+          "name": "goshuin-map/.github",
+          "count": 1
         }
       ],
       "repos": [
