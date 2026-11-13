@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:45:26.879Z",
+  "generated_at": "2026-11-13T21:13:45.016Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -3091,7 +3091,7 @@
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-11"
+          "pushedAt": "2026-11-12"
         },
         {
           "name": "mapconcierge/MediumArchive4furuhashilab",
@@ -6648,7 +6648,7 @@
       "login": "shocpsa",
       "name": "ShotaArakawa",
       "totals": {
-        "commits": 177,
+        "commits": 179,
         "issues": 25,
         "pullRequests": 0,
         "reviews": 0
@@ -7077,18 +7077,18 @@
         },
         {
           "month": "2026-11",
-          "commits": 7,
+          "commits": 9,
           "issues": 3,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/gyoda-kakikomi-map",
-              "count": 4
+              "count": 5
             },
             {
               "name": "furuhashilab/2026gsc_ShotaArakawa",
-              "count": 3
+              "count": 4
             }
           ]
         }
@@ -7289,6 +7289,10 @@
         {
           "date": "2026-11-12",
           "count": 1
+        },
+        {
+          "date": "2026-11-13",
+          "count": 2
         }
       ],
       "topRepositories": [
@@ -7306,11 +7310,11 @@
         },
         {
           "name": "furuhashilab/2026gsc_ShotaArakawa",
-          "count": 10
+          "count": 11
         },
         {
           "name": "furuhashilab/gyoda-kakikomi-map",
-          "count": 9
+          "count": 10
         },
         {
           "name": "shocpsa/shocpsa",
@@ -7372,7 +7376,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-04",
-          "pushedAt": "2026-11-12"
+          "pushedAt": "2026-11-13"
         },
         {
           "name": "furuhashilab/Nov_2025VF_hackathon",
