@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:46:04.707Z",
+  "generated_at": "2026-11-15T20:11:31.942Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -3091,7 +3091,7 @@
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-13"
+          "pushedAt": "2026-11-14"
         },
         {
           "name": "mapconcierge/MediumArchive4furuhashilab",
@@ -13776,6 +13776,10 @@
         {
           "date": "2026-11-10",
           "count": 2
+        },
+        {
+          "date": "2026-11-15",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -13821,6 +13825,14 @@
         }
       ],
       "repos": [
+        {
+          "name": "Akira-Motoyoshi/skills",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-11-15",
+          "pushedAt": "2026-11-14"
+        },
         {
           "name": "Akira-Motoyoshi/opendisplay-lightweight",
           "isFork": true,
@@ -15931,9 +15943,9 @@
       "login": "mapbytomoya",
       "name": null,
       "totals": {
-        "commits": 88,
+        "commits": 86,
         "issues": 61,
-        "pullRequests": 23,
+        "pullRequests": 22,
         "reviews": 0
       },
       "monthly": [
@@ -16281,9 +16293,9 @@
         },
         {
           "month": "2026-08",
-          "commits": 38,
+          "commits": 36,
           "issues": 9,
-          "pullRequests": 3,
+          "pullRequests": 2,
           "reviews": 0,
           "repos": [
             {
@@ -16305,10 +16317,6 @@
             {
               "name": "furuhashilab/plateau-cityhack-2026-hokudai-son",
               "count": 4
-            },
-            {
-              "name": "mapbytomoya/where_does_the_yen_move",
-              "count": 2
             }
           ]
         },
@@ -16403,10 +16411,6 @@
         {
           "date": "2026-08-05",
           "count": 11
-        },
-        {
-          "date": "2026-08-17",
-          "count": 4
         },
         {
           "date": "2026-08-21",
@@ -16559,14 +16563,6 @@
           "forks": 0,
           "createdAt": "2026-11-03",
           "pushedAt": "2026-08-20"
-        },
-        {
-          "name": "mapbytomoya/where_does_the_yen_move",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-08-17",
-          "pushedAt": "2026-08-17"
         },
         {
           "name": "mapbytomoya/YOKOZEToioetsmap202602",
