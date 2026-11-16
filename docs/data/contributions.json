@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T20:11:31.942Z",
+  "generated_at": "2026-11-16T23:39:23.789Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -3086,20 +3086,20 @@
       ],
       "repos": [
         {
-          "name": "mapconcierge/CommitForge4furuhashilab",
-          "isFork": false,
-          "stars": 1,
-          "forks": 3,
-          "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-14"
-        },
-        {
           "name": "mapconcierge/MediumArchive4furuhashilab",
           "isFork": false,
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
-          "pushedAt": "2026-11-10"
+          "pushedAt": "2026-11-16"
+        },
+        {
+          "name": "mapconcierge/CommitForge4furuhashilab",
+          "isFork": false,
+          "stars": 1,
+          "forks": 3,
+          "createdAt": "2026-08-15",
+          "pushedAt": "2026-11-15"
         },
         {
           "name": "mapconcierge/glTF2OSM3D",
