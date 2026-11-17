@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T23:39:23.789Z",
+  "generated_at": "2026-11-17T22:47:13.776Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -25,7 +25,7 @@
     {
       "org": "furuhashilab",
       "repoCount": 165,
-      "attributedCount": 105
+      "attributedCount": 106
     }
   ],
   "members": [
@@ -33,7 +33,7 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1565,
+        "commits": 1568,
         "issues": 391,
         "pullRequests": 70,
         "reviews": 0
@@ -1460,7 +1460,7 @@
         },
         {
           "month": "2026-11",
-          "commits": 32,
+          "commits": 35,
           "issues": 1,
           "pullRequests": 0,
           "reviews": 0,
@@ -1472,6 +1472,14 @@
             {
               "name": "mapconcierge/glTF2OSM3D",
               "count": 15
+            },
+            {
+              "name": "furuhashilab/.github",
+              "count": 2
+            },
+            {
+              "name": "furuhashilab/README",
+              "count": 1
             },
             {
               "name": "gsc-aoyama/logos4gsc",
@@ -3040,6 +3048,10 @@
         {
           "date": "2026-11-12",
           "count": 2
+        },
+        {
+          "date": "2026-11-17",
+          "count": 3
         }
       ],
       "topRepositories": [
@@ -3091,7 +3103,7 @@
           "stars": 0,
           "forks": 1,
           "createdAt": "2026-08-16",
-          "pushedAt": "2026-11-16"
+          "pushedAt": "2026-11-17"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -3099,7 +3111,7 @@
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-15"
+          "pushedAt": "2026-11-16"
         },
         {
           "name": "mapconcierge/glTF2OSM3D",
@@ -5003,9 +5015,9 @@
       "login": "akidinosaurs",
       "name": "Aki Sato",
       "totals": {
-        "commits": 360,
-        "issues": 57,
-        "pullRequests": 8,
+        "commits": 366,
+        "issues": 80,
+        "pullRequests": 10,
         "reviews": 0
       },
       "monthly": [
@@ -5518,14 +5530,18 @@
         },
         {
           "month": "2026-11",
-          "commits": 10,
-          "issues": 2,
-          "pullRequests": 0,
+          "commits": 16,
+          "issues": 25,
+          "pullRequests": 2,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/2026gsc_AkiSato",
               "count": 10
+            },
+            {
+              "name": "furuhashilab/furuhashilab_Open-Mapping-towards-Sustainable-Development-Goals_TRANSLATIONS",
+              "count": 6
             }
           ]
         }
@@ -5738,6 +5754,10 @@
         {
           "date": "2026-11-10",
           "count": 9
+        },
+        {
+          "date": "2026-11-17",
+          "count": 31
         }
       ],
       "topRepositories": [
@@ -5974,6 +5994,14 @@
           "forks": 0,
           "createdAt": "2024-07-01",
           "pushedAt": "2024-07-02"
+        },
+        {
+          "name": "furuhashilab/furuhashilab_Open-Mapping-towards-Sustainable-Development-Goals_TRANSLATIONS",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2024-01-15",
+          "pushedAt": "2026-11-17"
         }
       ]
     },
@@ -16602,7 +16630,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-17",
-          "pushedAt": "2026-10-26"
+          "pushedAt": "2026-11-17"
         },
         {
           "name": "furuhashilab/Hackathon_Oct_TomoyaAiko",
