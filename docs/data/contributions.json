@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:29:17.406Z",
+  "generated_at": "2026-11-19T22:35:17.551Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -34,7 +34,7 @@
       "name": "Taichi FURUHASHI",
       "totals": {
         "commits": 1568,
-        "issues": 391,
+        "issues": 392,
         "pullRequests": 70,
         "reviews": 0
       },
@@ -1461,7 +1461,7 @@
         {
           "month": "2026-11",
           "commits": 35,
-          "issues": 1,
+          "issues": 2,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
@@ -3052,6 +3052,10 @@
         {
           "date": "2026-11-17",
           "count": 3
+        },
+        {
+          "date": "2026-11-19",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -3103,7 +3107,7 @@
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-17"
+          "pushedAt": "2026-11-18"
         },
         {
           "name": "mapconcierge/MediumArchive4furuhashilab",
@@ -13087,7 +13091,7 @@
       "login": "Akira-Motoyoshi",
       "name": "AKIRA",
       "totals": {
-        "commits": 374,
+        "commits": 396,
         "issues": 10,
         "pullRequests": 4,
         "reviews": 0
@@ -13580,14 +13584,22 @@
         },
         {
           "month": "2026-11",
-          "commits": 2,
+          "commits": 24,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
+              "name": "Akira-Motoyoshi/town-karte",
+              "count": 21
+            },
+            {
               "name": "furuhashilab/2026gsc_AkiraMotoyoshi",
               "count": 2
+            },
+            {
+              "name": "Akira-Motoyoshi/Akira-Motoyoshi",
+              "count": 1
             }
           ]
         }
@@ -13808,6 +13820,10 @@
         {
           "date": "2026-11-15",
           "count": 1
+        },
+        {
+          "date": "2026-11-19",
+          "count": 22
         }
       ],
       "topRepositories": [
@@ -13820,8 +13836,12 @@
           "count": 35
         },
         {
+          "name": "Akira-Motoyoshi/town-karte",
+          "count": 24
+        },
+        {
           "name": "Akira-Motoyoshi/Akira-Motoyoshi",
-          "count": 22
+          "count": 23
         },
         {
           "name": "furuhashilab/2025gsc-AkiraMotoyoshi",
@@ -13846,13 +13866,25 @@
         {
           "name": "furuhashilab/2026gsc_AkiraMotoyoshi",
           "count": 10
-        },
-        {
-          "name": "Akira-Motoyoshi/AutoTestAnsweringSystem",
-          "count": 8
         }
       ],
       "repos": [
+        {
+          "name": "Akira-Motoyoshi/town-karte",
+          "isFork": false,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-10-11",
+          "pushedAt": "2026-11-19"
+        },
+        {
+          "name": "Akira-Motoyoshi/Akira-Motoyoshi",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2025-07-06",
+          "pushedAt": "2026-11-19"
+        },
         {
           "name": "Akira-Motoyoshi/skills",
           "isFork": true,
@@ -13876,14 +13908,6 @@
           "forks": 0,
           "createdAt": "2026-11-06",
           "pushedAt": "2026-10-17"
-        },
-        {
-          "name": "Akira-Motoyoshi/town-karte",
-          "isFork": false,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2026-10-11",
-          "pushedAt": "2026-10-11"
         },
         {
           "name": "Akira-Motoyoshi/orbit-shift",
@@ -14044,14 +14068,6 @@
           "forks": 0,
           "createdAt": "2025-11-11",
           "pushedAt": "2025-11-11"
-        },
-        {
-          "name": "Akira-Motoyoshi/Akira-Motoyoshi",
-          "isFork": false,
-          "stars": 0,
-          "forks": 1,
-          "createdAt": "2025-07-06",
-          "pushedAt": "2025-10-03"
         },
         {
           "name": "Akira-Motoyoshi/NYU_CTF_Bench",
