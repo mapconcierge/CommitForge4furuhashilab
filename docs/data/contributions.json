@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:08:06.693Z",
+  "generated_at": "2026-11-21T20:47:17.369Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -3107,7 +3107,7 @@
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-19"
+          "pushedAt": "2026-11-20"
         },
         {
           "name": "mapconcierge/MediumArchive4furuhashilab",
@@ -6680,7 +6680,7 @@
       "login": "shocpsa",
       "name": "ShotaArakawa",
       "totals": {
-        "commits": 181,
+        "commits": 182,
         "issues": 25,
         "pullRequests": 0,
         "reviews": 0
@@ -7109,14 +7109,14 @@
         },
         {
           "month": "2026-11",
-          "commits": 11,
+          "commits": 12,
           "issues": 3,
           "pullRequests": 0,
           "reviews": 0,
           "repos": [
             {
               "name": "furuhashilab/2026gsc_ShotaArakawa",
-              "count": 6
+              "count": 7
             },
             {
               "name": "furuhashilab/gyoda-kakikomi-map",
@@ -7333,6 +7333,10 @@
         {
           "date": "2026-11-20",
           "count": 1
+        },
+        {
+          "date": "2026-11-21",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -7350,7 +7354,7 @@
         },
         {
           "name": "furuhashilab/2026gsc_ShotaArakawa",
-          "count": 13
+          "count": 14
         },
         {
           "name": "furuhashilab/gyoda-kakikomi-map",
@@ -7416,7 +7420,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-08-04",
-          "pushedAt": "2026-11-20"
+          "pushedAt": "2026-11-21"
         },
         {
           "name": "furuhashilab/Nov_2025VF_hackathon",
@@ -13095,7 +13099,7 @@
       "login": "Akira-Motoyoshi",
       "name": "AKIRA",
       "totals": {
-        "commits": 398,
+        "commits": 402,
         "issues": 10,
         "pullRequests": 4,
         "reviews": 0
@@ -13588,7 +13592,7 @@
         },
         {
           "month": "2026-11",
-          "commits": 26,
+          "commits": 30,
           "issues": 0,
           "pullRequests": 0,
           "reviews": 0,
@@ -13599,7 +13603,7 @@
             },
             {
               "name": "Akira-Motoyoshi/FieldOfWords",
-              "count": 2
+              "count": 6
             },
             {
               "name": "furuhashilab/2026gsc_AkiraMotoyoshi",
@@ -13836,6 +13840,10 @@
         {
           "date": "2026-11-20",
           "count": 3
+        },
+        {
+          "date": "2026-11-21",
+          "count": 4
         }
       ],
       "topRepositories": [
@@ -13860,11 +13868,11 @@
           "count": 16
         },
         {
-          "name": "Akira-Motoyoshi/FinancialSummary",
+          "name": "Akira-Motoyoshi/ai-super-memory",
           "count": 13
         },
         {
-          "name": "Akira-Motoyoshi/ai-super-memory",
+          "name": "Akira-Motoyoshi/FinancialSummary",
           "count": 13
         },
         {
@@ -13887,7 +13895,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-11-20",
-          "pushedAt": "2026-11-20"
+          "pushedAt": "2026-11-21"
         },
         {
           "name": "Akira-Motoyoshi/town-karte",
