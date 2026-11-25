@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:46:16.792Z",
+  "generated_at": "2026-11-25T23:28:45.028Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -34,7 +34,7 @@
       "name": "Taichi FURUHASHI",
       "totals": {
         "commits": 1569,
-        "issues": 392,
+        "issues": 393,
         "pullRequests": 72,
         "reviews": 0
       },
@@ -1461,7 +1461,7 @@
         {
           "month": "2026-11",
           "commits": 36,
-          "issues": 2,
+          "issues": 3,
           "pullRequests": 2,
           "reviews": 0,
           "repos": [
@@ -3064,6 +3064,10 @@
         {
           "date": "2026-11-24",
           "count": 3
+        },
+        {
+          "date": "2026-11-25",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -3110,19 +3114,19 @@
       ],
       "repos": [
         {
-          "name": "mapconcierge/MediumArchive4furuhashilab",
-          "isFork": false,
-          "stars": 0,
-          "forks": 1,
-          "createdAt": "2026-08-16",
-          "pushedAt": "2026-11-24"
-        },
-        {
           "name": "mapconcierge/CommitForge4furuhashilab",
           "isFork": false,
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
+          "pushedAt": "2026-11-24"
+        },
+        {
+          "name": "mapconcierge/MediumArchive4furuhashilab",
+          "isFork": false,
+          "stars": 0,
+          "forks": 1,
+          "createdAt": "2026-08-16",
           "pushedAt": "2026-11-24"
         },
         {
@@ -15184,6 +15188,10 @@
         {
           "date": "2026-11-23",
           "count": 8
+        },
+        {
+          "date": "2026-11-25",
+          "count": 1
         }
       ],
       "topRepositories": [
@@ -15236,6 +15244,14 @@
           "forks": 0,
           "createdAt": "2026-11-20",
           "pushedAt": "2026-11-20"
+        },
+        {
+          "name": "0319-2004/apple_design_",
+          "isFork": true,
+          "stars": 0,
+          "forks": 0,
+          "createdAt": "2026-11-25",
+          "pushedAt": "2026-11-15"
         },
         {
           "name": "0319-2004/apple-design-skill",
@@ -16020,14 +16036,6 @@
           "forks": 0,
           "createdAt": "2025-09-15",
           "pushedAt": "2021-08-26"
-        },
-        {
-          "name": "0319-2004/HowToMakeFreeCulture",
-          "isFork": true,
-          "stars": 0,
-          "forks": 0,
-          "createdAt": "2024-07-04",
-          "pushedAt": "2015-07-16"
         },
         {
           "name": "furuhashilab/Hackathon_Oct_RitoYamasaki",
@@ -18114,7 +18122,7 @@
           "stars": 0,
           "forks": 0,
           "createdAt": "2026-10-07",
-          "pushedAt": "2026-10-08"
+          "pushedAt": "2026-11-25"
         }
       ]
     },
