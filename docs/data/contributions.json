@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T23:31:30.272Z",
+  "generated_at": "2026-11-27T23:14:50.862Z",
   "history_start": "2023-04-01",
   "settings": {
     "default_period": "academic_year",
@@ -33,8 +33,8 @@
       "login": "mapconcierge",
       "name": "Taichi FURUHASHI",
       "totals": {
-        "commits": 1589,
-        "issues": 394,
+        "commits": 1615,
+        "issues": 396,
         "pullRequests": 72,
         "reviews": 0
       },
@@ -1460,14 +1460,14 @@
         },
         {
           "month": "2026-11",
-          "commits": 56,
-          "issues": 4,
+          "commits": 82,
+          "issues": 6,
           "pullRequests": 2,
           "reviews": 0,
           "repos": [
             {
               "name": "mapconcierge/KMLEarthPro",
-              "count": 20
+              "count": 46
             },
             {
               "name": "furuhashilab/www_furuhashiab_com",
@@ -3076,9 +3076,17 @@
         {
           "date": "2026-11-26",
           "count": 21
+        },
+        {
+          "date": "2026-11-27",
+          "count": 28
         }
       ],
       "topRepositories": [
+        {
+          "name": "mapconcierge/KMLEarthPro",
+          "count": 78
+        },
         {
           "name": "sotm-asia/sotm-asia-2026-website",
           "count": 66
@@ -3090,10 +3098,6 @@
         {
           "name": "mapconcierge/MapiGuesser",
           "count": 53
-        },
-        {
-          "name": "mapconcierge/KMLEarthPro",
-          "count": 52
         },
         {
           "name": "mapconcierge/osm-leaderboard",
@@ -3124,10 +3128,10 @@
         {
           "name": "mapconcierge/KMLEarthPro",
           "isFork": false,
-          "stars": 10,
+          "stars": 16,
           "forks": 0,
           "createdAt": "2026-09-15",
-          "pushedAt": "2026-11-26"
+          "pushedAt": "2026-11-27"
         },
         {
           "name": "mapconcierge/CommitForge4furuhashilab",
@@ -3135,7 +3139,7 @@
           "stars": 1,
           "forks": 3,
           "createdAt": "2026-08-15",
-          "pushedAt": "2026-11-25"
+          "pushedAt": "2026-11-26"
         },
         {
           "name": "mapconcierge/MediumArchive4furuhashilab",
@@ -16076,7 +16080,7 @@
       "name": null,
       "totals": {
         "commits": 86,
-        "issues": 61,
+        "issues": 62,
         "pullRequests": 22,
         "reviews": 0
       },
@@ -16484,7 +16488,7 @@
         {
           "month": "2026-11",
           "commits": 20,
-          "issues": 37,
+          "issues": 38,
           "pullRequests": 17,
           "reviews": 0,
           "repos": [
@@ -16610,6 +16614,10 @@
         },
         {
           "date": "2026-11-11",
+          "count": 1
+        },
+        {
+          "date": "2026-11-27",
           "count": 1
         }
       ],
